@@ -167,8 +167,8 @@ async function trackPlayer(uuid, nowIso, customName = null) {
     winRate: store.games.length ? +(victories / store.games.length * 100).toFixed(2) : 0,
     newGames: added,
   });
-  if (store.snapshots.length > 2000) {
-    store.snapshots = store.snapshots.slice(-2000);
+  if (store.snapshots.length > 20000) {
+    store.snapshots = store.snapshots.slice(-20000);
   }
 
   store.lastUpdated = nowIso;
