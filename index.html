@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hive 玩家活動數據看板</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
     <style>
-        /* ===== 样式部分（仅新增小时制切换按钮样式） ===== */
         * {
             box-sizing: border-box;
             margin: 0;
@@ -99,8 +99,7 @@
             min-width: 140px;
             text-align: center;
         }
-        /* 語言切換按鈕 */
-        .lang-switch {
+        .lang-switch, .hour-switch {
             background: #f1f5f9;
             border: 1px solid #dce4ed;
             border-radius: 40px;
@@ -109,35 +108,7 @@
             gap: 4px;
             cursor: pointer;
         }
-        .lang-switch .lang-option {
-            padding: 4px 14px;
-            border-radius: 30px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: #64748b;
-            transition: 0.2s;
-            cursor: pointer;
-            border: none;
-            background: transparent;
-        }
-        .lang-switch .lang-option.active {
-            background: white;
-            color: #0b1e33;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
-        }
-        .lang-switch .lang-option:hover:not(.active) {
-            color: #1e293b;
-        }
-        /* 小時制切換按鈕 */
-        .hour-switch {
-            background: #f1f5f9;
-            border: 1px solid #dce4ed;
-            border-radius: 40px;
-            padding: 4px 6px;
-            display: flex;
-            gap: 4px;
-            cursor: pointer;
-        }
+        .lang-switch .lang-option,
         .hour-switch .hour-option {
             padding: 4px 14px;
             border-radius: 30px;
@@ -149,11 +120,13 @@
             border: none;
             background: transparent;
         }
+        .lang-switch .lang-option.active,
         .hour-switch .hour-option.active {
             background: white;
             color: #0b1e33;
             box-shadow: 0 2px 4px rgba(0,0,0,0.06);
         }
+        .lang-switch .lang-option:hover:not(.active),
         .hour-switch .hour-option:hover:not(.active) {
             color: #1e293b;
         }
@@ -177,7 +150,6 @@
             color: #0b1e33;
             cursor: pointer;
             outline: none;
-            transition: 0.2s;
         }
         .timezone-selector select:focus {
             border-color: #2563eb;
@@ -251,6 +223,57 @@
             color: #5a6f88;
             margin-top: 4px;
         }
+
+        /* 趨勢圖區塊 */
+        .chart-section {
+            background: white;
+            border-radius: 20px;
+            padding: 22px 26px;
+            margin-bottom: 24px;
+            border: 1px solid #e9eef4;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .chart-header > span {
+            font-weight: 700;
+            color: #0b1e33;
+            font-size: 1.05rem;
+        }
+        .chart-metric-switch {
+            display: flex;
+            gap: 4px;
+            background: #f1f5f9;
+            border-radius: 40px;
+            padding: 4px 6px;
+            border: 1px solid #dce4ed;
+        }
+        .chart-metric-switch .metric-option {
+            padding: 5px 16px;
+            border-radius: 30px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: #64748b;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .chart-metric-switch .metric-option.active {
+            background: white;
+            color: #0b1e33;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+        }
+        .chart-canvas-wrap {
+            position: relative;
+            height: 260px;
+        }
+
         .activity-list {
             display: flex;
             flex-direction: column;
@@ -343,16 +366,6 @@
             font-weight: 500;
             word-break: break-all;
         }
-        .data-row .value.boolean-true {
-            color: #16a34a;
-        }
-        .data-row .value.boolean-false {
-            color: #dc2626;
-        }
-        .data-row .value.null-value {
-            color: #9ca3af;
-            font-style: italic;
-        }
         .changeset-section {
             margin-top: 10px;
             padding: 10px 14px;
@@ -362,7 +375,6 @@
         }
         .changeset-section .section-title {
             font-weight: 600;
-            color: #1f3a5f;
             font-size: 0.85rem;
             margin-bottom: 6px;
             text-transform: uppercase;
@@ -469,14 +481,8 @@
             .player-header .player-uuid {
                 margin-left: 0;
             }
-            .timezone-selector {
-                width: 100%;
-                justify-content: center;
-            }
-            .lang-switch {
-                width: 100%;
-                justify-content: center;
-            }
+            .timezone-selector,
+            .lang-switch,
             .hour-switch {
                 width: 100%;
                 justify-content: center;
@@ -487,7 +493,6 @@
 
 <body>
     <div class="container">
-        <!-- 搜索頭部 -->
         <div class="header">
             <h1>
                 <span data-i18n="appTitle">🎮 Hive 活動</span>
@@ -497,13 +502,11 @@
                 <input type="text" id="uuidInput" placeholder="输入玩家 UUID" value="3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1">
                 <button id="fetchBtn" data-i18n="searchBtn">🔍 查詢</button>
                 <span id="status" data-i18n="statusReady">就緒</span>
-                <!-- 語言切換 -->
                 <div class="lang-switch" id="langSwitch">
                     <button class="lang-option active" data-lang="zh">中文</button>
                     <button class="lang-option" data-lang="ja">日本語</button>
                     <button class="lang-option" data-lang="en">English</button>
                 </div>
-                <!-- 小時制切換 -->
                 <div class="hour-switch" id="hourSwitch">
                     <button class="hour-option active" data-hour="24">24H</button>
                     <button class="hour-option" data-hour="12">12H</button>
@@ -543,12 +546,10 @@
             </div>
         </div>
 
-        <!-- 玩家資訊 -->
         <div class="player-header" id="playerHeader">
             <span class="loading-name" data-i18n="playerInfoPlaceholder">👤 輸入 UUID 後自動加載玩家信息</span>
         </div>
 
-        <!-- 統計卡片 -->
         <div class="stats-grid" id="statsGrid">
             <div class="stat-card">
                 <div class="num" id="totalGames">-</div>
@@ -568,12 +569,25 @@
             </div>
         </div>
 
-        <!-- 活動列表 -->
+        <!-- 趨勢圖 -->
+        <div class="chart-section" id="chartSection" style="display:none;">
+            <div class="chart-header">
+                <span data-i18n="chartTitle">📈 歷史趨勢</span>
+                <div class="chart-metric-switch" id="chartMetricSwitch">
+                    <button class="metric-option active" data-metric="totalGames" data-i18n="metricTotalGames">總對局</button>
+                    <button class="metric-option" data-metric="winRate" data-i18n="metricWinRate">勝率</button>
+                    <button class="metric-option" data-metric="newGames" data-i18n="metricNewGames">新增對局</button>
+                </div>
+            </div>
+            <div class="chart-canvas-wrap">
+                <canvas id="trendChart"></canvas>
+            </div>
+        </div>
+
         <div id="activityContainer">
             <div class="empty-state" data-i18n="emptyState">💡 輸入 UUID 後點擊查詢，數據將在此展示</div>
         </div>
 
-        <!-- 原始 JSON -->
         <div class="raw-toggle">
             <button id="toggleRawBtn" data-i18n="toggleRawBtn">📄 顯示原始 JSON</button>
         </div>
@@ -600,141 +614,80 @@
             const copyBtn = document.getElementById('copyBtn');
             const playerHeader = document.getElementById('playerHeader');
             const timezoneSelect = document.getElementById('timezoneSelect');
+            const chartSection = document.getElementById('chartSection');
 
             let currentData = null;
             let currentTimezone = 'UTC+8';
             let currentLang = 'zh';
-            let currentHourFormat = '24'; // '24' 或 '12'
+            let currentHourFormat = '24';
+            let currentSnapshots = [];
+            let currentMetric = 'totalGames';
+            let trendChart = null;
 
             // ========== 語言包 ==========
             const translations = {
                 zh: {
-                    appTitle: '🎮 Hive 活動',
-                    appSubtitle: '數據看板',
-                    searchBtn: '🔍 查詢',
-                    statusReady: '就緒',
-                    timezoneLabel: '時區',
-                    playerInfoPlaceholder: '👤 輸入 UUID 後自動加載玩家信息',
-                    statTotalGames: '總對局',
-                    statUniqueGames: '遊戲種類',
-                    statLastActive: '最近活躍',
-                    statWinRate: '勝率',
+                    appTitle: '🎮 Hive 活動', appSubtitle: '數據看板', searchBtn: '🔍 查詢', statusReady: '就緒',
+                    timezoneLabel: '時區', playerInfoPlaceholder: '👤 輸入 UUID 後自動加載玩家信息',
+                    statTotalGames: '總對局', statUniqueGames: '遊戲種類', statLastActive: '最近活躍', statWinRate: '勝率',
                     emptyState: '💡 輸入 UUID 後點擊查詢，數據將在此展示',
-                    toggleRawBtn: '📄 顯示原始 JSON',
-                    copyBtn: '📋 複製 JSON',
-                    loadingPlayer: '⏳ 加載玩家信息...',
-                    enterUuid: '👤 請輸入 UUID',
-                    playerInfoLoadFailed: '⚠️ 無法加載玩家信息',
-                    cacheDataRequestFailed: '(緩存數據，請求失敗)',
-                    cacheDataRateLimit: '(緩存數據，API 限流中)',
-                    victory: '🏆 勝利',
-                    defeat: '💔 失敗',
-                    game: '遊戲',
-                    unknownGame: '未知遊戲',
-                    changeset: '📦 changeset',
-                    type: 'type',
-                    totalExp: '總經驗',
-                    kills: '擊殺數',
-                    finalKills: '終結擊殺數',
-                    deaths: '死亡數',
-                    bedsDestroyed: '拆床數',
-                    noData: '⚠️ 沒有返回數據',
-                    noActivity: '📭 該玩家暫無活動記錄',
-                    serverNonJson: '服務器返回了非 JSON 數據，請查看原始 JSON',
-                    networkError: '網絡請求失敗，請檢查控制台或 CORS 設置',
-                    pleaseEnterUuid: '⚠️ 請輸入 UUID',
-                    requestFailed: '❌ 錯誤',
-                    requestSuccess: '✅ 成功',
-                    jsonCopied: '📋 已複製 JSON',
-                    noDataToCopy: '⏳ 沒有數據可複製',
-                    copiedFallback: '📋 已複製 (備用)',
+                    toggleRawBtn: '📄 顯示原始 JSON', copyBtn: '📋 複製 JSON',
+                    loadingPlayer: '⏳ 加載玩家信息...', enterUuid: '👤 請輸入 UUID', playerInfoLoadFailed: '⚠️ 無法加載玩家信息',
+                    victory: '🏆 勝利', defeat: '💔 失敗', game: '遊戲', unknownGame: '未知遊戲',
+                    changeset: '📦 changeset', type: 'type', totalExp: '總經驗', kills: '擊殺數',
+                    finalKills: '終結擊殺數', deaths: '死亡數', bedsDestroyed: '拆床數',
+                    noData: '⚠️ 沒有返回數據', noActivity: '📭 該玩家暫無活動記錄',
+                    pleaseEnterUuid: '⚠️ 請輸入 UUID', requestFailed: '❌ 錯誤', requestSuccess: '✅ 成功',
+                    jsonCopied: '📋 已複製 JSON', noDataToCopy: '⏳ 沒有數據可複製', copiedFallback: '📋 已複製 (備用)',
                     ready: '✅ 就緒',
+                    chartTitle: '📈 歷史趨勢', metricTotalGames: '總對局', metricWinRate: '勝率', metricNewGames: '新增對局',
+                    loadingData: '⏳ 讀取資料...', loadFailed: '❌ 載入失敗',
+                    noTrackerData: '此玩家尚未被追蹤，或資料尚未產生。請確認 UUID 是否正確，或等待下一次 GitHub Actions 執行。',
+                    loadedGames: '✅ 載入', gamesUnit: '筆對局', updatedAt: '更新於'
                 },
                 ja: {
-                    appTitle: '🎮 Hive アクティビティ',
-                    appSubtitle: 'データダッシュボード',
-                    searchBtn: '🔍 検索',
-                    statusReady: '準備完了',
-                    timezoneLabel: 'タイムゾーン',
-                    playerInfoPlaceholder: '👤 UUID を入力するとプレイヤー情報が自動で読み込まれます',
-                    statTotalGames: '総試合数',
-                    statUniqueGames: 'ゲーム種類',
-                    statLastActive: '最終アクティブ',
-                    statWinRate: '勝率',
+                    appTitle: '🎮 Hive アクティビティ', appSubtitle: 'データダッシュボード', searchBtn: '🔍 検索', statusReady: '準備完了',
+                    timezoneLabel: 'タイムゾーン', playerInfoPlaceholder: '👤 UUID を入力するとプレイヤー情報が自動で読み込まれます',
+                    statTotalGames: '総試合数', statUniqueGames: 'ゲーム種類', statLastActive: '最終アクティブ', statWinRate: '勝率',
                     emptyState: '💡 UUID を入力して「検索」をクリックするとデータが表示されます',
-                    toggleRawBtn: '📄 生の JSON を表示',
-                    copyBtn: '📋 JSON をコピー',
-                    loadingPlayer: '⏳ プレイヤー情報を読み込み中...',
-                    enterUuid: '👤 UUID を入力してください',
-                    playerInfoLoadFailed: '⚠️ プレイヤー情報を読み込めませんでした',
-                    cacheDataRequestFailed: '(キャッシュデータ、リクエスト失敗)',
-                    cacheDataRateLimit: '(キャッシュデータ、API 制限中)',
-                    victory: '🏆 勝利',
-                    defeat: '💔 敗北',
-                    game: 'ゲーム',
-                    unknownGame: '不明なゲーム',
-                    changeset: '📦 チェンジセット',
-                    type: 'タイプ',
-                    totalExp: '総経験値',
-                    kills: 'キル数',
-                    finalKills: 'ファイナルキル数',
-                    deaths: 'デス数',
-                    bedsDestroyed: 'ベッド破壊数',
-                    noData: '⚠️ データがありません',
-                    noActivity: '📭 このプレイヤーのアクティビティ記録はありません',
-                    serverNonJson: 'サーバーが JSON 以外のデータを返しました。生の JSON を確認してください。',
-                    networkError: 'ネットワークリクエストに失敗しました。コンソールまたは CORS 設定を確認してください。',
-                    pleaseEnterUuid: '⚠️ UUID を入力してください',
-                    requestFailed: '❌ エラー',
-                    requestSuccess: '✅ 成功',
-                    jsonCopied: '📋 JSON をコピーしました',
-                    noDataToCopy: '⏳ コピーするデータがありません',
-                    copiedFallback: '📋 コピーしました (代替方法)',
+                    toggleRawBtn: '📄 生の JSON を表示', copyBtn: '📋 JSON をコピー',
+                    loadingPlayer: '⏳ プレイヤー情報を読み込み中...', enterUuid: '👤 UUID を入力してください', playerInfoLoadFailed: '⚠️ プレイヤー情報を読み込めませんでした',
+                    victory: '🏆 勝利', defeat: '💔 敗北', game: 'ゲーム', unknownGame: '不明なゲーム',
+                    changeset: '📦 チェンジセット', type: 'タイプ', totalExp: '総経験値', kills: 'キル数',
+                    finalKills: 'ファイナルキル数', deaths: 'デス数', bedsDestroyed: 'ベッド破壊数',
+                    noData: '⚠️ データがありません', noActivity: '📭 このプレイヤーのアクティビティ記録はありません',
+                    pleaseEnterUuid: '⚠️ UUID を入力してください', requestFailed: '❌ エラー', requestSuccess: '✅ 成功',
+                    jsonCopied: '📋 JSON をコピーしました', noDataToCopy: '⏳ コピーするデータがありません', copiedFallback: '📋 コピーしました (代替方法)',
                     ready: '✅ 準備完了',
+                    chartTitle: '📈 履歴トレンド', metricTotalGames: '総試合数', metricWinRate: '勝率', metricNewGames: '新規試合',
+                    loadingData: '⏳ データを読み込み中...', loadFailed: '❌ 読み込み失敗',
+                    noTrackerData: 'このプレイヤーはまだ追跡されていないか、データがまだ生成されていません。UUID を確認するか、次回の GitHub Actions の実行をお待ちください。',
+                    loadedGames: '✅ 読み込み', gamesUnit: '試合', updatedAt: '更新'
                 },
                 en: {
-                    appTitle: '🎮 Hive Activity',
-                    appSubtitle: 'Dashboard',
-                    searchBtn: '🔍 Search',
-                    statusReady: 'Ready',
-                    timezoneLabel: 'Timezone',
-                    playerInfoPlaceholder: '👤 Enter UUID to load player info',
-                    statTotalGames: 'Total Games',
-                    statUniqueGames: 'Game Types',
-                    statLastActive: 'Last Active',
-                    statWinRate: 'Win Rate',
+                    appTitle: '🎮 Hive Activity', appSubtitle: 'Dashboard', searchBtn: '🔍 Search', statusReady: 'Ready',
+                    timezoneLabel: 'Timezone', playerInfoPlaceholder: '👤 Enter UUID to load player info',
+                    statTotalGames: 'Total Games', statUniqueGames: 'Game Types', statLastActive: 'Last Active', statWinRate: 'Win Rate',
                     emptyState: '💡 Enter a UUID and click Search to display data',
-                    toggleRawBtn: '📄 Show Raw JSON',
-                    copyBtn: '📋 Copy JSON',
-                    loadingPlayer: '⏳ Loading player info...',
-                    enterUuid: '👤 Please enter UUID',
-                    playerInfoLoadFailed: '⚠️ Failed to load player info',
-                    cacheDataRequestFailed: '(Cached data, request failed)',
-                    cacheDataRateLimit: '(Cached data, API rate limited)',
-                    victory: '🏆 Victory',
-                    defeat: '💔 Defeat',
-                    game: 'Game',
-                    unknownGame: 'Unknown Game',
-                    changeset: '📦 changeset',
-                    type: 'type',
-                    totalExp: 'Total XP',
-                    kills: 'Kills',
-                    finalKills: 'Final Kills',
-                    deaths: 'Deaths',
-                    bedsDestroyed: 'Beds Destroyed',
-                    noData: '⚠️ No data returned',
-                    noActivity: '📭 No activity records for this player',
-                    serverNonJson: 'Server returned non-JSON data, please check raw JSON',
-                    networkError: 'Network request failed, please check console or CORS settings',
-                    pleaseEnterUuid: '⚠️ Please enter UUID',
-                    requestFailed: '❌ Error',
-                    requestSuccess: '✅ Success',
-                    jsonCopied: '📋 JSON copied',
-                    noDataToCopy: '⏳ No data to copy',
-                    copiedFallback: '📋 Copied (fallback)',
+                    toggleRawBtn: '📄 Show Raw JSON', copyBtn: '📋 Copy JSON',
+                    loadingPlayer: '⏳ Loading player info...', enterUuid: '👤 Please enter UUID', playerInfoLoadFailed: '⚠️ Failed to load player info',
+                    victory: '🏆 Victory', defeat: '💔 Defeat', game: 'Game', unknownGame: 'Unknown Game',
+                    changeset: '📦 changeset', type: 'type', totalExp: 'Total XP', kills: 'Kills',
+                    finalKills: 'Final Kills', deaths: 'Deaths', bedsDestroyed: 'Beds Destroyed',
+                    noData: '⚠️ No data returned', noActivity: '📭 No activity records for this player',
+                    pleaseEnterUuid: '⚠️ Please enter UUID', requestFailed: '❌ Error', requestSuccess: '✅ Success',
+                    jsonCopied: '📋 JSON copied', noDataToCopy: '⏳ No data to copy', copiedFallback: '📋 Copied (fallback)',
                     ready: '✅ Ready',
+                    chartTitle: '📈 Historical Trend', metricTotalGames: 'Total Games', metricWinRate: 'Win Rate', metricNewGames: 'New Games',
+                    loadingData: '⏳ Loading data...', loadFailed: '❌ Load failed',
+                    noTrackerData: 'This player is not tracked yet, or data has not been generated. Please check the UUID, or wait for the next GitHub Actions run.',
+                    loadedGames: '✅ Loaded', gamesUnit: 'games', updatedAt: 'Updated'
                 }
             };
+
+            function t(key) {
+                return translations[currentLang]?.[key] || key;
+            }
 
             // ========== 語言切換 ==========
             function setLanguage(lang) {
@@ -752,48 +705,22 @@
                         if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
                             el.placeholder = translations[lang][key];
                         } else {
-                            const oldHtml = el.innerHTML;
-                            const emojiMatch = oldHtml.match(/^[\u{1F000}-\u{1FFFF}]|^[\u2600-\u27BF]|^[\u{2700}-\u{27BF}]|^[\u{FE00}-\u{FEFF}]|^[🎮🔍📄📋💡👤⏳⚠️✅❌📭🆔🏆💔📦]/u);
-                            let newText = translations[lang][key];
-                            if (emojiMatch) {
-                                if (!newText.startsWith(emojiMatch[0])) {
-                                    newText = emojiMatch[0] + ' ' + newText.replace(/^[\u{1F000}-\u{1FFFF}]|^[\u2600-\u27BF]|^[\u{2700}-\u{27BF}]|^[\u{FE00}-\u{FEFF}]|^[🎮🔍📄📋💡👤⏳⚠️✅❌📭🆔🏆💔📦]/u, '').trim();
-                                }
-                            }
-                            el.textContent = newText;
+                            el.textContent = translations[lang][key];
                         }
                     }
                 });
 
-                const statusText = statusDiv.textContent;
-                if (statusText === '就緒' || statusText === '準備完了' || statusText === 'Ready') {
-                    statusDiv.textContent = translations[lang].statusReady;
-                }
-
-                const loadingSpan = playerHeader.querySelector('.loading-name');
-                if (loadingSpan && loadingSpan.dataset.i18n === 'playerInfoPlaceholder') {
-                    if (!playerHeader.querySelector('.player-name')) {
-                        loadingSpan.textContent = translations[lang].playerInfoPlaceholder;
-                    }
-                }
-
-                const emptyState = activityContainer.querySelector('.empty-state');
-                if (emptyState && emptyState.dataset.i18n === 'emptyState' && !currentData) {
-                    emptyState.textContent = translations[lang].emptyState;
-                }
+                // 保留 emoji：因為我們直接把翻譯字串本身包含 emoji，所以上面這行已經 OK
 
                 if (currentData) {
                     renderData(currentData);
+                    if (currentSnapshots.length) renderTrendChart(currentSnapshots);
                 }
             }
 
             function loadLanguagePreference() {
                 const saved = localStorage.getItem('hive_language');
-                if (saved && translations[saved]) {
-                    setLanguage(saved);
-                    return;
-                }
-                setLanguage('zh');
+                setLanguage(saved && translations[saved] ? saved : 'zh');
             }
 
             document.getElementById('langSwitch').addEventListener('click', function(e) {
@@ -808,25 +735,16 @@
                 if (format !== '24' && format !== '12') return;
                 currentHourFormat = format;
                 localStorage.setItem('hive_hour_format', format);
-
                 document.querySelectorAll('.hour-option').forEach(btn => {
                     btn.classList.toggle('active', btn.dataset.hour === format);
                 });
-
-                // 重新渲染數據
-                if (currentData) {
-                    renderData(currentData);
-                }
+                if (currentData) renderData(currentData);
+                if (currentSnapshots.length) renderTrendChart(currentSnapshots);
             }
 
             function loadHourFormatPreference() {
                 const saved = localStorage.getItem('hive_hour_format');
-                if (saved && (saved === '24' || saved === '12')) {
-                    setHourFormat(saved);
-                    return;
-                }
-                // 預設 24 小時制
-                setHourFormat('24');
+                setHourFormat(saved === '12' ? '12' : '24');
             }
 
             document.getElementById('hourSwitch').addEventListener('click', function(e) {
@@ -836,67 +754,31 @@
                 }
             });
 
-            // ========== 防抖工具 ==========
+            // ========== 防抖 ==========
             function debounce(func, delay) {
                 let timer;
                 const debounced = function(...args) {
                     clearTimeout(timer);
                     timer = setTimeout(() => func.apply(this, args), delay);
                 };
-                debounced.cancel = function() {
-                    clearTimeout(timer);
-                };
+                debounced.cancel = function() { clearTimeout(timer); };
                 return debounced;
             }
 
-            // ========== localStorage 緩存 ==========
-            function loadCacheFromStorage() {
-                try {
-                    const stored = localStorage.getItem('hive_player_cache');
-                    if (stored) {
-                        const parsed = JSON.parse(stored);
-                        const now = Date.now();
-                        const validEntries = Object.entries(parsed).filter(([key, value]) => {
-                            return (now - value.timestamp) < 5 * 60 * 1000;
-                        });
-                        return Object.fromEntries(validEntries);
-                    }
-                } catch (e) {
-                    console.warn('讀取緩存失敗:', e);
-                }
-                return {};
-            }
-
-            function saveCacheToStorage(cache) {
-                try {
-                    localStorage.setItem('hive_player_cache', JSON.stringify(cache));
-                } catch (e) {
-                    console.warn('保存緩存失敗:', e);
-                }
-            }
-
-            let playerInfoCache = loadCacheFromStorage();
-
-            // ========== 時區相關 ==========
+            // ========== 時區 ==========
             function loadTimezonePreference() {
                 const urlParams = new URLSearchParams(window.location.search);
                 const tzParam = urlParams.get('tz');
-                if (tzParam) {
-                    const option = timezoneSelect.querySelector(`option[value="${tzParam}"]`);
-                    if (option) {
-                        timezoneSelect.value = tzParam;
-                        currentTimezone = tzParam;
-                        return;
-                    }
+                if (tzParam && timezoneSelect.querySelector(`option[value="${tzParam}"]`)) {
+                    timezoneSelect.value = tzParam;
+                    currentTimezone = tzParam;
+                    return;
                 }
                 const saved = localStorage.getItem('hive_timezone');
-                if (saved) {
-                    const option = timezoneSelect.querySelector(`option[value="${saved}"]`);
-                    if (option) {
-                        timezoneSelect.value = saved;
-                        currentTimezone = saved;
-                        return;
-                    }
+                if (saved && timezoneSelect.querySelector(`option[value="${saved}"]`)) {
+                    timezoneSelect.value = saved;
+                    currentTimezone = saved;
+                    return;
                 }
                 timezoneSelect.value = 'UTC+8';
                 currentTimezone = 'UTC+8';
@@ -913,30 +795,23 @@
                 const match = tz.match(/UTC([+-])(\d{1,2})(?::(\d{2}))?/);
                 if (!match) return 0;
                 const sign = match[1] === '+' ? 1 : -1;
-                const hours = parseInt(match[2]) || 0;
-                const minutes = parseInt(match[3]) || 0;
-                return sign * (hours * 60 + minutes);
+                return sign * ((parseInt(match[2]) || 0) * 60 + (parseInt(match[3]) || 0));
             }
 
-            // ========== 時間工具（核心改動在這裡！） ==========
+            // ========== 時間工具 ==========
             function parseTimestamp(value) {
                 if (!value) return null;
                 if (value instanceof Date) return value;
                 if (typeof value === 'number') {
-                    if (value < 10000000000) return new Date(value * 1000);
-                    return new Date(value);
+                    return new Date(value < 1e10 ? value * 1000 : value);
                 }
                 if (typeof value === 'string') {
                     const trimmed = value.trim();
                     if (trimmed === '') return null;
-                    let d = new Date(trimmed);
-                    if (!isNaN(d.getTime())) return d;
                     const num = Number(trimmed);
-                    if (!isNaN(num)) {
-                        if (num < 10000000000) return new Date(num * 1000);
-                        return new Date(num);
-                    }
-                    return null;
+                    if (!isNaN(num)) return new Date(num < 1e10 ? num * 1000 : num);
+                    const d = new Date(trimmed);
+                    return isNaN(d.getTime()) ? null : d;
                 }
                 return null;
             }
@@ -945,7 +820,6 @@
                 const d = parseTimestamp(value);
                 if (!d || isNaN(d.getTime())) return '無效時間';
 
-                // 1. 先轉換時區
                 const tzOffsetMinutes = getTimezoneOffsetMinutes(currentTimezone);
                 const localOffsetMinutes = -d.getTimezoneOffset();
                 const targetTime = new Date(d.getTime() + (tzOffsetMinutes - localOffsetMinutes) * 60 * 1000);
@@ -959,11 +833,9 @@
                 let seconds = String(targetTime.getSeconds()).padStart(2, '0');
                 let ampm = '';
 
-                // 2. 根據小時制格式調整
                 if (currentHourFormat === '12') {
                     ampm = hours >= 12 ? ' PM' : ' AM';
-                    hours = hours % 12;
-                    if (hours === 0) hours = 12;
+                    hours = hours % 12 || 12;
                 }
                 const hoursStr = String(hours).padStart(2, '0');
 
@@ -978,9 +850,7 @@
                         if (c) {
                             const d = parseTimestamp(c);
                             if (d && !isNaN(d.getTime())) {
-                                if (!latest || d.getTime() > latest.getTime()) {
-                                    latest = d;
-                                }
+                                if (!latest || d.getTime() > latest.getTime()) latest = d;
                                 break;
                             }
                         }
@@ -989,31 +859,18 @@
                 return latest;
             }
 
-            // ========== 翻譯輔助 ==========
-            function t(key) {
-                return translations[currentLang]?.[key] || key;
-            }
-
-            // ========== 渲染函數 ==========
+            // ========== 渲染玩家資訊 ==========
             function renderPlayerInfo(data, uuid) {
-                const main = data.main || {};
+                const main = data.main || data || {};
                 const username = main.username_cc || main.username || uuid;
                 const rank = main.rank || 'REGULAR';
 
                 let rankClass = 'rank-default';
                 let rankDisplay = rank;
-                if (rank === 'ULTIMATE') {
-                    rankClass = 'rank-ultimate';
-                    rankDisplay = '👑 ULTIMATE';
-                } else if (rank === 'PLUS') {
-                    rankClass = 'rank-plus';
-                    rankDisplay = '➕ PLUS';
-                } else if (rank === 'REGULAR') {
-                    rankClass = 'rank-regular';
-                    rankDisplay = 'REGULAR';
-                } else {
-                    rankDisplay = rank || 'REGULAR';
-                }
+                if (rank === 'ULTIMATE') { rankClass = 'rank-ultimate'; rankDisplay = '👑 ULTIMATE'; }
+                else if (rank === 'PLUS') { rankClass = 'rank-plus'; rankDisplay = '➕ PLUS'; }
+                else if (rank === 'REGULAR') { rankClass = 'rank-regular'; rankDisplay = 'REGULAR'; }
+                else { rankDisplay = rank || 'REGULAR'; }
 
                 playerHeader.innerHTML = `
                     <span class="player-name ${rankClass}">${username}</span>
@@ -1022,6 +879,7 @@
                 `;
             }
 
+            // ========== 渲染單筆對局 ==========
             function renderActivityItem(item, index) {
                 const game = item.game || item.gameType || t('unknownGame');
                 const gameDisplay = game.charAt(0).toUpperCase() + game.slice(1);
@@ -1057,11 +915,8 @@
                 if (item.changeset && typeof item.changeset === 'object' && Object.keys(item.changeset).length > 0) {
                     html += `<div class="changeset-section"><div class="section-title">${t('changeset')}</div>`;
                     const specialFields = {
-                        'xp': t('totalExp'),
-                        'kills': t('kills'),
-                        'final_kills': t('finalKills'),
-                        'deaths': t('deaths'),
-                        'beds_destroyed': t('bedsDestroyed')
+                        'xp': t('totalExp'), 'kills': t('kills'), 'final_kills': t('finalKills'),
+                        'deaths': t('deaths'), 'beds_destroyed': t('bedsDestroyed')
                     };
                     const skipFields = ['played', 'victories'];
                     const specialOrder = ['xp', 'kills', 'final_kills', 'deaths', 'beds_destroyed'];
@@ -1069,22 +924,15 @@
                     for (const key of specialOrder) {
                         if (skipFields.includes(key)) continue;
                         if (item.changeset[key] !== undefined && item.changeset[key] !== null) {
-                            const label = specialFields[key] || key;
-                            const value = item.changeset[key];
-                            const display = (value === null || value === undefined) ? '-' : String(value);
-                            html += `<div class="changeset-row"><span class="label">${label}</span><span class="value">${display}</span></div>`;
+                            html += `<div class="changeset-row"><span class="label">${specialFields[key] || key}</span><span class="value">${item.changeset[key]}</span></div>`;
                         }
                     }
 
                     const shownKeys = [...specialOrder, ...skipFields];
                     for (const [key, value] of Object.entries(item.changeset)) {
                         if (shownKeys.includes(key)) continue;
-                        if (skipFields.includes(key)) continue;
                         if (value === null || value === undefined) continue;
-                        let display = value;
-                        if (typeof value === 'object') {
-                            display = JSON.stringify(value);
-                        }
+                        const display = typeof value === 'object' ? JSON.stringify(value) : value;
                         html += `<div class="changeset-row"><span class="label">${key}</span><span class="value">${display}</span></div>`;
                     }
                     html += `</div>`;
@@ -1096,9 +944,7 @@
                     if (value === null || value === undefined) continue;
                     if (typeof value === 'object') continue;
                     let display = String(value);
-                    if (typeof value === 'boolean') {
-                        display = value ? '是 ✅' : '否 ❌';
-                    }
+                    if (typeof value === 'boolean') display = value ? '是 ✅' : '否 ❌';
                     html += `<div class="data-row"><span class="label">${key}</span><span class="value">${display}</span></div>`;
                 }
 
@@ -1106,6 +952,7 @@
                 return html;
             }
 
+            // ========== 渲染主資料 ==========
             function renderData(data) {
                 currentData = data;
                 activityContainer.innerHTML = '';
@@ -1155,9 +1002,7 @@
                 });
 
                 let html = '<div class="activity-list">';
-                sorted.forEach((item, index) => {
-                    html += renderActivityItem(item, index);
-                });
+                sorted.forEach((item, index) => { html += renderActivityItem(item, index); });
                 html += '</div>';
                 activityContainer.innerHTML = html;
 
@@ -1166,73 +1011,74 @@
                 toggleRawBtn.textContent = t('toggleRawBtn');
             }
 
-            // ========== 玩家信息獲取 ==========
-            async function fetchPlayerInfo(uuid) {
-                if (!uuid) {
-                    playerHeader.innerHTML = `<span class="loading-name">${t('enterUuid')}</span>`;
+            // ========== 趨勢圖 ==========
+            function renderTrendChart(snapshots) {
+                if (!snapshots || snapshots.length < 2) {
+                    chartSection.style.display = 'none';
                     return;
                 }
+                chartSection.style.display = 'block';
 
-                const trimmed = uuid.trim();
+                const labels = snapshots.map(s => formatTime(s.timestamp).replace(/:\d{2}(?:\s?[AP]M)?$/, ''));
 
-                if (playerInfoCache[trimmed]) {
-                    const cached = playerInfoCache[trimmed];
-                    if (Date.now() - cached.timestamp < 60 * 60 * 1000) {
-                        renderPlayerInfo(cached.data, trimmed);
-                        return;
-                    } else {
-                        delete playerInfoCache[trimmed];
-                        saveCacheToStorage(playerInfoCache);
-                    }
-                }
+                const metricConfig = {
+                    totalGames: { label: t('metricTotalGames'), color: '#2563eb', data: snapshots.map(s => s.totalGames) },
+                    winRate:    { label: t('metricWinRate'),    color: '#16a34a', data: snapshots.map(s => s.winRate), suffix: '%' },
+                    newGames:   { label: t('metricNewGames'),   color: '#f59e0b', data: snapshots.map(s => s.newGames) }
+                };
+                const cfg = metricConfig[currentMetric];
 
-                playerHeader.innerHTML = `<span class="loading-name">${t('loadingPlayer')}</span>`;
+                if (trendChart) trendChart.destroy();
 
-                try {
-                    const url = `https://api.playhive.com/v0/game/all/main/${trimmed}`;
-                    const response = await fetch(url);
-
-                    if (response.status === 429) {
-                        if (playerInfoCache[trimmed]) {
-                            const cached = playerInfoCache[trimmed];
-                            if (Date.now() - cached.timestamp < 60 * 60 * 1000) {
-                                renderPlayerInfo(cached.data, trimmed);
-                                return;
-                            } else {
-                                delete playerInfoCache[trimmed];
-                                saveCacheToStorage(playerInfoCache);
+                trendChart = new Chart(document.getElementById('trendChart'), {
+                    type: 'line',
+                    data: {
+                        labels,
+                        datasets: [{
+                            label: cfg.label,
+                            data: cfg.data,
+                            borderColor: cfg.color,
+                            backgroundColor: cfg.color + '20',
+                            fill: true,
+                            tension: 0.3,
+                            pointRadius: 2,
+                            pointHoverRadius: 5
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { display: false },
+                            tooltip: {
+                                callbacks: {
+                                    label: (ctx) => `${cfg.label}: ${ctx.parsed.y}${cfg.suffix || ''}`
+                                }
+                            }
+                        },
+                        scales: {
+                            x: { ticks: { maxTicksLimit: 10, font: { size: 10 } }, grid: { display: false } },
+                            y: {
+                                beginAtZero: currentMetric !== 'winRate',
+                                max: currentMetric === 'winRate' ? 100 : undefined,
+                                ticks: { font: { size: 10 } }
                             }
                         }
-                        throw new Error('請求過於頻繁 (HTTP 429)，請稍後再試');
                     }
-
-                    if (!response.ok) {
-                        throw new Error(`HTTP ${response.status}`);
-                    }
-
-                    const data = await response.json();
-
-                    playerInfoCache[trimmed] = {
-                        data: data,
-                        timestamp: Date.now()
-                    };
-                    saveCacheToStorage(playerInfoCache);
-
-                    renderPlayerInfo(data, trimmed);
-
-                } catch (error) {
-                    console.warn('獲取玩家信息失敗:', error);
-                    if (playerInfoCache[trimmed]) {
-                        const cached = playerInfoCache[trimmed];
-                        renderPlayerInfo(cached.data, trimmed);
-                        playerHeader.innerHTML += ` <span style="color:#f59e0b;font-size:0.8rem;">${t('cacheDataRequestFailed')}</span>`;
-                        return;
-                    }
-                    playerHeader.innerHTML = `<span class="loading-name">${t('playerInfoLoadFailed')} (${error.message})</span>`;
-                }
+                });
             }
 
-            // ========== 請求主數據 ==========
+            document.getElementById('chartMetricSwitch').addEventListener('click', (e) => {
+                const btn = e.target.closest('.metric-option');
+                if (!btn || btn.dataset.metric === currentMetric) return;
+                currentMetric = btn.dataset.metric;
+                document.querySelectorAll('.metric-option').forEach(b =>
+                    b.classList.toggle('active', b.dataset.metric === currentMetric)
+                );
+                if (currentSnapshots.length) renderTrendChart(currentSnapshots);
+            });
+
+            // ========== 讀取本地追蹤資料 ==========
             async function fetchData(uuid) {
                 const trimmed = uuid.trim();
                 if (!trimmed) {
@@ -1241,25 +1087,19 @@
                     return;
                 }
 
-                await fetchPlayerInfo(trimmed);
-
-                const url = `https://api.playhive.com/v0/player/activity/${trimmed}`;
-                statusDiv.textContent = '⏳ 請求中...';
+                statusDiv.textContent = t('loadingData');
                 statusDiv.style.background = '#e0edff';
 
                 try {
+                    const url = `data/${trimmed}.json`;
                     const response = await fetch(url);
-                    const rawText = await response.text();
-                    let json = null;
-                    try {
-                        json = JSON.parse(rawText);
-                    } catch (e) {
-                        statusDiv.textContent = `⚠️ ${t('serverNonJson')}`;
-                        statusDiv.style.background = '#fef3c7';
-                        activityContainer.innerHTML = `<div class="empty-state">${t('serverNonJson')}</div>`;
-                        rawJsonDiv.textContent = rawText;
-                        rawJsonDiv.classList.add('show');
-                        toggleRawBtn.textContent = '📄 ' + t('toggleRawBtn').replace('📄 ', '');
+
+                    if (!response.ok) {
+                        statusDiv.textContent = `${t('loadFailed')} (HTTP ${response.status})`;
+                        statusDiv.style.background = '#fee2e2';
+                        activityContainer.innerHTML = `<div class="empty-state">${t('noTrackerData')}</div>`;
+                        chartSection.style.display = 'none';
+                        playerHeader.innerHTML = `<span class="loading-name">${t('noTrackerData')}</span>`;
                         totalGamesEl.textContent = '-';
                         uniqueGamesEl.textContent = '-';
                         lastActiveEl.textContent = '-';
@@ -1267,43 +1107,31 @@
                         return;
                     }
 
-                    if (!response.ok) {
-                        const msg = json?.message || json?.error || `HTTP ${response.status}`;
-                        statusDiv.textContent = `${t('requestFailed')}: ${msg}`;
-                        statusDiv.style.background = '#fee2e2';
-                        renderData(json);
-                        return;
+                    const store = await response.json();
+                    const games = store.games || [];
+                    currentSnapshots = store.snapshots || [];
+
+                    if (store.playerInfo) {
+                        renderPlayerInfo(store.playerInfo, trimmed);
+                    } else {
+                        playerHeader.innerHTML = `<span class="loading-name">🆔 ${trimmed}</span>`;
                     }
 
-                    statusDiv.textContent = `${t('requestSuccess')} (${response.status})`;
-                    statusDiv.style.background = '#dcfce7';
-                    renderData(json);
+                    renderTrendChart(currentSnapshots);
 
+                    statusDiv.textContent = `${t('loadedGames')} ${games.length} ${t('gamesUnit')}`;
+                    if (store.lastUpdated) {
+                        statusDiv.textContent += ` · ${t('updatedAt')} ${formatTime(store.lastUpdated)}`;
+                    }
+                    statusDiv.style.background = '#dcfce7';
+
+                    renderData(games);
                 } catch (err) {
-                    statusDiv.textContent = `${t('networkError')}: ${err.message}`;
+                    statusDiv.textContent = `${t('loadFailed')}: ${err.message}`;
                     statusDiv.style.background = '#fee2e2';
-                    activityContainer.innerHTML = `<div class="empty-state">${t('networkError')}</div>`;
                     console.error(err);
                 }
             }
-
-            // ========== 防抖的玩家信息加載 ==========
-            const debouncedFetchPlayerInfo = debounce((uuid) => {
-                if (uuid && uuid.trim()) {
-                    fetchPlayerInfo(uuid.trim());
-                }
-            }, 500);
-
-            // ========== 時區切換事件 ==========
-            timezoneSelect.addEventListener('change', function() {
-                const newTz = this.value;
-                if (newTz === currentTimezone) return;
-                currentTimezone = newTz;
-                saveTimezonePreference(newTz);
-                if (currentData) {
-                    renderData(currentData);
-                }
-            });
 
             // ========== 事件綁定 ==========
             fetchBtn.addEventListener('click', () => fetchData(uuidInput.value));
@@ -1315,28 +1143,18 @@
                 }
             });
 
-            uuidInput.addEventListener('input', () => {
-                const val = uuidInput.value.trim();
-                if (val) {
-                    debouncedFetchPlayerInfo(val);
-                } else {
-                    playerHeader.innerHTML = `<span class="loading-name">${t('enterUuid')}</span>`;
-                }
-            });
-
-            uuidInput.addEventListener('blur', () => {
-                const val = uuidInput.value.trim();
-                if (val) {
-                    debouncedFetchPlayerInfo.cancel?.();
-                    fetchPlayerInfo(val);
-                }
+            timezoneSelect.addEventListener('change', function() {
+                const newTz = this.value;
+                if (newTz === currentTimezone) return;
+                currentTimezone = newTz;
+                saveTimezonePreference(newTz);
+                if (currentData) renderData(currentData);
+                if (currentSnapshots.length) renderTrendChart(currentSnapshots);
             });
 
             toggleRawBtn.addEventListener('click', () => {
                 rawJsonDiv.classList.toggle('show');
-                toggleRawBtn.textContent = rawJsonDiv.classList.contains('show') ?
-                    `📄 ${t('toggleRawBtn').replace('📄 ', '')}` :
-                    `📄 ${t('toggleRawBtn').replace('📄 ', '')}`;
+                toggleRawBtn.textContent = t('toggleRawBtn');
             });
 
             copyBtn.addEventListener('click', () => {
@@ -1363,20 +1181,16 @@
                 });
             });
 
-            // ========== 自動加載 ==========
+            // ========== 自動載入 ==========
             window.addEventListener('load', () => {
                 loadLanguagePreference();
                 loadHourFormatPreference();
                 loadTimezonePreference();
                 const initialUuid = uuidInput.value.trim();
                 if (initialUuid) {
-                    setTimeout(() => {
-                        fetchPlayerInfo(initialUuid);
-                        fetchBtn.click();
-                    }, 400);
+                    setTimeout(() => fetchBtn.click(), 300);
                 }
             });
-
         })();
     </script>
 </body>
