@@ -746,6 +746,15 @@
             }
 
             // ===== Load / render =====
+            function applyStaticI18n() {
+                document.querySelectorAll('[data-i18n]').forEach(el => {
+                    const key = el.dataset.i18n;
+                    const val = translations[currentLang]?.[key];
+                    if (val !== undefined && typeof val === 'string') {
+                        el.textContent = val;
+                    }
+                });
+            }
             function setStatus(text, bg) {
                 statusDiv.textContent = text;
                 statusDiv.style.background = bg || '#eef2f8';
@@ -1114,6 +1123,7 @@
                 localStorage.setItem('hive_language', currentLang);
                 document.querySelectorAll('.lang-option').forEach(b => b.classList.toggle('active', b.dataset.lang === currentLang));
                 // 重繪所有依賴語言的東西
+                applyStaticI18n();
                 renderCalendar();
                 if (selectedDayKey) renderDayDetail();
                 if (currentSnapshots.length) renderTrendChart();
@@ -1161,6 +1171,7 @@
                 const savedLang = localStorage.getItem('hive_language');
                 currentLang = (savedLang && translations[savedLang]) ? savedLang : 'zh';
                 document.querySelectorAll('.lang-option').forEach(b => b.classList.toggle('active', b.dataset.lang === currentLang));
+                applyStaticI18n();
 
                 const savedHour = localStorage.getItem('hive_hour_format');
                 currentHourFormat = savedHour === '12' ? '12' : '24';
