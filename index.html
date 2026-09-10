@@ -818,7 +818,10 @@
             function renderPlayerInfo(store) {
                 const info = store.playerInfo || {};
                 const main = info.main || info || {};
-                const username = main.username_cc || main.username || currentPlayer;
+                const username = store.customName
+                    || main.username_cc
+                    || main.username
+                    || currentPlayer;
                 const rank = main.rank || 'REGULAR';
                 let rankClass = 'rank-default';
                 let rankDisplay = rank;
@@ -1072,23 +1075,33 @@
             }
 
             // ===== Player select =====
-            function initPlayerSelect() {
-                // 先讀 config/players.json 拿清單，失敗就用預設
-                fetch('config/players.json')
-                    .then(r => r.ok ? r.json() : null)
-                    .then(cfg => {
-                        const list = (cfg && Array.isArray(cfg.players) && cfg.players.length)
-                            ? cfg.players : PLAYERS;
-                        buildSelect(list);
-                    })
-                    .catch(() => buildSelect(PLAYERS));
+            async function initPlayerSelect() {
+                let list = PLAYERS.map(u => ({ uuid: u, name: null }));
+                try {
+                    const r = await fetch('config/players.json');
+                    if (r.ok) {
+                        const cfg = await r.json();
+                        if (cfg && Array.isArray(cfg.players) && cfg.players.length) {
+                            list = cfg.players
+                                .map(p => typeof p === 'string'
+                                    ? { uuid: p, name: null }
+                                    : { uuid: p.uuid, name: p.name || null })
+                                .filter(p => p.uuid);
+                        }
+                    }
+                } catch (e) { /* 用預設 */ }
+
+                buildSelect(list);
             }
+
             function buildSelect(list) {
-                playerSelect.innerHTML = list.map(uuid =>
-                    `<option value="${uuid}">${uuid}</option>`
-                ).join('');
-                playerSelect.value = list[0];
-                loadPlayer(list[0]);
+                playerSelect.innerHTML = list.map(p => {
+                    const shortUuid = p.uuid.length > 8 ? p.uuid.slice(0, 8) + '…' : p.uuid;
+                    const label = p.name ? `${p.name} (${shortUuid})` : p.uuid;
+                    return `<option value="${p.uuid}">${label}</option>`;
+                }).join('');
+                playerSelect.value = list[0].uuid;
+                loadPlayer(list[0].uuid);
             }
 
             // ===== Events =====
