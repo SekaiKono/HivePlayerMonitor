@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-10T14:31:55.011Z",
+  "lastUpdated": "2026-09-10T16:59:57.885Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -859,7 +859,7 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 78,
+      "friend_count": 79,
       "equipped_hub_title": "&fBe&udW&7ar&fs ",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/sky-blessed-deathcrate.png",
@@ -896,9 +896,150 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-10T14:31:55.011Z"
+    "fetchedAt": "2026-09-10T16:59:57.885Z"
   },
-  "games": [],
+  "games": [
+    {
+      "time": 1789051656,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 323,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 6
+      }
+    },
+    {
+      "time": 1789051788,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 193,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789051966,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 288,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 3,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789052256,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 237,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 3,
+        "beds_destroyed": 2,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789052589,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 298,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 5,
+        "beds_destroyed": 1,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1789052768,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 331,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 4,
+        "kills": 7,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789053101,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 337,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 3,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789053261,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 300,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2
+      }
+    },
+    {
+      "time": 1789054087,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 378,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 5,
+        "kills": 9,
+        "deaths": 10
+      }
+    },
+    {
+      "time": 1789054267,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 323,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 5,
+        "beds_destroyed": 1
+      }
+    }
+  ],
   "snapshots": [
     {
       "timestamp": "2026-09-10T12:49:16.962Z",
@@ -934,6 +1075,13 @@
       "victories": 0,
       "winRate": 0,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-10T16:59:57.885Z",
+      "totalGames": 10,
+      "victories": 10,
+      "winRate": 100,
+      "newGames": 10
     }
   ],
   "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
