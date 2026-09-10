@@ -1,0 +1,912 @@
+{
+  "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
+  "createdAt": "2026-09-10T12:49:16.962Z",
+  "lastUpdated": "2026-09-10T12:49:16.962Z",
+  "playerInfo": {
+    "main": {
+      "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
+      "xuid": 2535466923698436,
+      "mcid": "e7bd3dcd8dbefaf2",
+      "username": "rs stella",
+      "username_cc": "RS stella",
+      "rank": "ULTIMATE",
+      "first_played": 1737797466,
+      "daily_login_streak": 9,
+      "longest_daily_login_streak": 272,
+      "hub_title_count": 157,
+      "hub_title_unlocked": [
+        "&dSCORE!",
+        "&mInsomniac",
+        "&aThe Snail",
+        "&cRed &fvs &9Blue",
+        "&uZzzzzzzzz",
+        "&cThe Short Sighted",
+        " &c() Beds Destroyed",
+        "&bRooftop &dRunner",
+        "&aRibbit",
+        "&t BedWars Season 1",
+        "&t Season 1 &6#674712",
+        " &t() Winrate",
+        "&aPillow Plunderer",
+        "&bThe &6MV&eBEE",
+        "&eB&6u&ez&6z&ei&6n&e'",
+        "&fThe &eBees &aKnees",
+        "&bThe Night",
+        "&5Sleepwalker",
+        "&fSnooze &eYou &6Lose",
+        "&cThe Freefaller",
+        "&cBed &tBouncer",
+        "&aThe Sneaky",
+        "&eThe &bSky Warrior",
+        "&jDre&bamc&jatc&bher",
+        "&iEat. &jSleep. &fPlay.",
+        "&hCloud Surfer",
+        "&iBedgician",
+        "&9Flag Defender",
+        "&fLights, Camera, &6ACTION!",
+        "&cIt's rewind time!",
+        "&tPil&slow&6man&ecer",
+        "&7The Builder",
+        "&bT&fH&bE &fI&bC&fE &bQ&fU&bE&fE&bN",
+        "&aLUNAR &dLEGEND",
+        "&6I LOVE DIRT",
+        "&cI have &6the &ehigh ground",
+        "&aCan't catch me!",
+        "&5Unstoppable",
+        "&fFl&eag &6Ch&cam&dpi&9on",
+        "&tThe Flagbearer",
+        "&6The Mysterious",
+        "&6Champion of the &eSky",
+        "&6Live. &eLaugh. &bBuzz.",
+        "&iULTIMATE &jPOWER!",
+        "&aHive++",
+        "&dTHROW &eALL &dTHE &eTHINGS!",
+        "&4Kinda sus...",
+        "&9YEET",
+        "&aGr&2ou&and &2br&aea&2ki&ang",
+        "&6The Block Placer",
+        "&7Cloud Croissant",
+        "&dThe Escapist",
+        "&aThe Good Citizen",
+        "&cFreestyler",
+        "&fPump &eup &6the &cjam",
+        "&bDancing &dQueen",
+        "&eAerial Acrobat",
+        "&7CatJAM",
+        "&fLo&erd &6of &cthe &dDa&9nce",
+        "&aSky High",
+        "&bThe Runner",
+        "&eThe Hungry",
+        "&aThe Hoarder",
+        "&pBed Bug",
+        " &4() Victories",
+        "&iNight &mTerror",
+        "&bMeme &3of the &bDecade",
+        "&620&e20 &bvision",
+        "&aI Have Spoken",
+        "&bThe Survivalist",
+        "&cWoof",
+        "&dMeow",
+        "&eBORN &fTO BE &bWILD",
+        "&mSnorecerer",
+        "&iNapprentice",
+        "&bSea &mof &jFlags",
+        "&aFloaty &eFloaty",
+        "&cKnockback &6Nemo",
+        "&eThe &dDedicated",
+        "&dThe Speediest",
+        "&6The &eEpic &fGamer",
+        "&fThe &eCollector",
+        " &4() Final Kills",
+        "&eSky&aWars &dMaster",
+        "&6Zeus",
+        "&cSkylord",
+        "&aJust &edroppin' &aby",
+        "&5Doom Bringer",
+        "&j#blessed",
+        "&eW",
+        "&cNo Bed? &eNo Problem.",
+        "&fNap &bTime's &jOver",
+        "&fCH&pIC&2KEN &fJO&pCK&2EY!",
+        "&eB a n a n a",
+        "&aThe Creative",
+        "&eThe Cheetah",
+        " &iSeason 2 &j#409",
+        " &iSeason 2 &jTop 1K",
+        " &iBedWars Season 2",
+        "&aDown &fto &bEarth",
+        "&7The Falcon",
+        "&fThe &bsky's &fthe &blimit!",
+        "&bHa&jpp&ey b&6ee&bda&jy! ",
+        "&sNether &tback &4down",
+        "&6Gourd &sVibes",
+        "&mScaredy Cat",
+        "&7Rest &8in &upixels",
+        "&3This &jis &ia &dbreeze",
+        "&j67",
+        "&6Ja&sck&f-&eo'&f-&6le&sge&end",
+        "&7Voi&8d Av&7oid&8er",
+        "&e(?) Day Login Streak",
+        "&aGG&b!",
+        "&fnice.",
+        "&2feels&1bad&2man",
+        "&jSKY () Kills",
+        "&hPetal &cProwler",
+        "&eGuess &bHOO?",
+        "&dOmm &bnom &dnom",
+        "&9 (?) Total Wins",
+        "&jSKY () Victories",
+        "&bSk&jyW&ear&6s ",
+        "&dThe Suspicious",
+        "&fBe&udW&7ar&fs ",
+        "&jaura",
+        "&pbogos binted?",
+        "&bBeam &jme &fup!",
+        "&eHOO ARE YOU?",
+        " &pBedWars Season 3",
+        " &pSeason 3 &6Top 100",
+        " &pSeason 3 &6#21",
+        "&c&oVr&6&ooo&e&ooo&6&ooo&c&oom&r",
+        "&aThe Trustable",
+        "&7The Spy",
+        "&6Falling &eStar",
+        "&bPeekaboo&f!",
+        "&cSk&syW&6ar&es ",
+        "&9 (?) Total Kills",
+        "&cThe Murderer",
+        "&9The Sheriff",
+        "&bThe Undercover Agent",
+        "&eThe Investigator",
+        "&cThe Assassinator",
+        "&dThe Mysterious Master",
+        "&bMurder &dMystery ",
+        "&eMur&6der &eMyst&6ery ",
+        " &i() Murders",
+        "&fThe Chase &cIS ON",
+        " &p() Hiders Killed",
+        "&cW&fa&cl&fd&co",
+        "&aLeaf &fme &aalone.",
+        "&dSneaky Beaky",
+        "&aThe Camouflage",
+        "&cThe Flash",
+        "&eI am speed",
+        "&9Gotta &3Go &bFast&f!",
+        "&eBe&6dW&sar&ts "
+      ],
+      "avatar_count": 124,
+      "avatar_unlocked": [
+        {
+          "url": "https://cdn.playhive.com/avatars/bridge-hatch.png",
+          "name": "The Hatch"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedwars.png",
+          "name": "BedWars"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-hip-hop.png",
+          "name": "Cute Frog"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-snoozing-on-point.png",
+          "name": "Snoozing On Point"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedtime-buccaneer.png",
+          "name": "Bedtime Buccaneer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/drop-super-leap.png",
+          "name": "Super Leap"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/embee.png",
+          "name": "Embee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/it-bee-fine.png",
+          "name": "It Bee Fine"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bad-bee.png",
+          "name": "Bad Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/buff-bee.png",
+          "name": "Buff Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mvbee.png",
+          "name": "MVBee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-goddess-of-night.png",
+          "name": "Full Moon"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-pillow-plunderer.png",
+          "name": "Pillow Plunderer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bridge-bridge.png",
+          "name": "The Bridge"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-red-flag.png",
+          "name": "Red Flag"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-riley.png",
+          "name": "Riley (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/grav-zoomies.png",
+          "name": "Zoomies"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
+          "name": "Sudden Death"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-mysterious-merchant.png",
+          "name": "Mysterious Merchant"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mount-axolotl.png",
+          "name": "Axolotl Mount"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
+          "name": "BedWars Wizard"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-magical-merchant.png",
+          "name": "BedWars Wizard"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/elemental-powers.png",
+          "name": "Elemental Powers"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/runic-cubee.png",
+          "name": "Runic Cubee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/action.png",
+          "name": "Action"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/build-builder.png",
+          "name": "The Builder"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-ice-queen.png",
+          "name": "Ice Heart"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-max.png",
+          "name": "Max (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-island.png",
+          "name": "SkyWars Island"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-reese.png",
+          "name": "Reese (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-orbit.png",
+          "name": "Cursed Orbit"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ground-egg.png",
+          "name": "Egg"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-blue-flag.png",
+          "name": "Blue Flag"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-castle.png",
+          "name": "Castle"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-crown.png",
+          "name": "The Crown"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-retrowave-cubee.png",
+          "name": "Retrowave Cubee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-graffiti-bee.png",
+          "name": "Graffiti Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-amethyst-cubee.png",
+          "name": "Amethyst Cubee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-crossed-flags.png",
+          "name": "Crossed Flags"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ground-hatchling.png",
+          "name": "Hatchling"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-dana.png",
+          "name": "Dana (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ground-clucky.png",
+          "name": "Clucky"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ground-nice-job.png",
+          "name": "Nice Job!"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/grav-space-selfie.png",
+          "name": "Space Selfie"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-jesse.png",
+          "name": "Jesse (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/party-falling-zuk.png",
+          "name": "Falling Zuk"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-phoenix.png",
+          "name": "Phoenix (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/party-neon-night.png",
+          "name": "Neon Night"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/party-rainbow-eq.png",
+          "name": "Rainbow EQ"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-bay.png",
+          "name": "Bay (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-charlie.png",
+          "name": "Charlie (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-river.png",
+          "name": "River (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-unicorn.png",
+          "name": "Unicorn"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-target.png",
+          "name": "Target"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-vr-gamer.png",
+          "name": "VR Gamer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bundle-xmas-bee.png",
+          "name": "Buzzy Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bundle-xmas-dragon.png",
+          "name": "The Dragons"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bundle-xmas-new-year.png",
+          "name": "Happy New Year"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bundle-animal-dinoskate.png",
+          "name": "Dinoskate"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bundle-animal-dj-paws.png",
+          "name": "DJ Paws"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bundle-animal-floof.png",
+          "name": "Floof"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-pixel-fighter.png",
+          "name": "Pixel Fighter"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-double-ahh.png",
+          "name": "Double AHH!"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/parkour-gem-star.png",
+          "name": "Gem Star"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-sawyer.png",
+          "name": "Sawyer (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-boom-boom-boom.png",
+          "name": "Boom boom boom"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-spell-master.png",
+          "name": "Spell Master"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-statue.png",
+          "name": "Statue"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-blessed-deathcrate.png",
+          "name": "Blessed Deathcrate"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-ascending.png",
+          "name": "Ascending"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-dark-steed.png",
+          "name": "Dark Steed"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-skylord.png",
+          "name": "Skylord"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-sleepybara.png",
+          "name": "Sleepybara"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-axolotl-merchant.png",
+          "name": "Axolotl Merchant"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-battle-bear.png",
+          "name": "Battle Bear"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/pet-chicken-jockey.png",
+          "name": "Chicken Jockey (Pet)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mount-chicken-jockey.png",
+          "name": "Chicken Jockey (Mount)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-harper.png",
+          "name": "Harper (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-morgan.png",
+          "name": "Morgan (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sg-supply.png",
+          "name": "SUPPLY DROP!"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-escape-plan.png",
+          "name": "Escape Plan"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mob-emberwind.png",
+          "name": "Emberwind"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/gi-vampurr.png",
+          "name": "Vampurr"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/gi-king-ghosty.png",
+          "name": "King Ghosty"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mob-cave-crawlers-fixed.png",
+          "name": "Cave Crawlers"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-warrior.png",
+          "name": "Sky Warrior"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-pantheon.png",
+          "name": "Pantheon"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/hat-raccoon-buddy.png",
+          "name": "Raccoon Buddy Hat"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mount-owl.png",
+          "name": "Owl Mount"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/pet-mystical-fox.png",
+          "name": "Mystical Fox Pet"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/backbling-pixel-pal.png",
+          "name": "Pixel Pal Backbling"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-chocolate.png",
+          "name": "Happy Chocolate"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-mimic.png",
+          "name": "Mimic"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-gladiator-creeper.png",
+          "name": "Gladiator Creeper"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-prestige-1.png",
+          "name": "SkyWars Prestige 1"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-sculk-snack.png",
+          "name": "Sculk Snack"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/build-dog.png",
+          "name": "Dog the Builder"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/grav-im-a-bird.png",
+          "name": "I'm a bird!"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
+          "name": "BedWars Prestige 1"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-glorp-woz-here.png",
+          "name": "Glorp Woz Here"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-r3d-protocol.png",
+          "name": "R3D Protocol"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-from-beyond.png",
+          "name": "From Beyond!"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-owl.png",
+          "name": "Team Owl"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mount-broomstick.png",
+          "name": "Broomstick"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-eli.png",
+          "name": "Eli (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-sage.png",
+          "name": "Sage (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/grav-alien-encounter.png",
+          "name": "Alien Encounter"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/dr-dead.png",
+          "name": "x.x"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-prestige-2.png",
+          "name": "SkyWars Prestige 2"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-andy.png",
+          "name": "Andy (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-crab-rave.png",
+          "name": "Crab Rave"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/murder-detective.png",
+          "name": "The Detective"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-syd.png",
+          "name": "Syd (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/murder-zombie.png",
+          "name": "Zombie Hand"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/murder-skeleton.png",
+          "name": "Dabbing Skeleton"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/murder-prestige-1.png",
+          "name": "Murder Mystery Prestige 1"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/murder-prestige-2.png",
+          "name": "Murder Mystery Prestige 2"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/hide-hiding-doggo.png",
+          "name": "Hiding Doggo"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/hide-cat-detective.png",
+          "name": "Cat Detective"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/hide-peekaboo.png",
+          "name": "Peekaboo"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/hide-found-you.png",
+          "name": "Found You!"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/hide-side-eye.png",
+          "name": "Side Eye"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/dr-hedgehog.png",
+          "name": "Speedy Hedgehog"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-prestige-2.png",
+          "name": "BedWars Prestige 2"
+        }
+      ],
+      "costume_count": 36,
+      "costume_unlocked": [
+        "Parkour Runner (Purple)",
+        "Parkour Runner (Red)",
+        "Hip Hop",
+        "Hoodie Bee",
+        "Goddess of Night",
+        "Elemental Mage",
+        "Replay Raccoon",
+        "Ice Queen",
+        "Orbit",
+        "The Capturer",
+        "Ultimate Cubee",
+        "Clucky",
+        "Cat Musketeer",
+        "Target",
+        "Challenge Caster",
+        "Sandstone",
+        "Sky Fighter",
+        "Oracle",
+        "Spartan Wraith",
+        "Battle Bear",
+        "Sandcastle",
+        "Spirit Sweeper",
+        "King Ghosty",
+        "Sky Goddess",
+        "Chocolate",
+        "Gladiator Creeper",
+        "SkyWars Grandmaster",
+        "Gingerbread Warden",
+        "Nova-1",
+        "Owl",
+        "Granny Ghosty",
+        "The Police",
+        "Detective Sloth (Prestige)",
+        "Anomaly Explorer",
+        "Ultimate Hider",
+        "Challenge Bandit"
+      ],
+      "hat_count": 18,
+      "hat_unlocked": [
+        {
+          "name": "Gifter",
+          "icon": "https://cdn.playhive.com/avatars/hat-gifter.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Fox Ears",
+          "icon": "https://cdn.playhive.com/avatars/hat-fox-ears.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Santa Hat",
+          "icon": "https://cdn.playhive.com/avatars/hat-santa-hat.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Frostflame Crown",
+          "icon": "https://cdn.playhive.com/avatars/hat-frost-crown.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Buzz Buddies",
+          "icon": "https://cdn.playhive.com/avatars/hat-buzz-buddies.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Dr. Zuk's Goggles",
+          "icon": "https://cdn.playhive.com/avatars/hat-party-zuk-goggles.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Neon Crown",
+          "icon": "https://cdn.playhive.com/avatars/hat-party-neon-crown.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Disco Ball",
+          "icon": "https://cdn.playhive.com/avatars/hat-party-disco-ball.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "Sacred Crown",
+          "icon": "https://cdn.playhive.com/avatars/hat-sacred-crown.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Spider Mascot Head",
+          "icon": "https://cdn.playhive.com/avatars/hat-spider-mascot.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Flower Crown",
+          "icon": "https://cdn.playhive.com/avatars/hat-flower-crown.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Raccoon Buddy",
+          "icon": "https://cdn.playhive.com/avatars/hat-raccoon-buddy.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Holiday Lights",
+          "icon": "https://cdn.playhive.com/avatars/hat-holiday-lights.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Endolotl Buddy",
+          "icon": "https://cdn.playhive.com/avatars/hat-endolotl-buddy.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "Mushroom Cap",
+          "icon": "https://cdn.playhive.com/avatars/hat-mushroom-cap.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Witch Hat",
+          "icon": "https://cdn.playhive.com/avatars/hat-witch-hat.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Shark Hat",
+          "icon": "https://cdn.playhive.com/avatars/hat-shark-hat.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": " Soulfire Crown",
+          "icon": "https://cdn.playhive.com/avatars/hat-soulfire-crown.png",
+          "rarity": "MYTHIC",
+          "edition": 524,
+          "edition_total": 1500
+        }
+      ],
+      "backbling_count": 10,
+      "cosmetics.backbling": [
+        {
+          "name": "Butterfly Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-butterfly-wings.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "Cyber Jetpack",
+          "icon": "https://cdn.playhive.com/avatars/backbling-cyber-jetpack.png",
+          "rarity": "LEGENDARY"
+        },
+        {
+          "name": "Solar System",
+          "icon": "https://cdn.playhive.com/avatars/backbling-solar-system.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "Wasp Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-wasp-wings.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Divine Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-divine-wings.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "Rubber Ducky",
+          "icon": "https://cdn.playhive.com/avatars/backbling-rubber-ducky.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "7th Beeday Cake",
+          "icon": "https://cdn.playhive.com/avatars/backbling-seventh-beeday-cake.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Pixel Pal",
+          "icon": "https://cdn.playhive.com/avatars/backbling-pixel-pal.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Snowflake Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-snowflake-wings.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Angel Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-angel-wings.png",
+          "rarity": "EPIC"
+        }
+      ],
+      "friend_count": 77,
+      "equipped_hub_title": "&fBe&udW&7ar&fs ",
+      "equipped_avatar": {
+        "url": "https://cdn.playhive.com/avatars/sky-blessed-deathcrate.png",
+        "name": "Blessed Deathcrate"
+      },
+      "quest_count": 365,
+      "paid_ranks": [
+        "PLUS",
+        "ULTIMATE"
+      ],
+      "pets": [
+        "Elemental",
+        "Crystal Cubee",
+        "Sprite",
+        "Chicken Jockey",
+        "Sakura Fox",
+        "Frosty",
+        "Astro",
+        "Heartolotl",
+        "[placeholder]"
+      ],
+      "mounts": [
+        "Axolotl",
+        "Ancient Guardian",
+        "Cubee Balloon",
+        "Enchanted Bed",
+        "Pegasus",
+        "Chicken Jockey",
+        "Lifeguard Chair",
+        "Owl",
+        "Wooden Reindeer",
+        "Solar System",
+        "Broomstick"
+      ],
+      "player_number": 104289817
+    },
+    "fetchedAt": "2026-09-10T12:49:16.962Z"
+  },
+  "games": [],
+  "snapshots": [
+    {
+      "timestamp": "2026-09-10T12:49:16.962Z",
+      "totalGames": 0,
+      "victories": 0,
+      "winRate": 0,
+      "newGames": 0
+    }
+  ],
+  "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
+}
