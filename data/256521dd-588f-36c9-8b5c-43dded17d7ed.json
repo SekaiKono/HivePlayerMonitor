@@ -1,0 +1,353 @@
+{
+  "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
+  "createdAt": "2026-09-10T17:03:32.156Z",
+  "lastUpdated": "2026-09-10T17:03:32.156Z",
+  "playerInfo": {
+    "main": {
+      "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
+      "xuid": 2535412908489596,
+      "mcid": "641f2a6685031cc9",
+      "username": "sekai kono",
+      "username_cc": "Sekai Kono",
+      "rank": "REGULAR",
+      "first_played": 1694186715,
+      "daily_login_streak": 232,
+      "longest_daily_login_streak": 232,
+      "hub_title_count": 49,
+      "hub_title_unlocked": [
+        "&cThe Short Sighted",
+        "&aThe Sneaky",
+        "&mInsomniac",
+        "&uZzzzzzzzz",
+        "&6The Mysterious",
+        " &c() Beds Destroyed",
+        "&bHa&jpp&ey b&6ee&bda&jy! ",
+        "&aThe Snail",
+        "&bRooftop &dRunner",
+        " &t() Winrate",
+        "&aPillow Plunderer",
+        "&5Sleepwalker",
+        "&dDora the Explorer",
+        "&eAerial Acrobat",
+        "&aThe Grasshopper",
+        "&9Flag Defender",
+        "&fSnooze &eYou &6Lose",
+        " &pBedWars Season 3",
+        " &pSeason 3 &6Top 10k",
+        " &pSeason 3 &6#2247",
+        "&dThe Escapist",
+        "&eThe Hungry",
+        "&aJust &edroppin' &aby",
+        "&dSCORE!",
+        "&aRibbit",
+        "&eClickety &6Clack",
+        "&eThe &bSky Warrior",
+        "&aCan't catch me!",
+        "&cBed &tBouncer",
+        "&aThe Hoarder",
+        "&aThe Good Citizen",
+        "&jDre&bamc&jatc&bher",
+        "&bThe Runner",
+        "&iEat. &jSleep. &fPlay.",
+        "&iBedgician",
+        "&eThe &dDedicated",
+        "&cFreestyler",
+        "&tPil&slow&6man&ecer",
+        "&cThe Freefaller",
+        "&6Champion of the &eSky",
+        "&9 (?) Total Kills",
+        "&7The Builder",
+        "&6I LOVE DIRT",
+        "&cNo Bed? &eNo Problem.",
+        "&dThe Speediest",
+        "&e(?) Day Login Streak",
+        "&cRed &fvs &9Blue",
+        "&fNap &bTime's &jOver",
+        "&fBe&udW&7ar&fs "
+      ],
+      "avatar_count": 32,
+      "avatar_unlocked": [
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-riley.png",
+          "name": "Riley (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-max.png",
+          "name": "Max (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedwars.png",
+          "name": "BedWars"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-dana.png",
+          "name": "Dana (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-snoozing-on-point.png",
+          "name": "Snoozing On Point"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-reese.png",
+          "name": "Reese (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedtime-buccaneer.png",
+          "name": "Bedtime Buccaneer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-pillow-plunderer.png",
+          "name": "Pillow Plunderer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/drop-super-leap.png",
+          "name": "Super Leap"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/build-builder.png",
+          "name": "The Builder"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-red-flag.png",
+          "name": "Red Flag"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-jesse.png",
+          "name": "Jesse (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-blue-flag.png",
+          "name": "Blue Flag"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
+          "name": "Sudden Death"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-hip-hop.png",
+          "name": "Cute Frog"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-charlie.png",
+          "name": "Charlie (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/grav-zoomies.png",
+          "name": "Zoomies"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-bay.png",
+          "name": "Bay (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-mysterious-merchant.png",
+          "name": "Mysterious Merchant"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-island.png",
+          "name": "SkyWars Island"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
+          "name": "BedWars Wizard"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-magical-merchant.png",
+          "name": "BedWars Wizard"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-phoenix.png",
+          "name": "Phoenix (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/party-falling-zuk.png",
+          "name": "Falling Zuk"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-harper.png",
+          "name": "Harper (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bridge-hatch.png",
+          "name": "The Hatch"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-crab-rave.png",
+          "name": "Crab Rave"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-sleepybara.png",
+          "name": "Sleepybara"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-sawyer.png",
+          "name": "Sawyer (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-axolotl-merchant.png",
+          "name": "Axolotl Merchant"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-battle-bear.png",
+          "name": "Battle Bear"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
+          "name": "BedWars Prestige 1"
+        }
+      ],
+      "costume_count": 8,
+      "costume_unlocked": [
+        "Gingerbread Warden",
+        "Parkour Runner (Red)",
+        "Granny Ghosty",
+        "Hip Hop",
+        "Mail Bee",
+        "Lunar Horse",
+        "Chick Wizard",
+        "Battle Bear"
+      ],
+      "hat_count": 4,
+      "hat_unlocked": [
+        {
+          "name": "Mushroom Cap",
+          "icon": "https://cdn.playhive.com/avatars/hat-mushroom-cap.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Gamer Headset",
+          "icon": "https://cdn.playhive.com/avatars/hat-gamer-headset.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Dr. Zuk's Goggles",
+          "icon": "https://cdn.playhive.com/avatars/hat-party-zuk-goggles.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Lil Hat",
+          "icon": "https://cdn.playhive.com/avatars/hat-lil-hat.png",
+          "rarity": "EPIC"
+        }
+      ],
+      "backbling_count": 1,
+      "cosmetics.backbling": [
+        {
+          "name": "7th Beeday Cake",
+          "icon": "https://cdn.playhive.com/avatars/backbling-seventh-beeday-cake.png",
+          "rarity": "RARE"
+        }
+      ],
+      "friend_count": 74,
+      "equipped_hub_title": " &t() Winrate",
+      "equipped_avatar": {
+        "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
+        "name": "Sudden Death"
+      },
+      "quest_count": 314,
+      "pets": [
+        "[placeholder]"
+      ],
+      "mounts": [
+        "Tropical Recliner"
+      ],
+      "player_number": 81797348
+    },
+    "fetchedAt": "2026-09-10T17:03:32.156Z"
+  },
+  "games": [
+    {
+      "time": 1789054689,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 115,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 3,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789055156,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 142,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 5,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789055810,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 267,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 7,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789056558,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 103,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
+      }
+    },
+    {
+      "time": 1789056794,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 114,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 6
+      }
+    },
+    {
+      "time": 1789057077,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 95,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 2,
+        "deaths": 1
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "timestamp": "2026-09-10T17:03:32.156Z",
+      "totalGames": 6,
+      "victories": 6,
+      "winRate": 100,
+      "newGames": 6
+    }
+  ],
+  "customName": "Sekai (Best player for falling into void)"
+}
