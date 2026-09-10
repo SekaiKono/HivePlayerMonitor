@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hive 玩家活動數據看板</title>
+    <style>
+        /* ===== 样式部分（仅新增小时制切换按钮样式） ===== */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #f2f6fc;
+            min-height: 100vh;
+            padding: 24px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 1100px;
+            width: 100%;
+        }
+        .header {
+            background: white;
+            padding: 24px 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+            margin-bottom: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+        }
+        .header h1 {
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: #0b1e33;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .header h1 small {
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: #4b6a8b;
+            margin-left: 8px;
+        }
+        .search-area {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            flex: 1;
+            min-width: 280px;
+            align-items: center;
+        }
+        .search-area input {
+            flex: 2;
+            min-width: 180px;
+            padding: 12px 18px;
+            border: 2px solid #dce4ed;
+            border-radius: 60px;
+            font-size: 0.95rem;
+            background: #fafcff;
+            transition: 0.2s;
+        }
+        .search-area input:focus {
+            border-color: #2563eb;
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.12);
+            background: white;
+        }
+        .search-area button {
+            padding: 12px 28px;
+            background: #0b1e33;
+            color: white;
+            border: none;
+            border-radius: 60px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: 0.15s;
+            white-space: nowrap;
+        }
+        .search-area button:hover {
+            background: #1a3350;
+            transform: scale(1.02);
+        }
+        #status {
+            font-size: 0.9rem;
+            padding: 6px 18px;
+            background: #eef2f8;
+            border-radius: 40px;
+            color: #1f3a5f;
+            min-width: 140px;
+            text-align: center;
+        }
+        /* 語言切換按鈕 */
+        .lang-switch {
+            background: #f1f5f9;
+            border: 1px solid #dce4ed;
+            border-radius: 40px;
+            padding: 4px 6px;
+            display: flex;
+            gap: 4px;
+            cursor: pointer;
+        }
+        .lang-switch .lang-option {
+            padding: 4px 14px;
+            border-radius: 30px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #64748b;
+            transition: 0.2s;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+        }
+        .lang-switch .lang-option.active {
+            background: white;
+            color: #0b1e33;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+        }
+        .lang-switch .lang-option:hover:not(.active) {
+            color: #1e293b;
+        }
+        /* 小時制切換按鈕 */
+        .hour-switch {
+            background: #f1f5f9;
+            border: 1px solid #dce4ed;
+            border-radius: 40px;
+            padding: 4px 6px;
+            display: flex;
+            gap: 4px;
+            cursor: pointer;
+        }
+        .hour-switch .hour-option {
+            padding: 4px 14px;
+            border-radius: 30px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #64748b;
+            transition: 0.2s;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+        }
+        .hour-switch .hour-option.active {
+            background: white;
+            color: #0b1e33;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+        }
+        .hour-switch .hour-option:hover:not(.active) {
+            color: #1e293b;
+        }
+        .timezone-selector {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: #4a6585;
+            background: #f1f5f9;
+            padding: 4px 12px 4px 16px;
+            border-radius: 40px;
+        }
+        .timezone-selector select {
+            background: white;
+            border: 1px solid #dce4ed;
+            border-radius: 30px;
+            padding: 4px 12px 4px 10px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #0b1e33;
+            cursor: pointer;
+            outline: none;
+            transition: 0.2s;
+        }
+        .timezone-selector select:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+        }
+        .player-header {
+            background: white;
+            border-radius: 20px;
+            padding: 18px 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+            border: 1px solid #e9eef4;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            min-height: 76px;
+        }
+        .player-header .player-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        .player-header .player-rank {
+            font-size: 0.9rem;
+            background: #f1f5f9;
+            padding: 4px 16px;
+            border-radius: 40px;
+            font-weight: 600;
+            color: #334155;
+        }
+        .player-header .player-uuid {
+            font-size: 0.8rem;
+            color: #6b7f94;
+            font-family: monospace;
+            margin-left: auto;
+        }
+        .player-header .loading-name {
+            color: #6b7f94;
+            font-size: 0.95rem;
+        }
+        .rank-ultimate { color: #a855f7; }
+        .rank-plus { color: #22c55e; }
+        .rank-regular { color: #6b7280; }
+        .rank-default { color: #000000; }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .stat-card {
+            background: white;
+            padding: 18px 16px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+            text-align: center;
+            border: 1px solid #e9eef4;
+        }
+        .stat-card .num {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #0b1e33;
+            line-height: 1.2;
+        }
+        .stat-card .label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            color: #5a6f88;
+            margin-top: 4px;
+        }
+        .activity-list {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .activity-item {
+            background: white;
+            border-radius: 16px;
+            padding: 18px 22px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+            border-left: 6px solid #2563eb;
+            border: 1px solid #e9eef4;
+            border-left-width: 6px;
+            transition: border-left-color 0.2s;
+        }
+        .activity-item.victory-true {
+            border-left-color: #f59e0b !important;
+            background: linear-gradient(to right, #fffbeb, #ffffff);
+        }
+        .activity-item.victory-false {
+            border-left-color: #9ca3af !important;
+            background: #fafafa;
+        }
+        .activity-item.victory-unknown {
+            border-left-color: #2563eb !important;
+        }
+        .activity-item .top-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 10px;
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eef2f8;
+        }
+        .activity-item .game-name {
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: #0b1e33;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .activity-item .game-name .badge {
+            font-weight: 400;
+            font-size: 0.7rem;
+            background: #e9edf3;
+            padding: 2px 12px;
+            border-radius: 40px;
+            color: #2c4a6e;
+        }
+        .activity-item .timestamp {
+            font-size: 0.8rem;
+            color: #5d738b;
+            font-family: monospace;
+        }
+        .victory-badge {
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 2px 14px;
+            border-radius: 40px;
+            margin-left: 8px;
+        }
+        .victory-badge.win {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        .victory-badge.lose {
+            background: #f3f4f6;
+            color: #6b7280;
+        }
+        .data-section {
+            margin-top: 6px;
+        }
+        .data-row {
+            display: flex;
+            padding: 4px 0;
+            font-size: 0.92rem;
+            border-bottom: 1px solid #f5f7fa;
+        }
+        .data-row .label {
+            font-weight: 500;
+            color: #496183;
+            min-width: 120px;
+            flex-shrink: 0;
+        }
+        .data-row .value {
+            color: #0b1e33;
+            font-weight: 500;
+            word-break: break-all;
+        }
+        .data-row .value.boolean-true {
+            color: #16a34a;
+        }
+        .data-row .value.boolean-false {
+            color: #dc2626;
+        }
+        .data-row .value.null-value {
+            color: #9ca3af;
+            font-style: italic;
+        }
+        .changeset-section {
+            margin-top: 10px;
+            padding: 10px 14px;
+            background: #f8fafd;
+            border-radius: 10px;
+            border: 1px solid #e9eef4;
+        }
+        .changeset-section .section-title {
+            font-weight: 600;
+            color: #1f3a5f;
+            font-size: 0.85rem;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #6b85a0;
+        }
+        .changeset-row {
+            display: flex;
+            padding: 3px 0;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #f0f3f8;
+        }
+        .changeset-row .label {
+            color: #5a7390;
+            min-width: 120px;
+            flex-shrink: 0;
+        }
+        .changeset-row .value {
+            color: #0b1e33;
+            font-weight: 500;
+            word-break: break-all;
+        }
+        .empty-state {
+            background: white;
+            border-radius: 20px;
+            padding: 60px 20px;
+            text-align: center;
+            color: #6a7f98;
+            border: 2px dashed #dce4ed;
+        }
+        .raw-toggle {
+            margin: 20px 0 12px 0;
+            text-align: right;
+        }
+        .raw-toggle button {
+            background: transparent;
+            border: 1px solid #d0dbe8;
+            padding: 6px 18px;
+            border-radius: 40px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            color: #2d4a6b;
+        }
+        .raw-json {
+            background: #0f172a;
+            color: #e2e8f0;
+            border-radius: 16px;
+            padding: 18px 20px;
+            max-height: 400px;
+            overflow: auto;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            word-break: break-all;
+            display: none;
+            margin-top: 8px;
+            border: 1px solid #1e293b;
+        }
+        .raw-json.show {
+            display: block;
+        }
+        .footer-actions {
+            display: flex;
+            gap: 12px;
+            justify-content: flex-end;
+            margin-top: 16px;
+        }
+        .footer-actions button {
+            background: transparent;
+            border: 1px solid #d0dbe8;
+            padding: 6px 18px;
+            border-radius: 40px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            color: #1f3a5f;
+        }
+        .footer-actions button:hover {
+            background: #e6edf6;
+        }
+        @media (max-width: 640px) {
+            .header {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .search-area {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .search-area input {
+                min-width: unset;
+            }
+            #status {
+                text-align: center;
+            }
+            .data-row .label,
+            .changeset-row .label {
+                min-width: 80px;
+            }
+            .player-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .player-header .player-uuid {
+                margin-left: 0;
+            }
+            .timezone-selector {
+                width: 100%;
+                justify-content: center;
+            }
+            .lang-switch {
+                width: 100%;
+                justify-content: center;
+            }
+            .hour-switch {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 搜索頭部 -->
+        <div class="header">
+            <h1>
+                <span data-i18n="appTitle">🎮 Hive 活動</span>
+                <small data-i18n="appSubtitle">數據看板</small>
+            </h1>
+            <div class="search-area">
+                <input type="text" id="uuidInput" placeholder="输入玩家 UUID" value="3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1">
+                <button id="fetchBtn" data-i18n="searchBtn">🔍 查詢</button>
+                <span id="status" data-i18n="statusReady">就緒</span>
+                <!-- 語言切換 -->
+                <div class="lang-switch" id="langSwitch">
+                    <button class="lang-option active" data-lang="zh">中文</button>
+                    <button class="lang-option" data-lang="ja">日本語</button>
+                    <button class="lang-option" data-lang="en">English</button>
+                </div>
+                <!-- 小時制切換 -->
+                <div class="hour-switch" id="hourSwitch">
+                    <button class="hour-option active" data-hour="24">24H</button>
+                    <button class="hour-option" data-hour="12">12H</button>
+                </div>
+                <div class="timezone-selector">
+                    🌍 <span data-i18n="timezoneLabel">時區</span>
+                    <select id="timezoneSelect">
+                        <option value="UTC-12">UTC-12</option>
+                        <option value="UTC-11">UTC-11</option>
+                        <option value="UTC-10">UTC-10</option>
+                        <option value="UTC-9">UTC-9</option>
+                        <option value="UTC-8">UTC-8</option>
+                        <option value="UTC-7">UTC-7</option>
+                        <option value="UTC-6">UTC-6</option>
+                        <option value="UTC-5">UTC-5</option>
+                        <option value="UTC-4">UTC-4</option>
+                        <option value="UTC-3">UTC-3</option>
+                        <option value="UTC-2">UTC-2</option>
+                        <option value="UTC-1">UTC-1</option>
+                        <option value="UTC+0">UTC+0</option>
+                        <option value="UTC+1">UTC+1</option>
+                        <option value="UTC+2">UTC+2</option>
+                        <option value="UTC+3">UTC+3</option>
+                        <option value="UTC+4">UTC+4</option>
+                        <option value="UTC+5">UTC+5</option>
+                        <option value="UTC+6">UTC+6</option>
+                        <option value="UTC+7">UTC+7</option>
+                        <option value="UTC+8" selected>UTC+8</option>
+                        <option value="UTC+9">UTC+9</option>
+                        <option value="UTC+10">UTC+10</option>
+                        <option value="UTC+11">UTC+11</option>
+                        <option value="UTC+12">UTC+12</option>
+                        <option value="UTC+13">UTC+13</option>
+                        <option value="UTC+14">UTC+14</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- 玩家資訊 -->
+        <div class="player-header" id="playerHeader">
+            <span class="loading-name" data-i18n="playerInfoPlaceholder">👤 輸入 UUID 後自動加載玩家信息</span>
+        </div>
+
+        <!-- 統計卡片 -->
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card">
+                <div class="num" id="totalGames">-</div>
+                <div class="label" data-i18n="statTotalGames">總對局</div>
+            </div>
+            <div class="stat-card">
+                <div class="num" id="uniqueGames">-</div>
+                <div class="label" data-i18n="statUniqueGames">遊戲種類</div>
+            </div>
+            <div class="stat-card">
+                <div class="num" id="lastActive">-</div>
+                <div class="label" data-i18n="statLastActive">最近活躍</div>
+            </div>
+            <div class="stat-card">
+                <div class="num" id="winRate">-</div>
+                <div class="label" data-i18n="statWinRate">勝率</div>
+            </div>
+        </div>
+
+        <!-- 活動列表 -->
+        <div id="activityContainer">
+            <div class="empty-state" data-i18n="emptyState">💡 輸入 UUID 後點擊查詢，數據將在此展示</div>
+        </div>
+
+        <!-- 原始 JSON -->
+        <div class="raw-toggle">
+            <button id="toggleRawBtn" data-i18n="toggleRawBtn">📄 顯示原始 JSON</button>
+        </div>
+        <div class="raw-json" id="rawJson"></div>
+
+        <div class="footer-actions">
+            <button id="copyBtn" data-i18n="copyBtn">📋 複製 JSON</button>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            // ========== DOM 引用 ==========
+            const uuidInput = document.getElementById('uuidInput');
+            const fetchBtn = document.getElementById('fetchBtn');
+            const statusDiv = document.getElementById('status');
+            const totalGamesEl = document.getElementById('totalGames');
+            const uniqueGamesEl = document.getElementById('uniqueGames');
+            const lastActiveEl = document.getElementById('lastActive');
+            const winRateEl = document.getElementById('winRate');
+            const activityContainer = document.getElementById('activityContainer');
+            const rawJsonDiv = document.getElementById('rawJson');
+            const toggleRawBtn = document.getElementById('toggleRawBtn');
+            const copyBtn = document.getElementById('copyBtn');
+            const playerHeader = document.getElementById('playerHeader');
+            const timezoneSelect = document.getElementById('timezoneSelect');
+
+            let currentData = null;
+            let currentTimezone = 'UTC+8';
+            let currentLang = 'zh';
+            let currentHourFormat = '24'; // '24' 或 '12'
+
+            // ========== 語言包 ==========
+            const translations = {
+                zh: {
+                    appTitle: '🎮 Hive 活動',
+                    appSubtitle: '數據看板',
+                    searchBtn: '🔍 查詢',
+                    statusReady: '就緒',
+                    timezoneLabel: '時區',
+                    playerInfoPlaceholder: '👤 輸入 UUID 後自動加載玩家信息',
+                    statTotalGames: '總對局',
+                    statUniqueGames: '遊戲種類',
+                    statLastActive: '最近活躍',
+                    statWinRate: '勝率',
+                    emptyState: '💡 輸入 UUID 後點擊查詢，數據將在此展示',
+                    toggleRawBtn: '📄 顯示原始 JSON',
+                    copyBtn: '📋 複製 JSON',
+                    loadingPlayer: '⏳ 加載玩家信息...',
+                    enterUuid: '👤 請輸入 UUID',
+                    playerInfoLoadFailed: '⚠️ 無法加載玩家信息',
+                    cacheDataRequestFailed: '(緩存數據，請求失敗)',
+                    cacheDataRateLimit: '(緩存數據，API 限流中)',
+                    victory: '🏆 勝利',
+                    defeat: '💔 失敗',
+                    game: '遊戲',
+                    unknownGame: '未知遊戲',
+                    changeset: '📦 changeset',
+                    type: 'type',
+                    totalExp: '總經驗',
+                    kills: '擊殺數',
+                    finalKills: '終結擊殺數',
+                    deaths: '死亡數',
+                    bedsDestroyed: '拆床數',
+                    noData: '⚠️ 沒有返回數據',
+                    noActivity: '📭 該玩家暫無活動記錄',
+                    serverNonJson: '服務器返回了非 JSON 數據，請查看原始 JSON',
+                    networkError: '網絡請求失敗，請檢查控制台或 CORS 設置',
+                    pleaseEnterUuid: '⚠️ 請輸入 UUID',
+                    requestFailed: '❌ 錯誤',
+                    requestSuccess: '✅ 成功',
+                    jsonCopied: '📋 已複製 JSON',
+                    noDataToCopy: '⏳ 沒有數據可複製',
+                    copiedFallback: '📋 已複製 (備用)',
+                    ready: '✅ 就緒',
+                },
+                ja: {
+                    appTitle: '🎮 Hive アクティビティ',
+                    appSubtitle: 'データダッシュボード',
+                    searchBtn: '🔍 検索',
+                    statusReady: '準備完了',
+                    timezoneLabel: 'タイムゾーン',
+                    playerInfoPlaceholder: '👤 UUID を入力するとプレイヤー情報が自動で読み込まれます',
+                    statTotalGames: '総試合数',
+                    statUniqueGames: 'ゲーム種類',
+                    statLastActive: '最終アクティブ',
+                    statWinRate: '勝率',
+                    emptyState: '💡 UUID を入力して「検索」をクリックするとデータが表示されます',
+                    toggleRawBtn: '📄 生の JSON を表示',
+                    copyBtn: '📋 JSON をコピー',
+                    loadingPlayer: '⏳ プレイヤー情報を読み込み中...',
+                    enterUuid: '👤 UUID を入力してください',
+                    playerInfoLoadFailed: '⚠️ プレイヤー情報を読み込めませんでした',
+                    cacheDataRequestFailed: '(キャッシュデータ、リクエスト失敗)',
+                    cacheDataRateLimit: '(キャッシュデータ、API 制限中)',
+                    victory: '🏆 勝利',
+                    defeat: '💔 敗北',
+                    game: 'ゲーム',
+                    unknownGame: '不明なゲーム',
+                    changeset: '📦 チェンジセット',
+                    type: 'タイプ',
+                    totalExp: '総経験値',
+                    kills: 'キル数',
+                    finalKills: 'ファイナルキル数',
+                    deaths: 'デス数',
+                    bedsDestroyed: 'ベッド破壊数',
+                    noData: '⚠️ データがありません',
+                    noActivity: '📭 このプレイヤーのアクティビティ記録はありません',
+                    serverNonJson: 'サーバーが JSON 以外のデータを返しました。生の JSON を確認してください。',
+                    networkError: 'ネットワークリクエストに失敗しました。コンソールまたは CORS 設定を確認してください。',
+                    pleaseEnterUuid: '⚠️ UUID を入力してください',
+                    requestFailed: '❌ エラー',
+                    requestSuccess: '✅ 成功',
+                    jsonCopied: '📋 JSON をコピーしました',
+                    noDataToCopy: '⏳ コピーするデータがありません',
+                    copiedFallback: '📋 コピーしました (代替方法)',
+                    ready: '✅ 準備完了',
+                },
+                en: {
+                    appTitle: '🎮 Hive Activity',
+                    appSubtitle: 'Dashboard',
+                    searchBtn: '🔍 Search',
+                    statusReady: 'Ready',
+                    timezoneLabel: 'Timezone',
+                    playerInfoPlaceholder: '👤 Enter UUID to load player info',
+                    statTotalGames: 'Total Games',
+                    statUniqueGames: 'Game Types',
+                    statLastActive: 'Last Active',
+                    statWinRate: 'Win Rate',
+                    emptyState: '💡 Enter a UUID and click Search to display data',
+                    toggleRawBtn: '📄 Show Raw JSON',
+                    copyBtn: '📋 Copy JSON',
+                    loadingPlayer: '⏳ Loading player info...',
+                    enterUuid: '👤 Please enter UUID',
+                    playerInfoLoadFailed: '⚠️ Failed to load player info',
+                    cacheDataRequestFailed: '(Cached data, request failed)',
+                    cacheDataRateLimit: '(Cached data, API rate limited)',
+                    victory: '🏆 Victory',
+                    defeat: '💔 Defeat',
+                    game: 'Game',
+                    unknownGame: 'Unknown Game',
+                    changeset: '📦 changeset',
+                    type: 'type',
+                    totalExp: 'Total XP',
+                    kills: 'Kills',
+                    finalKills: 'Final Kills',
+                    deaths: 'Deaths',
+                    bedsDestroyed: 'Beds Destroyed',
+                    noData: '⚠️ No data returned',
+                    noActivity: '📭 No activity records for this player',
+                    serverNonJson: 'Server returned non-JSON data, please check raw JSON',
+                    networkError: 'Network request failed, please check console or CORS settings',
+                    pleaseEnterUuid: '⚠️ Please enter UUID',
+                    requestFailed: '❌ Error',
+                    requestSuccess: '✅ Success',
+                    jsonCopied: '📋 JSON copied',
+                    noDataToCopy: '⏳ No data to copy',
+                    copiedFallback: '📋 Copied (fallback)',
+                    ready: '✅ Ready',
+                }
+            };
+
+            // ========== 語言切換 ==========
+            function setLanguage(lang) {
+                if (!translations[lang]) return;
+                currentLang = lang;
+                localStorage.setItem('hive_language', lang);
+
+                document.querySelectorAll('.lang-option').forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.lang === lang);
+                });
+
+                document.querySelectorAll('[data-i18n]').forEach(el => {
+                    const key = el.dataset.i18n;
+                    if (translations[lang][key] !== undefined) {
+                        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                            el.placeholder = translations[lang][key];
+                        } else {
+                            const oldHtml = el.innerHTML;
+                            const emojiMatch = oldHtml.match(/^[\u{1F000}-\u{1FFFF}]|^[\u2600-\u27BF]|^[\u{2700}-\u{27BF}]|^[\u{FE00}-\u{FEFF}]|^[🎮🔍📄📋💡👤⏳⚠️✅❌📭🆔🏆💔📦]/u);
+                            let newText = translations[lang][key];
+                            if (emojiMatch) {
+                                if (!newText.startsWith(emojiMatch[0])) {
+                                    newText = emojiMatch[0] + ' ' + newText.replace(/^[\u{1F000}-\u{1FFFF}]|^[\u2600-\u27BF]|^[\u{2700}-\u{27BF}]|^[\u{FE00}-\u{FEFF}]|^[🎮🔍📄📋💡👤⏳⚠️✅❌📭🆔🏆💔📦]/u, '').trim();
+                                }
+                            }
+                            el.textContent = newText;
+                        }
+                    }
+                });
+
+                const statusText = statusDiv.textContent;
+                if (statusText === '就緒' || statusText === '準備完了' || statusText === 'Ready') {
+                    statusDiv.textContent = translations[lang].statusReady;
+                }
+
+                const loadingSpan = playerHeader.querySelector('.loading-name');
+                if (loadingSpan && loadingSpan.dataset.i18n === 'playerInfoPlaceholder') {
+                    if (!playerHeader.querySelector('.player-name')) {
+                        loadingSpan.textContent = translations[lang].playerInfoPlaceholder;
+                    }
+                }
+
+                const emptyState = activityContainer.querySelector('.empty-state');
+                if (emptyState && emptyState.dataset.i18n === 'emptyState' && !currentData) {
+                    emptyState.textContent = translations[lang].emptyState;
+                }
+
+                if (currentData) {
+                    renderData(currentData);
+                }
+            }
+
+            function loadLanguagePreference() {
+                const saved = localStorage.getItem('hive_language');
+                if (saved && translations[saved]) {
+                    setLanguage(saved);
+                    return;
+                }
+                setLanguage('zh');
+            }
+
+            document.getElementById('langSwitch').addEventListener('click', function(e) {
+                const btn = e.target.closest('.lang-option');
+                if (btn && btn.dataset.lang && btn.dataset.lang !== currentLang) {
+                    setLanguage(btn.dataset.lang);
+                }
+            });
+
+            // ========== 小時制切換 ==========
+            function setHourFormat(format) {
+                if (format !== '24' && format !== '12') return;
+                currentHourFormat = format;
+                localStorage.setItem('hive_hour_format', format);
+
+                document.querySelectorAll('.hour-option').forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.hour === format);
+                });
+
+                // 重新渲染數據
+                if (currentData) {
+                    renderData(currentData);
+                }
+            }
+
+            function loadHourFormatPreference() {
+                const saved = localStorage.getItem('hive_hour_format');
+                if (saved && (saved === '24' || saved === '12')) {
+                    setHourFormat(saved);
+                    return;
+                }
+                // 預設 24 小時制
+                setHourFormat('24');
+            }
+
+            document.getElementById('hourSwitch').addEventListener('click', function(e) {
+                const btn = e.target.closest('.hour-option');
+                if (btn && btn.dataset.hour && btn.dataset.hour !== currentHourFormat) {
+                    setHourFormat(btn.dataset.hour);
+                }
+            });
+
+            // ========== 防抖工具 ==========
+            function debounce(func, delay) {
+                let timer;
+                const debounced = function(...args) {
+                    clearTimeout(timer);
+                    timer = setTimeout(() => func.apply(this, args), delay);
+                };
+                debounced.cancel = function() {
+                    clearTimeout(timer);
+                };
+                return debounced;
+            }
+
+            // ========== localStorage 緩存 ==========
+            function loadCacheFromStorage() {
+                try {
+                    const stored = localStorage.getItem('hive_player_cache');
+                    if (stored) {
+                        const parsed = JSON.parse(stored);
+                        const now = Date.now();
+                        const validEntries = Object.entries(parsed).filter(([key, value]) => {
+                            return (now - value.timestamp) < 5 * 60 * 1000;
+                        });
+                        return Object.fromEntries(validEntries);
+                    }
+                } catch (e) {
+                    console.warn('讀取緩存失敗:', e);
+                }
+                return {};
+            }
+
+            function saveCacheToStorage(cache) {
+                try {
+                    localStorage.setItem('hive_player_cache', JSON.stringify(cache));
+                } catch (e) {
+                    console.warn('保存緩存失敗:', e);
+                }
+            }
+
+            let playerInfoCache = loadCacheFromStorage();
+
+            // ========== 時區相關 ==========
+            function loadTimezonePreference() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const tzParam = urlParams.get('tz');
+                if (tzParam) {
+                    const option = timezoneSelect.querySelector(`option[value="${tzParam}"]`);
+                    if (option) {
+                        timezoneSelect.value = tzParam;
+                        currentTimezone = tzParam;
+                        return;
+                    }
+                }
+                const saved = localStorage.getItem('hive_timezone');
+                if (saved) {
+                    const option = timezoneSelect.querySelector(`option[value="${saved}"]`);
+                    if (option) {
+                        timezoneSelect.value = saved;
+                        currentTimezone = saved;
+                        return;
+                    }
+                }
+                timezoneSelect.value = 'UTC+8';
+                currentTimezone = 'UTC+8';
+            }
+
+            function saveTimezonePreference(tz) {
+                localStorage.setItem('hive_timezone', tz);
+                const url = new URL(window.location);
+                url.searchParams.set('tz', tz);
+                window.history.replaceState({}, '', url);
+            }
+
+            function getTimezoneOffsetMinutes(tz) {
+                const match = tz.match(/UTC([+-])(\d{1,2})(?::(\d{2}))?/);
+                if (!match) return 0;
+                const sign = match[1] === '+' ? 1 : -1;
+                const hours = parseInt(match[2]) || 0;
+                const minutes = parseInt(match[3]) || 0;
+                return sign * (hours * 60 + minutes);
+            }
+
+            // ========== 時間工具（核心改動在這裡！） ==========
+            function parseTimestamp(value) {
+                if (!value) return null;
+                if (value instanceof Date) return value;
+                if (typeof value === 'number') {
+                    if (value < 10000000000) return new Date(value * 1000);
+                    return new Date(value);
+                }
+                if (typeof value === 'string') {
+                    const trimmed = value.trim();
+                    if (trimmed === '') return null;
+                    let d = new Date(trimmed);
+                    if (!isNaN(d.getTime())) return d;
+                    const num = Number(trimmed);
+                    if (!isNaN(num)) {
+                        if (num < 10000000000) return new Date(num * 1000);
+                        return new Date(num);
+                    }
+                    return null;
+                }
+                return null;
+            }
+
+            function formatTime(value) {
+                const d = parseTimestamp(value);
+                if (!d || isNaN(d.getTime())) return '無效時間';
+
+                // 1. 先轉換時區
+                const tzOffsetMinutes = getTimezoneOffsetMinutes(currentTimezone);
+                const localOffsetMinutes = -d.getTimezoneOffset();
+                const targetTime = new Date(d.getTime() + (tzOffsetMinutes - localOffsetMinutes) * 60 * 1000);
+
+                const year = targetTime.getFullYear();
+                const month = String(targetTime.getMonth() + 1).padStart(2, '0');
+                const day = String(targetTime.getDate()).padStart(2, '0');
+
+                let hours = targetTime.getHours();
+                let minutes = String(targetTime.getMinutes()).padStart(2, '0');
+                let seconds = String(targetTime.getSeconds()).padStart(2, '0');
+                let ampm = '';
+
+                // 2. 根據小時制格式調整
+                if (currentHourFormat === '12') {
+                    ampm = hours >= 12 ? ' PM' : ' AM';
+                    hours = hours % 12;
+                    if (hours === 0) hours = 12;
+                }
+                const hoursStr = String(hours).padStart(2, '0');
+
+                return `${year}/${month}/${day} ${hoursStr}:${minutes}:${seconds}${ampm}`;
+            }
+
+            function getLatestTime(activities) {
+                let latest = null;
+                activities.forEach(a => {
+                    const candidates = [a.timestamp, a.time, a.date, a.createdAt, a.updatedAt, a.lastUpdate];
+                    for (const c of candidates) {
+                        if (c) {
+                            const d = parseTimestamp(c);
+                            if (d && !isNaN(d.getTime())) {
+                                if (!latest || d.getTime() > latest.getTime()) {
+                                    latest = d;
+                                }
+                                break;
+                            }
+                        }
+                    }
+                });
+                return latest;
+            }
+
+            // ========== 翻譯輔助 ==========
+            function t(key) {
+                return translations[currentLang]?.[key] || key;
+            }
+
+            // ========== 渲染函數 ==========
+            function renderPlayerInfo(data, uuid) {
+                const main = data.main || {};
+                const username = main.username_cc || main.username || uuid;
+                const rank = main.rank || 'REGULAR';
+
+                let rankClass = 'rank-default';
+                let rankDisplay = rank;
+                if (rank === 'ULTIMATE') {
+                    rankClass = 'rank-ultimate';
+                    rankDisplay = '👑 ULTIMATE';
+                } else if (rank === 'PLUS') {
+                    rankClass = 'rank-plus';
+                    rankDisplay = '➕ PLUS';
+                } else if (rank === 'REGULAR') {
+                    rankClass = 'rank-regular';
+                    rankDisplay = 'REGULAR';
+                } else {
+                    rankDisplay = rank || 'REGULAR';
+                }
+
+                playerHeader.innerHTML = `
+                    <span class="player-name ${rankClass}">${username}</span>
+                    <span class="player-rank">${rankDisplay}</span>
+                    <span class="player-uuid">🆔 ${uuid}</span>
+                `;
+            }
+
+            function renderActivityItem(item, index) {
+                const game = item.game || item.gameType || t('unknownGame');
+                const gameDisplay = game.charAt(0).toUpperCase() + game.slice(1);
+                const timeDisplay = formatTime(getLatestTime([item]));
+
+                let victoryClass = 'victory-unknown';
+                let victoryBadge = '';
+                if (item.victory === true) {
+                    victoryClass = 'victory-true';
+                    victoryBadge = `<span class="victory-badge win">${t('victory')}</span>`;
+                } else if (item.victory === false) {
+                    victoryClass = 'victory-false';
+                    victoryBadge = `<span class="victory-badge lose">${t('defeat')}</span>`;
+                }
+
+                let html = `
+                    <div class="activity-item ${victoryClass}">
+                        <div class="top-row">
+                            <span class="game-name">
+                                ${t('game')} #${index + 1}
+                                <span class="badge">${gameDisplay}</span>
+                                ${victoryBadge}
+                            </span>
+                            <span class="timestamp">🕒 ${timeDisplay}</span>
+                        </div>
+                        <div class="data-section">
+                `;
+
+                if (item.type !== undefined && item.type !== null) {
+                    html += `<div class="data-row"><span class="label">${t('type')}</span><span class="value">${item.type}</span></div>`;
+                }
+
+                if (item.changeset && typeof item.changeset === 'object' && Object.keys(item.changeset).length > 0) {
+                    html += `<div class="changeset-section"><div class="section-title">${t('changeset')}</div>`;
+                    const specialFields = {
+                        'xp': t('totalExp'),
+                        'kills': t('kills'),
+                        'final_kills': t('finalKills'),
+                        'deaths': t('deaths'),
+                        'beds_destroyed': t('bedsDestroyed')
+                    };
+                    const skipFields = ['played', 'victories'];
+                    const specialOrder = ['xp', 'kills', 'final_kills', 'deaths', 'beds_destroyed'];
+
+                    for (const key of specialOrder) {
+                        if (skipFields.includes(key)) continue;
+                        if (item.changeset[key] !== undefined && item.changeset[key] !== null) {
+                            const label = specialFields[key] || key;
+                            const value = item.changeset[key];
+                            const display = (value === null || value === undefined) ? '-' : String(value);
+                            html += `<div class="changeset-row"><span class="label">${label}</span><span class="value">${display}</span></div>`;
+                        }
+                    }
+
+                    const shownKeys = [...specialOrder, ...skipFields];
+                    for (const [key, value] of Object.entries(item.changeset)) {
+                        if (shownKeys.includes(key)) continue;
+                        if (skipFields.includes(key)) continue;
+                        if (value === null || value === undefined) continue;
+                        let display = value;
+                        if (typeof value === 'object') {
+                            display = JSON.stringify(value);
+                        }
+                        html += `<div class="changeset-row"><span class="label">${key}</span><span class="value">${display}</span></div>`;
+                    }
+                    html += `</div>`;
+                }
+
+                const topLevelShown = ['game', 'gameType', 'type', 'victory', 'timestamp', 'time', 'date', 'createdAt', 'updatedAt', 'lastUpdate', 'changeset'];
+                for (const [key, value] of Object.entries(item)) {
+                    if (topLevelShown.includes(key)) continue;
+                    if (value === null || value === undefined) continue;
+                    if (typeof value === 'object') continue;
+                    let display = String(value);
+                    if (typeof value === 'boolean') {
+                        display = value ? '是 ✅' : '否 ❌';
+                    }
+                    html += `<div class="data-row"><span class="label">${key}</span><span class="value">${display}</span></div>`;
+                }
+
+                html += `</div></div>`;
+                return html;
+            }
+
+            function renderData(data) {
+                currentData = data;
+                activityContainer.innerHTML = '';
+
+                if (!data) {
+                    activityContainer.innerHTML = `<div class="empty-state">${t('noData')}</div>`;
+                    totalGamesEl.textContent = '-';
+                    uniqueGamesEl.textContent = '-';
+                    lastActiveEl.textContent = '-';
+                    winRateEl.textContent = '-';
+                    rawJsonDiv.textContent = '';
+                    rawJsonDiv.classList.remove('show');
+                    return;
+                }
+
+                let activities = Array.isArray(data) ? data : (data.data || data.activities || []);
+                if (!Array.isArray(activities) || activities.length === 0) {
+                    activityContainer.innerHTML = `<div class="empty-state">${t('noActivity')}</div>`;
+                    totalGamesEl.textContent = '0';
+                    uniqueGamesEl.textContent = '0';
+                    lastActiveEl.textContent = '-';
+                    winRateEl.textContent = '0%';
+                    rawJsonDiv.textContent = JSON.stringify(data, null, 2);
+                    return;
+                }
+
+                const total = activities.length;
+                const gameSet = new Set(activities.map(a => a.game || a.gameType || '未知'));
+                const unique = gameSet.size;
+                const latest = getLatestTime(activities);
+                const latestDisplay = latest ? formatTime(latest) : '-';
+                const victories = activities.filter(a => a.victory === true).length;
+                const winRate = total > 0 ? Math.round((victories / total) * 100) : 0;
+
+                totalGamesEl.textContent = total;
+                uniqueGamesEl.textContent = unique;
+                lastActiveEl.textContent = latestDisplay;
+                winRateEl.textContent = `${winRate}%`;
+
+                const sorted = [...activities].sort((a, b) => {
+                    const ta = getLatestTime([a]);
+                    const tb = getLatestTime([b]);
+                    if (!ta && !tb) return 0;
+                    if (!ta) return 1;
+                    if (!tb) return -1;
+                    return tb.getTime() - ta.getTime();
+                });
+
+                let html = '<div class="activity-list">';
+                sorted.forEach((item, index) => {
+                    html += renderActivityItem(item, index);
+                });
+                html += '</div>';
+                activityContainer.innerHTML = html;
+
+                rawJsonDiv.textContent = JSON.stringify(data, null, 2);
+                rawJsonDiv.classList.remove('show');
+                toggleRawBtn.textContent = t('toggleRawBtn');
+            }
+
+            // ========== 玩家信息獲取 ==========
+            async function fetchPlayerInfo(uuid) {
+                if (!uuid) {
+                    playerHeader.innerHTML = `<span class="loading-name">${t('enterUuid')}</span>`;
+                    return;
+                }
+
+                const trimmed = uuid.trim();
+
+                if (playerInfoCache[trimmed]) {
+                    const cached = playerInfoCache[trimmed];
+                    if (Date.now() - cached.timestamp < 60 * 60 * 1000) {
+                        renderPlayerInfo(cached.data, trimmed);
+                        return;
+                    } else {
+                        delete playerInfoCache[trimmed];
+                        saveCacheToStorage(playerInfoCache);
+                    }
+                }
+
+                playerHeader.innerHTML = `<span class="loading-name">${t('loadingPlayer')}</span>`;
+
+                try {
+                    const url = `https://api.playhive.com/v0/game/all/main/${trimmed}`;
+                    const response = await fetch(url);
+
+                    if (response.status === 429) {
+                        if (playerInfoCache[trimmed]) {
+                            const cached = playerInfoCache[trimmed];
+                            if (Date.now() - cached.timestamp < 60 * 60 * 1000) {
+                                renderPlayerInfo(cached.data, trimmed);
+                                return;
+                            } else {
+                                delete playerInfoCache[trimmed];
+                                saveCacheToStorage(playerInfoCache);
+                            }
+                        }
+                        throw new Error('請求過於頻繁 (HTTP 429)，請稍後再試');
+                    }
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+
+                    const data = await response.json();
+
+                    playerInfoCache[trimmed] = {
+                        data: data,
+                        timestamp: Date.now()
+                    };
+                    saveCacheToStorage(playerInfoCache);
+
+                    renderPlayerInfo(data, trimmed);
+
+                } catch (error) {
+                    console.warn('獲取玩家信息失敗:', error);
+                    if (playerInfoCache[trimmed]) {
+                        const cached = playerInfoCache[trimmed];
+                        renderPlayerInfo(cached.data, trimmed);
+                        playerHeader.innerHTML += ` <span style="color:#f59e0b;font-size:0.8rem;">${t('cacheDataRequestFailed')}</span>`;
+                        return;
+                    }
+                    playerHeader.innerHTML = `<span class="loading-name">${t('playerInfoLoadFailed')} (${error.message})</span>`;
+                }
+            }
+
+            // ========== 請求主數據 ==========
+            async function fetchData(uuid) {
+                const trimmed = uuid.trim();
+                if (!trimmed) {
+                    statusDiv.textContent = t('pleaseEnterUuid');
+                    statusDiv.style.background = '#fee2e2';
+                    return;
+                }
+
+                await fetchPlayerInfo(trimmed);
+
+                const url = `https://api.playhive.com/v0/player/activity/${trimmed}`;
+                statusDiv.textContent = '⏳ 請求中...';
+                statusDiv.style.background = '#e0edff';
+
+                try {
+                    const response = await fetch(url);
+                    const rawText = await response.text();
+                    let json = null;
+                    try {
+                        json = JSON.parse(rawText);
+                    } catch (e) {
+                        statusDiv.textContent = `⚠️ ${t('serverNonJson')}`;
+                        statusDiv.style.background = '#fef3c7';
+                        activityContainer.innerHTML = `<div class="empty-state">${t('serverNonJson')}</div>`;
+                        rawJsonDiv.textContent = rawText;
+                        rawJsonDiv.classList.add('show');
+                        toggleRawBtn.textContent = '📄 ' + t('toggleRawBtn').replace('📄 ', '');
+                        totalGamesEl.textContent = '-';
+                        uniqueGamesEl.textContent = '-';
+                        lastActiveEl.textContent = '-';
+                        winRateEl.textContent = '-';
+                        return;
+                    }
+
+                    if (!response.ok) {
+                        const msg = json?.message || json?.error || `HTTP ${response.status}`;
+                        statusDiv.textContent = `${t('requestFailed')}: ${msg}`;
+                        statusDiv.style.background = '#fee2e2';
+                        renderData(json);
+                        return;
+                    }
+
+                    statusDiv.textContent = `${t('requestSuccess')} (${response.status})`;
+                    statusDiv.style.background = '#dcfce7';
+                    renderData(json);
+
+                } catch (err) {
+                    statusDiv.textContent = `${t('networkError')}: ${err.message}`;
+                    statusDiv.style.background = '#fee2e2';
+                    activityContainer.innerHTML = `<div class="empty-state">${t('networkError')}</div>`;
+                    console.error(err);
+                }
+            }
+
+            // ========== 防抖的玩家信息加載 ==========
+            const debouncedFetchPlayerInfo = debounce((uuid) => {
+                if (uuid && uuid.trim()) {
+                    fetchPlayerInfo(uuid.trim());
+                }
+            }, 500);
+
+            // ========== 時區切換事件 ==========
+            timezoneSelect.addEventListener('change', function() {
+                const newTz = this.value;
+                if (newTz === currentTimezone) return;
+                currentTimezone = newTz;
+                saveTimezonePreference(newTz);
+                if (currentData) {
+                    renderData(currentData);
+                }
+            });
+
+            // ========== 事件綁定 ==========
+            fetchBtn.addEventListener('click', () => fetchData(uuidInput.value));
+
+            uuidInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    fetchBtn.click();
+                }
+            });
+
+            uuidInput.addEventListener('input', () => {
+                const val = uuidInput.value.trim();
+                if (val) {
+                    debouncedFetchPlayerInfo(val);
+                } else {
+                    playerHeader.innerHTML = `<span class="loading-name">${t('enterUuid')}</span>`;
+                }
+            });
+
+            uuidInput.addEventListener('blur', () => {
+                const val = uuidInput.value.trim();
+                if (val) {
+                    debouncedFetchPlayerInfo.cancel?.();
+                    fetchPlayerInfo(val);
+                }
+            });
+
+            toggleRawBtn.addEventListener('click', () => {
+                rawJsonDiv.classList.toggle('show');
+                toggleRawBtn.textContent = rawJsonDiv.classList.contains('show') ?
+                    `📄 ${t('toggleRawBtn').replace('📄 ', '')}` :
+                    `📄 ${t('toggleRawBtn').replace('📄 ', '')}`;
+            });
+
+            copyBtn.addEventListener('click', () => {
+                const text = rawJsonDiv.textContent;
+                if (!text || text.trim() === '') {
+                    statusDiv.textContent = t('noDataToCopy');
+                    statusDiv.style.background = '#fef3c7';
+                    return;
+                }
+                navigator.clipboard.writeText(text).then(() => {
+                    statusDiv.textContent = t('jsonCopied');
+                    statusDiv.style.background = '#dcfce7';
+                    setTimeout(() => {
+                        statusDiv.textContent = t('ready');
+                        statusDiv.style.background = '#eef2f8';
+                    }, 2000);
+                }).catch(() => {
+                    const range = document.createRange();
+                    range.selectNode(rawJsonDiv);
+                    window.getSelection().removeAllRanges();
+                    window.getSelection().addRange(range);
+                    document.execCommand('copy');
+                    statusDiv.textContent = t('copiedFallback');
+                });
+            });
+
+            // ========== 自動加載 ==========
+            window.addEventListener('load', () => {
+                loadLanguagePreference();
+                loadHourFormatPreference();
+                loadTimezonePreference();
+                const initialUuid = uuidInput.value.trim();
+                if (initialUuid) {
+                    setTimeout(() => {
+                        fetchPlayerInfo(initialUuid);
+                        fetchBtn.click();
+                    }, 400);
+                }
+            });
+
+        })();
+    </script>
+</body>
+
+</html>
