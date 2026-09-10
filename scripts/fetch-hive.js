@@ -9,7 +9,7 @@ const DATA_DIR = path.join(ROOT, 'data');
 const CONFIG_FILE = path.join(ROOT, 'config', 'players.json');
 
 const MAX_GAMES_PER_PLAYER = 5000; // 每個玩家最多保留幾筆對局
-const REQUEST_DELAY_MS = 2500;     // 每次請求之間的延遲，避免 429
+const REQUEST_DELAY_MS = 1000;     // 每次請求之間的延遲
 
 // ========== 工具 ==========
 function sleep(ms) {
@@ -43,7 +43,6 @@ async function fetchJson(url, retries = 3) {
 // 從一筆 activity 取出可作為唯一 key 的時間戳
 function getActivityKey(activity) {
   if (!activity || typeof activity !== 'object') return null;
-  // Hive 的活動資料可能有多種時間欄位
   const candidates = [
     activity.timestamp,
     activity.time,
@@ -56,8 +55,19 @@ function getActivityKey(activity) {
       return String(c);
     }
   }
-  // 沒有時間欄位就退回用整筆資料的雜湊（避免完全重複）
   return 'raw:' + JSON.stringify(activity);
+}
+
+function parseTime(value) {
+  if (!value) return null;
+  if (typeof value === 'number') {
+    return value < 1e10 ? value * 1000 : value;
+  }
+  const s = String(value).trim();
+  const num = Number(s);
+  if (!isNaN(num)) return num < 1e10 ? num * 1000 : num;
+  const d = new Date(s);
+  return isNaN(d.getTime()) ? null : d.getTime();
 }
 
 // 抓一位玩家的資料
@@ -92,13 +102,12 @@ async function trackPlayer(uuid, nowIso) {
     createdAt: nowIso,
     lastUpdated: nowIso,
     playerInfo: null,
-    games: [],        // 去重後的對局列表（舊→新）
-    snapshots: [],    // 每次抓取的摘要（用於趨勢圖）
+    games: [],
+    snapshots: [],
   };
   if (fs.existsSync(file)) {
     try {
       store = JSON.parse(fs.readFileSync(file, 'utf8'));
-      // 向後兼容
       if (!Array.isArray(store.games)) store.games = [];
       if (!Array.isArray(store.snapshots)) store.snapshots = [];
     } catch (e) {
@@ -154,7 +163,6 @@ async function trackPlayer(uuid, nowIso) {
     winRate: store.games.length ? +(victories / store.games.length * 100).toFixed(2) : 0,
     newGames: added,
   });
-  // 快照也限制長度（例如最近 2000 筆）
   if (store.snapshots.length > 2000) {
     store.snapshots = store.snapshots.slice(-2000);
   }
@@ -166,18 +174,6 @@ async function trackPlayer(uuid, nowIso) {
   fs.writeFileSync(file, JSON.stringify(store, null, 2));
   console.log(`  total games: ${store.games.length} (+${added} new)`);
   console.log(`  win rate: ${store.snapshots[store.snapshots.length - 1].winRate}%`);
-}
-
-function parseTime(value) {
-  if (!value) return null;
-  if (typeof value === 'number') {
-    return value < 1e10 ? value * 1000 : value;
-  }
-  const s = String(value).trim();
-  const num = Number(s);
-  if (!isNaN(num)) return num < 1e10 ? num * 1000 : num;
-  const d = new Date(s);
-  return isNaN(d.getTime()) ? null : d.getTime();
 }
 
 // ========== 主流程 ==========
