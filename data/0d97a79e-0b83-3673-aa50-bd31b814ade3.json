@@ -1,0 +1,322 @@
+{
+  "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
+  "createdAt": "2026-09-10T10:09:41.527Z",
+  "lastUpdated": "2026-09-10T10:09:41.527Z",
+  "playerInfo": {
+    "main": {
+      "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
+      "xuid": 2535453683643602,
+      "mcid": "86a0ef96d0e90a49",
+      "username": "takatig15",
+      "username_cc": "TakatiG15",
+      "rank": "ULTIMATE",
+      "first_played": 1755507914,
+      "daily_login_streak": 280,
+      "longest_daily_login_streak": 280,
+      "hub_title_count": 51,
+      "hub_title_unlocked": [
+        "&mInsomniac",
+        "&uZzzzzzzzz",
+        " &c() Beds Destroyed",
+        "&9Flag Defender",
+        "&cThe Short Sighted",
+        "&aThe Sneaky",
+        "&6The Mysterious",
+        "&dThe Escapist",
+        " &t() Winrate",
+        "&aPillow Plunderer",
+        "&5Sleepwalker",
+        "&fSnooze &eYou &6Lose",
+        "&bHa&jpp&ey b&6ee&bda&jy! ",
+        "&bRooftop &dRunner",
+        "&aCan't catch me!",
+        "&aThe Snail",
+        "&jaura",
+        "&cBed &tBouncer",
+        "&fThe &eBees &aKnees",
+        "&bThe &6MV&eBEE",
+        "&eB&6u&ez&6z&ei&6n&e'",
+        "&cIt's rewind time!",
+        "&fLights, Camera, &6ACTION!",
+        "&6Live. &eLaugh. &bBuzz.",
+        "&iULTIMATE &jPOWER!",
+        "&aHive++",
+        "&aThe Good Citizen",
+        "&jDre&bamc&jatc&bher",
+        "&dSCORE!",
+        " &pBedWars Season 3",
+        " &pSeason 3 &6Top 1k",
+        " &pSeason 3 &6#565",
+        "&iEat. &jSleep. &fPlay.",
+        "&6I LOVE DIRT",
+        "&iBedgician",
+        "&aThe Grasshopper",
+        "&tPil&slow&6man&ecer",
+        "&eThe &bSky Warrior",
+        "&eThe &dDedicated",
+        "&cNo Bed? &eNo Problem.",
+        "&6Champion of the &eSky",
+        "&fNap &bTime's &jOver",
+        "&fBe&udW&7ar&fs ",
+        "&bThe Runner",
+        "&5Unstoppable",
+        "&7Cloud Croissant",
+        "&aRibbit",
+        "&fCH&pIC&2KEN &fJO&pCK&2EY!",
+        "&e(?) Day Login Streak",
+        "&9 (?) Total Kills",
+        "&eBe&6dW&sar&ts "
+      ],
+      "avatar_count": 36,
+      "avatar_unlocked": [
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedwars.png",
+          "name": "BedWars"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-red-flag.png",
+          "name": "Red Flag"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-riley.png",
+          "name": "Riley (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-max.png",
+          "name": "Max (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-dana.png",
+          "name": "Dana (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-snoozing-on-point.png",
+          "name": "Snoozing On Point"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedtime-buccaneer.png",
+          "name": "Bedtime Buccaneer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-pillow-plunderer.png",
+          "name": "Pillow Plunderer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
+          "name": "Sudden Death"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-blue-flag.png",
+          "name": "Blue Flag"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-jesse.png",
+          "name": "Jesse (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-mysterious-merchant.png",
+          "name": "Mysterious Merchant"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/embee.png",
+          "name": "Embee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bad-bee.png",
+          "name": "Bad Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/buff-bee.png",
+          "name": "Buff Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/it-bee-fine.png",
+          "name": "It Bee Fine"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mvbee.png",
+          "name": "MVBee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/action.png",
+          "name": "Action"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-amethyst-cubee.png",
+          "name": "Amethyst Cubee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-graffiti-bee.png",
+          "name": "Graffiti Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-retrowave-cubee.png",
+          "name": "Retrowave Cubee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
+          "name": "BedWars Wizard"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-magical-merchant.png",
+          "name": "BedWars Wizard"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-island.png",
+          "name": "SkyWars Island"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-castle.png",
+          "name": "Castle"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-sleepybara.png",
+          "name": "Sleepybara"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-axolotl-merchant.png",
+          "name": "Axolotl Merchant"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-battle-bear.png",
+          "name": "Battle Bear"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
+          "name": "BedWars Prestige 1"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-reese.png",
+          "name": "Reese (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-bay.png",
+          "name": "Bay (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-hip-hop.png",
+          "name": "Cute Frog"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/pet-chicken-jockey.png",
+          "name": "Chicken Jockey (Pet)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mount-chicken-jockey.png",
+          "name": "Chicken Jockey (Mount)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-crab-rave.png",
+          "name": "Crab Rave"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-prestige-2.png",
+          "name": "BedWars Prestige 2"
+        }
+      ],
+      "costume_count": 10,
+      "costume_unlocked": [
+        "Ghosty Claus",
+        "Gingerbread Warden",
+        "Frost Bjorn",
+        "Hoodie Bee",
+        "Replay Raccoon",
+        "Ultimate Cubee",
+        "Battle Bear",
+        "Chick Wizard",
+        "Hip Hop",
+        "Challenge Bandit"
+      ],
+      "hat_count": 6,
+      "hat_unlocked": [
+        {
+          "name": "Santa Hat",
+          "icon": "https://cdn.playhive.com/avatars/hat-santa-hat.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Gifter",
+          "icon": "https://cdn.playhive.com/avatars/hat-gifter.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Buzz Buddies",
+          "icon": "https://cdn.playhive.com/avatars/hat-buzz-buddies.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Shining Crown",
+          "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Gamer Headset",
+          "icon": "https://cdn.playhive.com/avatars/hat-gamer-headset.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Flower Crown",
+          "icon": "https://cdn.playhive.com/avatars/hat-flower-crown.png",
+          "rarity": "RARE"
+        }
+      ],
+      "backbling_count": 3,
+      "cosmetics.backbling": [
+        {
+          "name": "7th Beeday Cake",
+          "icon": "https://cdn.playhive.com/avatars/backbling-seventh-beeday-cake.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Angel Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-angel-wings.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "Wasp Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-wasp-wings.png",
+          "rarity": "RARE"
+        }
+      ],
+      "friend_count": 259,
+      "equipped_hub_title": "&eBe&6dW&sar&ts ",
+      "equipped_avatar": {
+        "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
+        "name": "BedWars Wizard"
+      },
+      "equipped_hat": {
+        "name": "Flower Crown",
+        "icon": "https://cdn.playhive.com/avatars/hat-flower-crown.png",
+        "rarity": "RARE"
+      },
+      "quest_count": 5,
+      "paid_ranks": [
+        "PLUS",
+        "ULTIMATE"
+      ],
+      "pets": [
+        "Crystal Cubee",
+        "[placeholder]",
+        "Chicken Jockey"
+      ],
+      "mounts": [
+        "Wooden Reindeer",
+        "Cubee Balloon",
+        "Chicken Jockey",
+        "Tropical Recliner"
+      ],
+      "player_number": 115035623
+    },
+    "fetchedAt": "2026-09-10T10:09:41.527Z"
+  },
+  "games": [],
+  "snapshots": [
+    {
+      "timestamp": "2026-09-10T10:09:41.527Z",
+      "totalGames": 0,
+      "victories": 0,
+      "winRate": 0,
+      "newGames": 0
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
+  "createdAt": "2026-09-10T10:09:41.527Z",
+  "lastUpdated": "2026-09-10T10:09:41.527Z",
+  "playerInfo": {
+    "main": {
+      "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
+      "xuid": 2535455526170546,
+      "mcid": "e45af8b48648ceb9",
+      "username": "issacni",
+      "username_cc": "Issacni",
+      "rank": "ULTIMATE",
+      "first_played": 1731670047,
+      "daily_login_streak": 86,
+      "longest_daily_login_streak": 485,
+      "hub_title_count": 59,
+      "hub_title_unlocked": [
+        "&mInsomniac",
+        "&bThe &6MV&eBEE",
+        "&eB&6u&ez&6z&ei&6n&e'",
+        "&fThe &eBees &aKnees",
+        "&uZzzzzzzzz",
+        "&aThe Good Citizen",
+        " &c() Beds Destroyed",
+        " &t() K/D Ratio",
+        "&eAir &aSwimmer",
+        " &t() Winrate",
+        "&aPillow Plunderer",
+        "&iNight &mTerror",
+        "&pBed Bug",
+        " &4() Victories",
+        "&aThe Snail",
+        "&5Sleepwalker",
+        "&cThe Short Sighted",
+        "&t Season 1 &6Top 100K",
+        "&t BedWars Season 1",
+        "&fSnooze &eYou &6Lose",
+        "&t Season 1 &6#29430",
+        "&cBed &tBouncer",
+        "&jDre&bamc&jatc&bher",
+        "&iEat. &jSleep. &fPlay.",
+        "&iBedgician",
+        "&tPil&slow&6man&ecer",
+        "&eThe &dDedicated",
+        "&iULTIMATE &jPOWER!",
+        "&aHive++",
+        "&6Live. &eLaugh. &bBuzz.",
+        "&cIt's rewind time!",
+        "&fLights, Camera, &6ACTION!",
+        "&cFreestyler",
+        "&dSCORE!",
+        "&7The Builder",
+        "&cNo Bed? &eNo Problem.",
+        "&e(?) Day Login Streak",
+        "&aThe Sneaky",
+        "&eThe &bSky Warrior",
+        "&6Champion of the &eSky",
+        "&7Cloud Croissant",
+        "&fNap &bTime's &jOver",
+        "&aJust &edroppin' &aby",
+        " &iSeason 2 &j#73",
+        " &iBedWars Season 2",
+        " &iSeason 2 &jTop 100",
+        "&bHa&jpp&ey b&6ee&bda&jy! ",
+        "&6Gourd &sVibes",
+        "&9 (?) Total Wins",
+        "&fBe&udW&7ar&fs ",
+        "&9Flag Defender",
+        " &pBedWars Season 3",
+        " &pSeason 3 &6Top 100",
+        " &pSeason 3 &6#7",
+        "&dThe Suspicious",
+        "&9 (?) Total Kills",
+        "&aRibbit",
+        "&aThe Trustable",
+        "&eBe&6dW&sar&ts "
+      ],
+      "avatar_count": 41,
+      "avatar_unlocked": [
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedwars.png",
+          "name": "BedWars"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mvbee.png",
+          "name": "MVBee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bad-bee.png",
+          "name": "Bad Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/it-bee-fine.png",
+          "name": "It Bee Fine"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/buff-bee.png",
+          "name": "Buff Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/embee.png",
+          "name": "Embee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-snoozing-on-point.png",
+          "name": "Snoozing On Point"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/pet-endolotl.png",
+          "name": "Endolotl Pet"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedtime-buccaneer.png",
+          "name": "Bedtime Buccaneer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-pillow-plunderer.png",
+          "name": "Pillow Plunderer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-unicorn.png",
+          "name": "Unicorn"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-vr-gamer.png",
+          "name": "VR Gamer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-target.png",
+          "name": "Target"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/drop-super-leap.png",
+          "name": "Super Leap"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
+          "name": "Sudden Death"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-riley.png",
+          "name": "Riley (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-mysterious-merchant.png",
+          "name": "Mysterious Merchant"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
+          "name": "BedWars Wizard"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-magical-merchant.png",
+          "name": "BedWars Wizard"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-reese.png",
+          "name": "Reese (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/action.png",
+          "name": "Action"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-amethyst-cubee.png",
+          "name": "Amethyst Cubee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-graffiti-bee.png",
+          "name": "Graffiti Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-retrowave-cubee.png",
+          "name": "Retrowave Cubee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/build-builder.png",
+          "name": "The Builder"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/party-falling-zuk.png",
+          "name": "Falling Zuk"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-harper.png",
+          "name": "Harper (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-sleepybara.png",
+          "name": "Sleepybara"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-axolotl-merchant.png",
+          "name": "Axolotl Merchant"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-island.png",
+          "name": "SkyWars Island"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-battle-bear.png",
+          "name": "Battle Bear"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/backbling-galaxy-wings.png",
+          "name": "Galaxy Wings (Backbling)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-max.png",
+          "name": "Max (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/gi-vampurr.png",
+          "name": "Vampurr"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/ctf-red-flag.png",
+          "name": "Red Flag"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/grav-zoomies.png",
+          "name": "Zoomies"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
+          "name": "BedWars Prestige 1"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-crab-rave.png",
+          "name": "Crab Rave"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/monster-eli.png",
+          "name": "Eli (Monster)"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-hip-hop.png",
+          "name": "Cute Frog"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-prestige-2.png",
+          "name": "BedWars Prestige 2"
+        }
+      ],
+      "costume_count": 9,
+      "costume_unlocked": [
+        "Hoodie Bee",
+        "Target",
+        "Bunny Knight",
+        "Ultimate Cubee",
+        "Replay Raccoon",
+        "Battle Bear",
+        "Amethyst",
+        "Time Owl",
+        "Hip Hop"
+      ],
+      "hat_count": 5,
+      "hat_unlocked": [
+        {
+          "name": "Gifter",
+          "icon": "https://cdn.playhive.com/avatars/hat-gifter.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Endolotl Buddy",
+          "icon": "https://cdn.playhive.com/avatars/hat-endolotl-buddy.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "Buzz Buddies",
+          "icon": "https://cdn.playhive.com/avatars/hat-buzz-buddies.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Santa Hat",
+          "icon": "https://cdn.playhive.com/avatars/hat-santa-hat.png",
+          "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Shining Crown",
+          "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
+          "rarity": "RARE"
+        }
+      ],
+      "backbling_count": 5,
+      "cosmetics.backbling": [
+        {
+          "name": "Angel Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-angel-wings.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "Cyber Jetpack",
+          "icon": "https://cdn.playhive.com/avatars/backbling-cyber-jetpack.png",
+          "rarity": "LEGENDARY"
+        },
+        {
+          "name": "Wasp Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-wasp-wings.png",
+          "rarity": "RARE"
+        },
+        {
+          "name": "Galaxy Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-galaxy-wings.png",
+          "rarity": "EPIC"
+        },
+        {
+          "name": "7th Beeday Cake",
+          "icon": "https://cdn.playhive.com/avatars/backbling-seventh-beeday-cake.png",
+          "rarity": "RARE"
+        }
+      ],
+      "friend_count": 276,
+      "equipped_hub_title": " &pSeason 3 &6#7",
+      "equipped_avatar": {
+        "url": "https://cdn.playhive.com/avatars/pet-endolotl.png",
+        "name": "Endolotl Pet"
+      },
+      "equipped_backbling": {
+        "name": "Galaxy Wings",
+        "icon": "https://cdn.playhive.com/avatars/backbling-galaxy-wings.png",
+        "rarity": "EPIC"
+      },
+      "equipped_hat": {
+        "name": "Shining Crown",
+        "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
+        "rarity": "RARE"
+      },
+      "quest_count": 76,
+      "paid_ranks": [
+        "PLUS",
+        "ULTIMATE"
+      ],
+      "pets": [
+        "Endolotl",
+        "Crystal Cubee",
+        "[placeholder]"
+      ],
+      "mounts": [
+        "Office Chair",
+        "Cubee Balloon",
+        "Tropical Recliner"
+      ],
+      "player_number": 100766375
+    },
+    "fetchedAt": "2026-09-10T10:09:41.527Z"
+  },
+  "games": [],
+  "snapshots": [
+    {
+      "timestamp": "2026-09-10T10:09:41.527Z",
+      "totalGames": 0,
+      "victories": 0,
+      "winRate": 0,
+      "newGames": 0
+    }
+  ]
+}
