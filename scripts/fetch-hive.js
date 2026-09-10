@@ -71,7 +71,7 @@ function parseTime(value) {
 }
 
 // 抓一位玩家的資料
-async function trackPlayer(uuid, nowIso) {
+async function trackPlayer(uuid, nowIso, customName = null) {
   console.log(`\n=== ${uuid} ===`);
 
   // 1. 玩家基本資料
@@ -122,6 +122,10 @@ async function trackPlayer(uuid, nowIso) {
       ...playerInfo,
       fetchedAt: nowIso,
     };
+  }
+  // 把自訂名字存進去（優先於 API 回傳的名字）
+  if (customName) {
+    store.customName = customName;
   }
 
   // 5. 去重合併新對局
@@ -184,16 +188,21 @@ async function trackPlayer(uuid, nowIso) {
     console.error(`Missing config: ${CONFIG_FILE}`);
     process.exit(1);
   }
-  const config = JSON.parse(fs.readFileSync(CONFIG_FILE, 'utf8'));
-  const players = config.players || [];
+    const config = JSON.parse(fs.readFileSync(CONFIG_FILE, 'utf8'));
+  const rawPlayers = config.players || [];
+
+  // 兼容兩種格式：字串 或 {uuid, name}
+  const players = rawPlayers
+    .map(p => typeof p === 'string' ? { uuid: p, name: null } : p)
+    .filter(p => p && p.uuid);
 
   console.log(`Tracking ${players.length} players at ${nowIso}`);
 
-  for (const uuid of players) {
+  for (const p of players) {
     try {
-      await trackPlayer(uuid, nowIso);
+      await trackPlayer(p.uuid, nowIso, p.name);
     } catch (e) {
-      console.error(`Failed ${uuid}: ${e.message}`);
+      console.error(`Failed ${p.uuid}: ${e.message}`);
     }
     await sleep(REQUEST_DELAY_MS);
   }
