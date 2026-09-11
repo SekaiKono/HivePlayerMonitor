@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-11T23:30:35.764Z",
+  "lastUpdated": "2026-09-11T23:40:25.108Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -326,7 +326,7 @@
         "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
         "rarity": "RARE"
       },
-      "quest_count": 77,
+      "quest_count": 78,
       "paid_ranks": [
         "PLUS",
         "ULTIMATE"
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-11T23:30:35.764Z"
+    "fetchedAt": "2026-09-11T23:40:25.108Z"
   },
   "games": [
     {
@@ -1127,6 +1127,13 @@
     },
     {
       "timestamp": "2026-09-11T23:30:35.764Z",
+      "totalGames": 21,
+      "victories": 19,
+      "winRate": 90.48,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-11T23:40:25.108Z",
       "totalGames": 21,
       "victories": 19,
       "winRate": 90.48,
