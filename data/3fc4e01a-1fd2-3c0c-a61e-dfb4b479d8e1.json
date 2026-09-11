@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-11T09:50:36.418Z",
+  "lastUpdated": "2026-09-11T13:27:45.334Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -326,7 +326,7 @@
         "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
         "rarity": "RARE"
       },
-      "quest_count": 76,
+      "quest_count": 77,
       "paid_ranks": [
         "PLUS",
         "ULTIMATE"
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-11T09:50:36.418Z"
+    "fetchedAt": "2026-09-11T13:27:45.334Z"
   },
   "games": [
     {
@@ -488,6 +488,129 @@
         "kills": 7,
         "beds_destroyed": 3
       }
+    },
+    {
+      "time": 1789124662,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 170,
+        "played": 1,
+        "victories": 1,
+        "kills": 1,
+        "beds_destroyed": 2
+      }
+    },
+    {
+      "time": 1789125005,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 166,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
+      }
+    },
+    {
+      "time": 1789125488,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 146,
+        "played": 1,
+        "victories": 1,
+        "kills": 2
+      }
+    },
+    {
+      "time": 1789125814,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 136,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1789126094,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 1111,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1789128966,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 288,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "deaths": 1,
+        "level": 1
+      }
+    },
+    {
+      "time": 1789129654,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 210,
+        "played": 1,
+        "victories": 1,
+        "kills": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789130916,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": false,
+      "changeset": {
+        "xp": 200,
+        "played": 1,
+        "kills": 1,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789131214,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 146,
+        "played": 1,
+        "victories": 1,
+        "kills": 2
+      }
+    },
+    {
+      "time": 1789131569,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 138,
+        "played": 1,
+        "victories": 1
+      }
     }
   ],
   "snapshots": [
@@ -588,6 +711,13 @@
       "victories": 10,
       "winRate": 90.91,
       "newGames": 1
+    },
+    {
+      "timestamp": "2026-09-11T13:27:45.334Z",
+      "totalGames": 21,
+      "victories": 19,
+      "winRate": 90.48,
+      "newGames": 10
     }
   ],
   "customName": "iss (best type ez player and did no thing)"
