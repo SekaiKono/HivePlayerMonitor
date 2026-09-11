@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-11T05:16:16.521Z",
+  "lastUpdated": "2026-09-11T09:50:36.418Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -11,7 +11,7 @@
       "username_cc": "Issacni",
       "rank": "ULTIMATE",
       "first_played": 1731670047,
-      "daily_login_streak": 86,
+      "daily_login_streak": 87,
       "longest_daily_login_streak": 485,
       "hub_title_count": 59,
       "hub_title_unlocked": [
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-11T05:16:16.521Z"
+    "fetchedAt": "2026-09-11T09:50:36.418Z"
   },
   "games": [
     {
@@ -474,6 +474,20 @@
         "victories": 1,
         "beds_destroyed": 1
       }
+    },
+    {
+      "time": 1789116747,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 567,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 4,
+        "kills": 7,
+        "beds_destroyed": 3
+      }
     }
   ],
   "snapshots": [
@@ -567,6 +581,13 @@
       "victories": 9,
       "winRate": 90,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-11T09:50:36.418Z",
+      "totalGames": 11,
+      "victories": 10,
+      "winRate": 90.91,
+      "newGames": 1
     }
   ],
   "customName": "iss (best type ez player and did no thing)"

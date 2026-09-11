@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-11T05:16:16.521Z",
+  "lastUpdated": "2026-09-11T09:50:36.418Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -11,7 +11,7 @@
       "username_cc": "RS stella",
       "rank": "ULTIMATE",
       "first_played": 1737797466,
-      "daily_login_streak": 9,
+      "daily_login_streak": 10,
       "longest_daily_login_streak": 272,
       "hub_title_count": 157,
       "hub_title_unlocked": [
@@ -896,7 +896,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-11T05:16:16.521Z"
+    "fetchedAt": "2026-09-11T09:50:36.418Z"
   },
   "games": [
     {
@@ -1120,6 +1120,13 @@
     },
     {
       "timestamp": "2026-09-11T05:16:16.521Z",
+      "totalGames": 10,
+      "victories": 10,
+      "winRate": 100,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-11T09:50:36.418Z",
       "totalGames": 10,
       "victories": 10,
       "winRate": 100,
