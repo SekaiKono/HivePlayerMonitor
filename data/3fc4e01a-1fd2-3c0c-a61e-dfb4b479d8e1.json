@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-12T07:10:27.492Z",
+  "lastUpdated": "2026-09-12T07:20:28.200Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-12T07:10:27.492Z"
+    "fetchedAt": "2026-09-12T07:20:28.200Z"
   },
   "games": [
     {
@@ -1853,6 +1853,13 @@
       "victories": 43,
       "winRate": 86,
       "newGames": 9
+    },
+    {
+      "timestamp": "2026-09-12T07:20:28.200Z",
+      "totalGames": 50,
+      "victories": 43,
+      "winRate": 86,
+      "newGames": 0
     }
   ],
   "customName": "iss (best type ez player and did no thing)"
