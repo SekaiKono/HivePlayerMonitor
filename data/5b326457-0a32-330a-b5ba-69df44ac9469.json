@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-12T15:50:28.022Z",
+  "lastUpdated": "2026-09-12T16:00:43.497Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -864,6 +864,11 @@
         "url": "https://cdn.playhive.com/avatars/sky-blessed-deathcrate.png",
         "name": "Blessed Deathcrate"
       },
+      "equipped_hat": {
+        "name": "Holiday Lights",
+        "icon": "https://cdn.playhive.com/avatars/hat-holiday-lights.png",
+        "rarity": "RARE"
+      },
       "quest_count": 365,
       "paid_ranks": [
         "PLUS",
@@ -895,7 +900,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-12T15:50:28.022Z"
+    "fetchedAt": "2026-09-12T16:00:43.497Z"
   },
   "games": [
     {
@@ -2490,6 +2495,13 @@
     },
     {
       "timestamp": "2026-09-12T15:50:28.022Z",
+      "totalGames": 29,
+      "victories": 29,
+      "winRate": 100,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-12T16:00:43.497Z",
       "totalGames": 29,
       "victories": 29,
       "winRate": 100,
