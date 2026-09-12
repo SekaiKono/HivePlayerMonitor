@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-12T19:20:26.430Z",
+  "lastUpdated": "2026-09-12T19:30:34.797Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -781,7 +781,8 @@
         }
       ],
       "friend_count": 300,
-      "equipped_hub_title": "&eBe&6dW&sar&ts ",
+      "equipped_hub_title": "&pSk&2yW&far&ps ",
+      "equipped_costume": "Zesty",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/ctf-castle.png",
         "name": "Castle"
@@ -810,7 +811,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-09-12T19:20:26.430Z"
+    "fetchedAt": "2026-09-12T19:30:34.797Z"
   },
   "games": [],
   "snapshots": [
@@ -2160,6 +2161,13 @@
     },
     {
       "timestamp": "2026-09-12T19:20:26.430Z",
+      "totalGames": 0,
+      "victories": 0,
+      "winRate": 0,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-12T19:30:34.797Z",
       "totalGames": 0,
       "victories": 0,
       "winRate": 0,
