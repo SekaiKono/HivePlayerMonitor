@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-12T08:30:36.105Z",
+  "lastUpdated": "2026-09-12T08:40:27.998Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -322,9 +322,9 @@
         "rarity": "EPIC"
       },
       "equipped_hat": {
-        "name": "Shining Crown",
-        "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
-        "rarity": "RARE"
+        "name": "Endolotl Buddy",
+        "icon": "https://cdn.playhive.com/avatars/hat-endolotl-buddy.png",
+        "rarity": "EPIC"
       },
       "quest_count": 78,
       "paid_ranks": [
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-12T08:30:36.105Z"
+    "fetchedAt": "2026-09-12T08:40:27.998Z"
   },
   "games": [
     {
@@ -2042,6 +2042,13 @@
       "victories": 53,
       "winRate": 88.33,
       "newGames": 10
+    },
+    {
+      "timestamp": "2026-09-12T08:40:27.998Z",
+      "totalGames": 60,
+      "victories": 53,
+      "winRate": 88.33,
+      "newGames": 0
     }
   ],
   "customName": "iss (best type ez player and did no thing)"
