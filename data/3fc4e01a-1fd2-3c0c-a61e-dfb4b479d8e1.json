@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-12T08:20:26.166Z",
+  "lastUpdated": "2026-09-12T08:30:36.105Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -311,7 +311,7 @@
         }
       ],
       "friend_count": 276,
-      "equipped_hub_title": " &pSeason 3 &6#7",
+      "equipped_hub_title": " &4() Victories",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/pet-endolotl.png",
         "name": "Endolotl Pet"
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-12T08:20:26.166Z"
+    "fetchedAt": "2026-09-12T08:30:36.105Z"
   },
   "games": [
     {
@@ -1008,6 +1008,139 @@
         "victories": 1,
         "final_kills": 2,
         "kills": 4,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789199115,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 207,
+        "played": 1,
+        "victories": 1,
+        "beds_destroyed": 1,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789199420,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 203,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789199629,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 164,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 3
+      }
+    },
+    {
+      "time": 1789199825,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 210,
+        "played": 1,
+        "victories": 1,
+        "kills": 2,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1789199991,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 259,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789200237,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 238,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 3,
+        "deaths": 1,
+        "level": 1
+      }
+    },
+    {
+      "time": 1789200436,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 207,
+        "played": 1,
+        "victories": 1,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789200924,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 431,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 4,
+        "beds_destroyed": 1,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1789201078,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 214,
+        "played": 1,
+        "victories": 1,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789201324,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 214,
+        "played": 1,
+        "victories": 1,
         "beds_destroyed": 1,
         "deaths": 1
       }
@@ -1902,6 +2035,13 @@
       "victories": 43,
       "winRate": 86,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-12T08:30:36.105Z",
+      "totalGames": 60,
+      "victories": 53,
+      "winRate": 88.33,
+      "newGames": 10
     }
   ],
   "customName": "iss (best type ez player and did no thing)"
