@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-13T12:20:27.712Z",
+  "lastUpdated": "2026-09-13T12:30:34.072Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -310,7 +310,7 @@
           "rarity": "RARE"
         }
       ],
-      "friend_count": 277,
+      "friend_count": 278,
       "equipped_hub_title": " &4() Victories",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/pet-endolotl.png",
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-13T12:20:27.712Z"
+    "fetchedAt": "2026-09-13T12:30:34.072Z"
   },
   "games": [
     {
@@ -4056,6 +4056,13 @@
     },
     {
       "timestamp": "2026-09-13T12:20:27.712Z",
+      "totalGames": 126,
+      "victories": 115,
+      "winRate": 91.27,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-13T12:30:34.072Z",
       "totalGames": 126,
       "victories": 115,
       "winRate": 91.27,
