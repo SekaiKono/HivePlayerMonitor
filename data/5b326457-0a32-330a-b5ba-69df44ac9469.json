@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-13T04:50:27.619Z",
+  "lastUpdated": "2026-09-13T05:00:41.458Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -900,7 +900,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-13T04:50:27.619Z"
+    "fetchedAt": "2026-09-13T05:00:41.458Z"
   },
   "games": [
     {
@@ -1570,6 +1570,19 @@
         "victories": 1,
         "kills": 1,
         "deaths": 2
+      }
+    },
+    {
+      "time": 1789268689,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 159,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
       }
     }
   ],
@@ -3316,6 +3329,13 @@
       "victories": 49,
       "winRate": 100,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-13T05:00:41.458Z",
+      "totalGames": 50,
+      "victories": 50,
+      "winRate": 100,
+      "newGames": 1
     }
   ],
   "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
