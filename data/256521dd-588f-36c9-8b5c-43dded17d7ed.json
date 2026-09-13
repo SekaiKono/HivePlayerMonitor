@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-13T09:10:30.302Z",
+  "lastUpdated": "2026-09-13T09:40:34.844Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -11,8 +11,8 @@
       "username_cc": "Sekai Kono",
       "rank": "REGULAR",
       "first_played": 1694186715,
-      "daily_login_streak": 234,
-      "longest_daily_login_streak": 234,
+      "daily_login_streak": 235,
+      "longest_daily_login_streak": 235,
       "hub_title_count": 49,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
@@ -244,6 +244,11 @@
         "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
         "name": "Sudden Death"
       },
+      "equipped_hat": {
+        "name": "Gamer Headset",
+        "icon": "https://cdn.playhive.com/avatars/hat-gamer-headset.png",
+        "rarity": "UNCOMMON"
+      },
       "quest_count": 315,
       "pets": [
         "[placeholder]"
@@ -253,7 +258,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-13T09:10:30.302Z"
+    "fetchedAt": "2026-09-13T09:40:34.844Z"
   },
   "games": [
     {
@@ -2431,6 +2436,13 @@
     },
     {
       "timestamp": "2026-09-13T09:10:30.302Z",
+      "totalGames": 23,
+      "victories": 22,
+      "winRate": 95.65,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-13T09:40:34.844Z",
       "totalGames": 23,
       "victories": 22,
       "winRate": 95.65,
