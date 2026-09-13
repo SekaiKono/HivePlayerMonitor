@@ -364,7 +364,7 @@
 
         .day-cell {
             aspect-ratio: 1;
-            background: #f8fafc;
+            background-color: rgba(255, 255, 255, 0.6);
             border-radius: 10px;
             padding: 6px;
             display: flex;
@@ -378,7 +378,7 @@
         }
 
         .day-cell:hover {
-            background: #eef4fc;
+            background: rgba(255, 255, 255, 0.9);
         }
 
         .day-cell.empty {
@@ -393,7 +393,7 @@
 
         .day-cell.selected {
             border-color: #f59e0b;
-            background: #fffbeb;
+            background: rgba(255, 251, 235, 0.9);
         }
 
         .day-cell .day-num {
@@ -415,29 +415,24 @@
             line-height: 1;
         }
 
-        .day-cell .day-count.zero {
-            color: #cbd5e1;
-        }
-
-        /* 深淺色階 */
-        .day-cell.level-1 {
-            background: #dbeafe;
+        .day-cell .day-count.zero .day-cell.level-1 {
+            background: rgba(229, 225, 253, 0.8);
         }
 
         .day-cell.level-2 {
-            background: #93c5fd;
+            background: rgba(196, 188, 250, 0.8);
         }
 
         .day-cell.level-3 {
-            background: #60a5fa;
+            background: rgba(163, 150, 245, 0.8);
         }
 
         .day-cell.level-4 {
-            background: #3b82f6;
+            background: rgba(130, 112, 240, 0.8);
         }
 
         .day-cell.level-5 {
-            background: #2563eb;
+            background: rgba(111, 74, 233, 0.9);
         }
 
         .day-cell.level-5 .day-num,
@@ -449,6 +444,7 @@
 
         /* ===== Day detail ===== */
         .day-detail {
+            background-color: rgba(255, 255, 255, 0.4);
             padding: 22px 26px;
             margin-bottom: 24px;
         }
@@ -492,20 +488,18 @@
         .activity-item {
             background-color: rgba(255, 255, 255, 0.6);
             border-radius: 25px;
-            border: 2px solid rgba(255, 255, 255, 0.5);
+            border: 2px solid transparent;
             box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 10px;
             padding: 18px 22px;
-            border-left: 6px solid #2563eb;
-            border-left-width: 6px;
             transition: border-left-color 0.2s;
         }
 
         .activity-item.victory-true {
-            border: 2px solid rgb(251, 190, 86) !important;
+            border: 2px solid rgb(251, 190, 86);
         }
 
         .activity-item.victory-false {
-            border: 2px solid #9ca3af !important;
+            border: 2px solid #9ca3af;
         }
 
         .activity-item .top-row {
@@ -588,7 +582,7 @@
         .changeset-section {
             margin-top: 8px;
             padding: 8px 12px;
-            background: #f8fafd;
+            background: rgba(255, 255, 255, 0.5);
             border-radius: 10px;
             border: 1px solid #e9eef4;
         }
@@ -1045,9 +1039,9 @@
             function renderPlayerInfo(store) {
                 const info = store.playerInfo || {};
                 const main = info.main || info || {};
-                const username = store.customName
-                    || main.username_cc
+                const username = main.username_cc
                     || main.username
+                    || store.customName
                     || currentPlayer;
                 const rank = main.rank || 'REGULAR';
                 let rankClass = 'rank-default';
@@ -1323,8 +1317,7 @@
 
             function buildSelect(list) {
                 playerSelect.innerHTML = list.map(p => {
-                    const shortUuid = p.uuid.length > 8 ? p.uuid.slice(0, 8) + '…' : p.uuid;
-                    const label = p.name ? `${p.name} (${shortUuid})` : p.uuid;
+                    const label = p.name ? p.name : p.uuid;
                     return `<option value="${p.uuid}">${label}</option>`;
                 }).join('');
                 playerSelect.value = list[0].uuid;
