@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-13T14:40:27.584Z",
+  "lastUpdated": "2026-09-13T14:50:26.275Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -245,12 +245,7 @@
         "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
         "name": "Sudden Death"
       },
-      "equipped_hat": {
-        "name": "Lil Hat",
-        "icon": "https://cdn.playhive.com/avatars/hat-lil-hat.png",
-        "rarity": "EPIC"
-      },
-      "quest_count": 315,
+      "quest_count": 317,
       "pets": [
         "[placeholder]"
       ],
@@ -259,7 +254,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-13T14:40:27.584Z"
+    "fetchedAt": "2026-09-13T14:50:26.275Z"
   },
   "games": [
     {
@@ -2647,6 +2642,13 @@
     },
     {
       "timestamp": "2026-09-13T14:40:27.584Z",
+      "totalGames": 23,
+      "victories": 22,
+      "winRate": 95.65,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-13T14:50:26.275Z",
       "totalGames": 23,
       "victories": 22,
       "winRate": 95.65,
