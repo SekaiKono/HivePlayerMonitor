@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-13T09:40:34.844Z",
+  "lastUpdated": "2026-09-13T10:00:43.172Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -278,7 +278,7 @@
           "rarity": "RARE"
         }
       ],
-      "friend_count": 261,
+      "friend_count": 262,
       "equipped_hub_title": "&eBe&6dW&sar&ts ",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
@@ -312,7 +312,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-13T09:40:34.844Z"
+    "fetchedAt": "2026-09-13T10:00:43.172Z"
   },
   "games": [
     {
@@ -2641,6 +2641,13 @@
     },
     {
       "timestamp": "2026-09-13T09:40:34.844Z",
+      "totalGames": 30,
+      "victories": 30,
+      "winRate": 100,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-13T10:00:43.172Z",
       "totalGames": 30,
       "victories": 30,
       "winRate": 100,

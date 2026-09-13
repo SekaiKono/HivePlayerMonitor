@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-13T09:40:34.844Z",
+  "lastUpdated": "2026-09-13T10:00:43.172Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -196,7 +196,7 @@
           "name": "BedWars Prestige 1"
         }
       ],
-      "costume_count": 8,
+      "costume_count": 9,
       "costume_unlocked": [
         "Gingerbread Warden",
         "Parkour Runner (Red)",
@@ -205,7 +205,8 @@
         "Mail Bee",
         "Lunar Horse",
         "Chick Wizard",
-        "Battle Bear"
+        "Battle Bear",
+        "Challenge Bandit"
       ],
       "hat_count": 4,
       "hat_unlocked": [
@@ -244,11 +245,6 @@
         "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
         "name": "Sudden Death"
       },
-      "equipped_hat": {
-        "name": "Gamer Headset",
-        "icon": "https://cdn.playhive.com/avatars/hat-gamer-headset.png",
-        "rarity": "UNCOMMON"
-      },
       "quest_count": 315,
       "pets": [
         "[placeholder]"
@@ -258,7 +254,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-13T09:40:34.844Z"
+    "fetchedAt": "2026-09-13T10:00:43.172Z"
   },
   "games": [
     {
@@ -2443,6 +2439,13 @@
     },
     {
       "timestamp": "2026-09-13T09:40:34.844Z",
+      "totalGames": 23,
+      "victories": 22,
+      "winRate": 95.65,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-13T10:00:43.172Z",
       "totalGames": 23,
       "victories": 22,
       "winRate": 95.65,
