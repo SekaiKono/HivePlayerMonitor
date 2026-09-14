@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-14T10:50:26.766Z",
+  "lastUpdated": "2026-09-14T11:00:44.875Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -11,8 +11,8 @@
       "username_cc": "TakatiG15",
       "rank": "ULTIMATE",
       "first_played": 1755507914,
-      "daily_login_streak": 284,
-      "longest_daily_login_streak": 284,
+      "daily_login_streak": 285,
+      "longest_daily_login_streak": 285,
       "hub_title_count": 51,
       "hub_title_unlocked": [
         "&mInsomniac",
@@ -312,7 +312,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-14T10:50:26.766Z"
+    "fetchedAt": "2026-09-14T11:00:44.875Z"
   },
   "games": [
     {
@@ -3872,6 +3872,13 @@
     },
     {
       "timestamp": "2026-09-14T10:50:26.766Z",
+      "totalGames": 43,
+      "victories": 41,
+      "winRate": 95.35,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-14T11:00:44.875Z",
       "totalGames": 43,
       "victories": 41,
       "winRate": 95.35,
