@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-14T17:10:29.795Z",
+  "lastUpdated": "2026-09-14T17:20:28.984Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-14T17:10:29.795Z"
+    "fetchedAt": "2026-09-14T17:20:28.984Z"
   },
   "games": [
     {
@@ -2258,6 +2258,35 @@
         "kills": 4,
         "beds_destroyed": 3,
         "level": 1
+      }
+    },
+    {
+      "time": 1789405420,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 263,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "beds_destroyed": 2,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789406350,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": false,
+      "changeset": {
+        "xp": 306,
+        "played": 1,
+        "final_kills": 1,
+        "kills": 2,
+        "beds_destroyed": 2,
+        "deaths": 2
       }
     }
   ],
@@ -5502,6 +5531,13 @@
       "victories": 132,
       "winRate": 91.67,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-14T17:20:28.984Z",
+      "totalGames": 146,
+      "victories": 133,
+      "winRate": 91.1,
+      "newGames": 2
     }
   ],
   "customName": "iss (best type ez player and did no thing)"
