@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-14T15:20:28.626Z",
+  "lastUpdated": "2026-09-14T15:30:36.802Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -245,7 +245,7 @@
         "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
         "name": "Sudden Death"
       },
-      "quest_count": 319,
+      "quest_count": 320,
       "pets": [
         "[placeholder]"
       ],
@@ -254,7 +254,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-14T15:20:28.626Z"
+    "fetchedAt": "2026-09-14T15:30:36.802Z"
   },
   "games": [
     {
@@ -3927,6 +3927,13 @@
     },
     {
       "timestamp": "2026-09-14T15:20:28.626Z",
+      "totalGames": 43,
+      "victories": 35,
+      "winRate": 81.4,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-14T15:30:36.802Z",
       "totalGames": 43,
       "victories": 35,
       "winRate": 81.4,
