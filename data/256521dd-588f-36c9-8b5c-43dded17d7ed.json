@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-14T16:30:34.643Z",
+  "lastUpdated": "2026-09-14T16:40:35.110Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -242,10 +242,10 @@
       "friend_count": 75,
       "equipped_hub_title": " &t() Winrate",
       "equipped_avatar": {
-        "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
-        "name": "Sudden Death"
+        "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
+        "name": "BedWars Prestige 1"
       },
-      "quest_count": 320,
+      "quest_count": 321,
       "pets": [
         "[placeholder]"
       ],
@@ -254,7 +254,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-14T16:30:34.643Z"
+    "fetchedAt": "2026-09-14T16:40:35.110Z"
   },
   "games": [
     {
@@ -3976,6 +3976,13 @@
     },
     {
       "timestamp": "2026-09-14T16:30:34.643Z",
+      "totalGames": 43,
+      "victories": 35,
+      "winRate": 81.4,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-14T16:40:35.110Z",
       "totalGames": 43,
       "victories": 35,
       "winRate": 81.4,
