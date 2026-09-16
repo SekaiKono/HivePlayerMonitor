@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-16T09:40:28.955Z",
+  "lastUpdated": "2026-09-16T09:50:28.722Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -11,7 +11,7 @@
       "username_cc": "Issacni",
       "rank": "ULTIMATE",
       "first_played": 1731670047,
-      "daily_login_streak": 91,
+      "daily_login_streak": 92,
       "longest_daily_login_streak": 485,
       "hub_title_count": 59,
       "hub_title_unlocked": [
@@ -326,7 +326,7 @@
         "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
         "rarity": "RARE"
       },
-      "quest_count": 81,
+      "quest_count": 82,
       "paid_ranks": [
         "PLUS",
         "ULTIMATE"
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-16T09:40:28.955Z"
+    "fetchedAt": "2026-09-16T09:50:28.722Z"
   },
   "games": [
     {
@@ -7404,6 +7404,13 @@
     },
     {
       "timestamp": "2026-09-16T09:40:28.955Z",
+      "totalGames": 159,
+      "victories": 145,
+      "winRate": 91.19,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-16T09:50:28.722Z",
       "totalGames": 159,
       "victories": 145,
       "winRate": 91.19,
