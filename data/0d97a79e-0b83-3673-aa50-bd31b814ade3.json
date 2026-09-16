@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-16T07:50:28.209Z",
+  "lastUpdated": "2026-09-16T08:00:41.559Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -279,7 +279,7 @@
         }
       ],
       "friend_count": 262,
-      "equipped_hub_title": "&eBe&6dW&sar&ts ",
+      "equipped_hub_title": " &t() Winrate",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
         "name": "BedWars Wizard"
@@ -312,7 +312,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-16T07:50:28.209Z"
+    "fetchedAt": "2026-09-16T08:00:41.559Z"
   },
   "games": [
     {
@@ -5885,6 +5885,13 @@
     },
     {
       "timestamp": "2026-09-16T07:50:28.209Z",
+      "totalGames": 52,
+      "victories": 50,
+      "winRate": 96.15,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-16T08:00:41.559Z",
       "totalGames": 52,
       "victories": 50,
       "winRate": 96.15,
