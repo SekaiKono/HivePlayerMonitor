@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-16T08:50:29.714Z",
+  "lastUpdated": "2026-09-16T09:00:42.007Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -312,7 +312,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-16T08:50:29.714Z"
+    "fetchedAt": "2026-09-16T09:00:42.007Z"
   },
   "games": [
     {
@@ -1021,6 +1021,135 @@
         "played": 1,
         "victories": 1,
         "deaths": 1
+      }
+    },
+    {
+      "time": 1789546348,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 188,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 9
+      }
+    },
+    {
+      "time": 1789546538,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 212,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 9,
+        "level": 1
+      }
+    },
+    {
+      "time": 1789546717,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 154,
+        "played": 1,
+        "victories": 1,
+        "kills": 4,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789546791,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 97,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1789546911,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 159,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
+      }
+    },
+    {
+      "time": 1789547106,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 144,
+        "played": 1,
+        "victories": 1,
+        "kills": 1,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789547261,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 233,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 8
+      }
+    },
+    {
+      "time": 1789547577,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 177,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 6,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1789547782,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 225,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 5
+      }
+    },
+    {
+      "time": 1789547943,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 165,
+        "played": 1,
+        "victories": 1,
+        "kills": 6
       }
     }
   ],
@@ -5931,6 +6060,13 @@
       "victories": 50,
       "winRate": 96.15,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-16T09:00:42.007Z",
+      "totalGames": 62,
+      "victories": 60,
+      "winRate": 96.77,
+      "newGames": 10
     }
   ],
   "customName": "TakatiG (skilled at sexually harassing others)"
