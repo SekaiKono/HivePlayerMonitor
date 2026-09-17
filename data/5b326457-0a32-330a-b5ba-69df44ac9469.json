@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-17T18:00:41.481Z",
+  "lastUpdated": "2026-09-17T18:10:28.102Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -896,7 +896,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-17T18:00:41.481Z"
+    "fetchedAt": "2026-09-17T18:10:28.102Z"
   },
   "games": [
     {
@@ -1982,6 +1982,127 @@
         "played": 1,
         "victories": 1,
         "kills": 1
+      }
+    },
+    {
+      "time": 1789666816,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 202,
+        "played": 1,
+        "victories": 1,
+        "coins": 11,
+        "bux": 1
+      }
+    },
+    {
+      "time": 1789666922,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 114,
+        "played": 1,
+        "victories": 1,
+        "coins": 13
+      }
+    },
+    {
+      "time": 1789667000,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 25,
+        "played": 1,
+        "victories": 1,
+        "coins": 1
+      }
+    },
+    {
+      "time": 1789667198,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 155,
+        "played": 1,
+        "victories": 1,
+        "coins": 11
+      }
+    },
+    {
+      "time": 1789667303,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 48,
+        "played": 1,
+        "victories": 1,
+        "coins": 4
+      }
+    },
+    {
+      "time": 1789667449,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 120,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "coins": 8,
+        "bux": 2
+      }
+    },
+    {
+      "time": 1789667496,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1789667679,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 48,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "coins": 5
+      }
+    },
+    {
+      "time": 1789667857,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789668195,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 321,
+        "played": 1,
+        "victories": 1,
+        "coins": 16,
+        "bux": -8
       }
     }
   ],
@@ -8278,6 +8399,13 @@
       "victories": 79,
       "winRate": 98.75,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-17T18:10:28.102Z",
+      "totalGames": 90,
+      "victories": 88,
+      "winRate": 97.78,
+      "newGames": 10
     }
   ],
   "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
