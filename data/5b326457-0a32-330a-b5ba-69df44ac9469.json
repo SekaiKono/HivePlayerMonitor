@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-17T16:51:05.262Z",
+  "lastUpdated": "2026-09-17T17:00:41.998Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -13,7 +13,7 @@
       "first_played": 1737797466,
       "daily_login_streak": 16,
       "longest_daily_login_streak": 272,
-      "hub_title_count": 157,
+      "hub_title_count": 158,
       "hub_title_unlocked": [
         "&dSCORE!",
         "&mInsomniac",
@@ -171,7 +171,8 @@
         "&cThe Flash",
         "&eI am speed",
         "&9Gotta &3Go &bFast&f!",
-        "&eBe&6dW&sar&ts "
+        "&eBe&6dW&sar&ts ",
+        "&bThe Architect"
       ],
       "avatar_count": 124,
       "avatar_unlocked": [
@@ -864,11 +865,6 @@
         "url": "https://cdn.playhive.com/avatars/sky-blessed-deathcrate.png",
         "name": "Blessed Deathcrate"
       },
-      "equipped_hat": {
-        "name": "Raccoon Buddy",
-        "icon": "https://cdn.playhive.com/avatars/hat-raccoon-buddy.png",
-        "rarity": "RARE"
-      },
       "quest_count": 366,
       "paid_ranks": [
         "PLUS",
@@ -900,7 +896,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-17T16:51:05.262Z"
+    "fetchedAt": "2026-09-17T17:00:41.998Z"
   },
   "games": [
     {
@@ -8229,6 +8225,13 @@
     },
     {
       "timestamp": "2026-09-17T16:51:05.262Z",
+      "totalGames": 80,
+      "victories": 79,
+      "winRate": 98.75,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-17T17:00:41.998Z",
       "totalGames": 80,
       "victories": 79,
       "winRate": 98.75,
