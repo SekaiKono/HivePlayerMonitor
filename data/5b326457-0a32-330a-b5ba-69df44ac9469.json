@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-17T20:10:27.384Z",
+  "lastUpdated": "2026-09-17T20:20:26.510Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -896,7 +896,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-17T20:10:27.384Z"
+    "fetchedAt": "2026-09-17T20:20:26.510Z"
   },
   "games": [
     {
@@ -2103,6 +2103,137 @@
         "victories": 1,
         "coins": 16,
         "bux": -8
+      }
+    },
+    {
+      "time": 1789673803,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 162,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 2,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789674064,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 144,
+        "played": 1,
+        "victories": 1,
+        "kills": 4,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789674457,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 263,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 4,
+        "kills": 6,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789674865,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 142,
+        "played": 1,
+        "victories": 1,
+        "kills": 3,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789675205,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 240,
+        "played": 1,
+        "victories": 1,
+        "kills": 4,
+        "ores_mined": 13,
+        "final_kills": 4
+      }
+    },
+    {
+      "time": 1789675362,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 9,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789675519,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 4,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789675683,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "xp": 37,
+        "played": 1,
+        "kills": 1,
+        "ores_mined": 17,
+        "final_kills": 1
+      }
+    },
+    {
+      "time": 1789675983,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "xp": 92,
+        "played": 1,
+        "kills": 2,
+        "ores_mined": 21,
+        "deaths": 1,
+        "final_kills": 2
+      }
+    },
+    {
+      "time": 1789676264,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 314,
+        "played": 1,
+        "victories": 1,
+        "kills": 6,
+        "ores_mined": 11,
+        "final_kills": 6
       }
     }
   ],
@@ -8490,6 +8621,13 @@
       "victories": 88,
       "winRate": 97.78,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-17T20:20:26.510Z",
+      "totalGames": 100,
+      "victories": 94,
+      "winRate": 94,
+      "newGames": 10
     }
   ],
   "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
