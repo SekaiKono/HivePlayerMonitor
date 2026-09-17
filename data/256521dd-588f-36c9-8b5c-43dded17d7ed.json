@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-17T15:40:32.713Z",
+  "lastUpdated": "2026-09-17T15:50:28.185Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -245,7 +245,7 @@
         "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
         "name": "BedWars Prestige 1"
       },
-      "quest_count": 326,
+      "quest_count": 328,
       "pets": [
         "[placeholder]"
       ],
@@ -254,7 +254,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-17T15:40:32.713Z"
+    "fetchedAt": "2026-09-17T15:50:28.185Z"
   },
   "games": [
     {
@@ -1125,6 +1125,21 @@
         "played": 1,
         "powerups_collected": 8,
         "rounds_survived": 17
+      }
+    },
+    {
+      "time": 1789659802,
+      "type": "ROUND_PLAYED",
+      "game": "ground",
+      "victory": false,
+      "changeset": {
+        "xp": 11,
+        "played": 1,
+        "blocks_destroyed": 11,
+        "blocks_placed": 194,
+        "deaths": 8,
+        "projectiles_fired": 178,
+        "kills": 2
       }
     }
   ],
@@ -7280,6 +7295,13 @@
       "totalGames": 67,
       "victories": 57,
       "winRate": 85.07,
+      "newGames": 1
+    },
+    {
+      "timestamp": "2026-09-17T15:50:28.185Z",
+      "totalGames": 68,
+      "victories": 57,
+      "winRate": 83.82,
       "newGames": 1
     }
   ],
