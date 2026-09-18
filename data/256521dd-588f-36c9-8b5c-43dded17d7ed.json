@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-18T19:40:31.136Z",
+  "lastUpdated": "2026-09-18T19:50:27.843Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -13,7 +13,7 @@
       "first_played": 1694186715,
       "daily_login_streak": 240,
       "longest_daily_login_streak": 240,
-      "hub_title_count": 49,
+      "hub_title_count": 50,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
         "&aThe Sneaky",
@@ -63,7 +63,8 @@
         "&e(?) Day Login Streak",
         "&cRed &fvs &9Blue",
         "&fNap &bTime's &jOver",
-        "&fBe&udW&7ar&fs "
+        "&fBe&udW&7ar&fs ",
+        "&bPeekaboo&f!"
       ],
       "avatar_count": 32,
       "avatar_unlocked": [
@@ -259,7 +260,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-18T19:40:31.136Z"
+    "fetchedAt": "2026-09-18T19:50:27.843Z"
   },
   "games": [
     {
@@ -1397,6 +1398,76 @@
         "kills": 5,
         "beds_destroyed": 1,
         "deaths": 3
+      }
+    },
+    {
+      "time": 1789759371,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 85,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "taunts": 1
+      }
+    },
+    {
+      "time": 1789759735,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 258,
+        "played": 1,
+        "victories": 1,
+        "seeker_kills": 1,
+        "taunts": 4
+      }
+    },
+    {
+      "time": 1789759966,
+      "type": "LOCKER",
+      "unlock_type": "hub_title",
+      "unlock_id": "c4f755b0-d1ba-40ad-9009-d7cf3e7c4b09"
+    },
+    {
+      "time": 1789760094,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": false,
+      "changeset": {
+        "xp": 207,
+        "played": 1,
+        "deaths": 1,
+        "hider_kills": 1,
+        "taunts": 1,
+        "level": 1
+      }
+    },
+    {
+      "time": 1789760460,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": false,
+      "changeset": {
+        "xp": 132,
+        "played": 1,
+        "deaths": 1,
+        "hider_kills": 1,
+        "taunts": 6
+      }
+    },
+    {
+      "time": 1789760808,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": false,
+      "changeset": {
+        "xp": 242,
+        "played": 1,
+        "hider_kills": 6
       }
     }
   ],
@@ -8729,6 +8800,13 @@
       "victories": 74,
       "winRate": 85.06,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-18T19:50:27.843Z",
+      "totalGames": 93,
+      "victories": 76,
+      "winRate": 81.72,
+      "newGames": 6
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
