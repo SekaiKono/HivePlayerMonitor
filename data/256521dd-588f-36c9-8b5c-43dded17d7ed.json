@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-18T16:30:37.460Z",
+  "lastUpdated": "2026-09-18T16:40:29.394Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -259,7 +259,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-18T16:30:37.460Z"
+    "fetchedAt": "2026-09-18T16:40:29.394Z"
   },
   "games": [
     {
@@ -1272,6 +1272,131 @@
         "victories": 1,
         "final_kills": 2,
         "kills": 2
+      }
+    },
+    {
+      "time": 1789742733,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 109,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 2,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789744279,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": false,
+      "changeset": {
+        "xp": 165,
+        "played": 1,
+        "final_kills": 2,
+        "kills": 5,
+        "deaths": 6
+      }
+    },
+    {
+      "time": 1789744653,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 104,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 2,
+        "level": 1
+      }
+    },
+    {
+      "time": 1789744933,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 91,
+        "played": 1,
+        "victories": 1,
+        "kills": 3,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789746148,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 177,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 5,
+        "kills": 6,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1789746657,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 79,
+        "played": 1,
+        "victories": 1,
+        "kills": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789747516,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 102,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 5,
+        "beds_destroyed": 1,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1789747746,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 100,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 3,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789749495,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 114,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 5,
+        "beds_destroyed": 1,
+        "deaths": 3
       }
     }
   ],
@@ -8471,6 +8596,13 @@
       "victories": 66,
       "winRate": 84.62,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-18T16:40:29.394Z",
+      "totalGames": 87,
+      "victories": 74,
+      "winRate": 85.06,
+      "newGames": 9
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
