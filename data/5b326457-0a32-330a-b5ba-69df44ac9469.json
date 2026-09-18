@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-18T19:20:28.680Z",
+  "lastUpdated": "2026-09-18T19:30:36.161Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -13,7 +13,7 @@
       "first_played": 1737797466,
       "daily_login_streak": 17,
       "longest_daily_login_streak": 272,
-      "hub_title_count": 158,
+      "hub_title_count": 159,
       "hub_title_unlocked": [
         "&dSCORE!",
         "&mInsomniac",
@@ -172,7 +172,8 @@
         "&eI am speed",
         "&9Gotta &3Go &bFast&f!",
         "&eBe&6dW&sar&ts ",
-        "&bThe Architect"
+        "&bThe Architect",
+        "&5Going Incognito"
       ],
       "avatar_count": 124,
       "avatar_unlocked": [
@@ -896,7 +897,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-18T19:20:28.680Z"
+    "fetchedAt": "2026-09-18T19:30:36.161Z"
   },
   "games": [
     {
@@ -2284,6 +2285,133 @@
       "victory": false,
       "changeset": {
         "played": 1
+      }
+    },
+    {
+      "time": 1789756201,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 164,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 3
+      }
+    },
+    {
+      "time": 1789756359,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 175,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 5
+      }
+    },
+    {
+      "time": 1789756535,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 175,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1789756641,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 288,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789756812,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 199,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789756961,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 204,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789757167,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 231,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789757854,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "xp": 96,
+        "played": 1,
+        "kills": 3,
+        "ores_mined": 16,
+        "deaths": 1,
+        "final_kills": 2
+      }
+    },
+    {
+      "time": 1789759479,
+      "type": "LOCKER",
+      "unlock_type": "hub_title",
+      "unlock_id": "60b8970c-121b-4ca0-9093-bf2524d7a55a"
+    },
+    {
+      "time": 1789759598,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 547,
+        "played": 1,
+        "victories": 1,
+        "taunts": 11,
+        "level": 1
       }
     }
   ],
@@ -9644,6 +9772,13 @@
       "victories": 96,
       "winRate": 92.31,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-18T19:30:36.161Z",
+      "totalGames": 114,
+      "victories": 104,
+      "winRate": 91.23,
+      "newGames": 10
     }
   ],
   "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
