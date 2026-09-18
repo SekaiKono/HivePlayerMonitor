@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-18T14:10:31.857Z",
+  "lastUpdated": "2026-09-18T14:20:27.441Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -11,8 +11,8 @@
       "username_cc": "Sekai Kono",
       "rank": "REGULAR",
       "first_played": 1694186715,
-      "daily_login_streak": 239,
-      "longest_daily_login_streak": 239,
+      "daily_login_streak": 240,
+      "longest_daily_login_streak": 240,
       "hub_title_count": 49,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
@@ -254,7 +254,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-18T14:10:31.857Z"
+    "fetchedAt": "2026-09-18T14:20:27.441Z"
   },
   "games": [
     {
@@ -8364,6 +8364,13 @@
     },
     {
       "timestamp": "2026-09-18T14:10:31.857Z",
+      "totalGames": 78,
+      "victories": 66,
+      "winRate": 84.62,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-18T14:20:27.441Z",
       "totalGames": 78,
       "victories": 66,
       "winRate": 84.62,

@@ -1,0 +1,254 @@
+{
+  "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
+  "createdAt": "2026-09-18T14:20:27.441Z",
+  "lastUpdated": "2026-09-18T14:20:27.441Z",
+  "playerInfo": {
+    "main": {
+      "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
+      "xuid": 2535430066739679,
+      "mcid": "8b5ca665d4ca3b67",
+      "username": "mqzly",
+      "username_cc": "mqzly",
+      "rank": "PLUS",
+      "first_played": 1778187826,
+      "daily_login_streak": 14,
+      "longest_daily_login_streak": 14,
+      "hub_title_count": 18,
+      "hub_title_unlocked": [
+        "&bThe &6MV&eBEE",
+        "&fThe &eBees &aKnees",
+        "&eB&6u&ez&6z&ei&6n&e'",
+        "&mInsomniac",
+        "&aRibbit",
+        "&uZzzzzzzzz",
+        "&9 (?) Total Kills",
+        " &c() Beds Destroyed",
+        " &t() Winrate",
+        "&aPillow Plunderer",
+        "&5Sleepwalker",
+        "&fSnooze &eYou &6Lose",
+        "&eThe &bSky Warrior",
+        "&cBed &tBouncer",
+        "&jDre&bamc&jatc&bher",
+        "&iEat. &jSleep. &fPlay.",
+        "&iBedgician",
+        "&tPil&slow&6man&ecer"
+      ],
+      "avatar_count": 14,
+      "avatar_unlocked": [
+        {
+          "url": "https://cdn.playhive.com/avatars/embee.png",
+          "name": "Embee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bad-bee.png",
+          "name": "Bad Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mvbee.png",
+          "name": "MVBee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/it-bee-fine.png",
+          "name": "It Bee Fine"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/buff-bee.png",
+          "name": "Buff Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-hip-hop.png",
+          "name": "Cute Frog"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedwars.png",
+          "name": "BedWars"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-snoozing-on-point.png",
+          "name": "Snoozing On Point"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-bedtime-buccaneer.png",
+          "name": "Bedtime Buccaneer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-pillow-plunderer.png",
+          "name": "Pillow Plunderer"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-sudden-death.png",
+          "name": "Sudden Death"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-mysterious-merchant.png",
+          "name": "Mysterious Merchant"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
+          "name": "BedWars Wizard"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bed-magical-merchant.png",
+          "name": "BedWars Wizard"
+        }
+      ],
+      "costume_count": 3,
+      "costume_unlocked": [
+        "Hoodie Bee",
+        "Hip Hop",
+        "Challenge Bandit"
+      ],
+      "hat_count": 0,
+      "backbling_count": 0,
+      "friend_count": 81,
+      "equipped_hub_title": " &t() Winrate",
+      "paid_ranks": [
+        "PLUS"
+      ],
+      "pets": [],
+      "mounts": [
+        "Tropical Recliner"
+      ],
+      "player_number": 125100915
+    },
+    "fetchedAt": "2026-09-18T14:20:27.441Z"
+  },
+  "games": [
+    {
+      "time": 1789737783,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 371,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 6,
+        "kills": 12,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789737927,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 296,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 4,
+        "kills": 4,
+        "beds_destroyed": 1,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1789738083,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 201,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789738300,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 321,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 5,
+        "kills": 5,
+        "beds_destroyed": 2
+      }
+    },
+    {
+      "time": 1789738491,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 144,
+        "played": 1,
+        "victories": 1,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789738619,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 168,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
+      }
+    },
+    {
+      "time": 1789738752,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 240,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 3,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1789739031,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 273,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 3,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789739162,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 272,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 3
+      }
+    }
+  ],
+  "snapshots": [
+    {
+      "timestamp": "2026-09-18T14:20:27.441Z",
+      "totalGames": 9,
+      "victories": 9,
+      "winRate": 100,
+      "newGames": 9
+    }
+  ],
+  "customName": "ayumus alt"
+}
