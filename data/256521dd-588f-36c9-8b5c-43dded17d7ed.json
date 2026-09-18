@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-18T19:10:31.747Z",
+  "lastUpdated": "2026-09-18T19:20:28.680Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -250,7 +250,7 @@
         "icon": "https://cdn.playhive.com/avatars/hat-gamer-headset.png",
         "rarity": "UNCOMMON"
       },
-      "quest_count": 330,
+      "quest_count": 331,
       "pets": [
         "[placeholder]"
       ],
@@ -259,7 +259,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-18T19:10:31.747Z"
+    "fetchedAt": "2026-09-18T19:20:28.680Z"
   },
   "games": [
     {
@@ -8704,6 +8704,13 @@
     },
     {
       "timestamp": "2026-09-18T19:10:31.747Z",
+      "totalGames": 87,
+      "victories": 74,
+      "winRate": 85.06,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-18T19:20:28.680Z",
       "totalGames": 87,
       "victories": 74,
       "winRate": 85.06,
