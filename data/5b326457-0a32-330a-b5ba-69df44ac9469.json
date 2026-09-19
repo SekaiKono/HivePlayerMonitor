@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-19T20:40:29.214Z",
+  "lastUpdated": "2026-09-19T20:50:27.697Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -862,7 +862,6 @@
         }
       ],
       "friend_count": 85,
-      "equipped_costume": "Granny Ghosty",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/sky-blessed-deathcrate.png",
         "name": "Blessed Deathcrate"
@@ -903,7 +902,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-19T20:40:29.214Z"
+    "fetchedAt": "2026-09-19T20:50:27.697Z"
   },
   "games": [
     {
@@ -10852,6 +10851,13 @@
     },
     {
       "timestamp": "2026-09-19T20:40:29.214Z",
+      "totalGames": 115,
+      "victories": 104,
+      "winRate": 90.43,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-19T20:50:27.697Z",
       "totalGames": 115,
       "victories": 104,
       "winRate": 90.43,
