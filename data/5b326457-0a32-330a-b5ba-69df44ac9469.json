@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-19T15:10:27.912Z",
+  "lastUpdated": "2026-09-19T15:20:28.851Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -861,7 +861,7 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 86,
+      "friend_count": 85,
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/sky-blessed-deathcrate.png",
         "name": "Blessed Deathcrate"
@@ -902,7 +902,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-19T15:10:27.912Z"
+    "fetchedAt": "2026-09-19T15:20:28.851Z"
   },
   "games": [
     {
@@ -10620,6 +10620,13 @@
     },
     {
       "timestamp": "2026-09-19T15:10:27.912Z",
+      "totalGames": 115,
+      "victories": 104,
+      "winRate": 90.43,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-19T15:20:28.851Z",
       "totalGames": 115,
       "victories": 104,
       "winRate": 90.43,
