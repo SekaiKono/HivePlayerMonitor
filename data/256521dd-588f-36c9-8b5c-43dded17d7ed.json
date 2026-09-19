@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-19T15:40:27.676Z",
+  "lastUpdated": "2026-09-19T15:50:26.323Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -247,8 +247,8 @@
         "name": "BedWars Prestige 1"
       },
       "equipped_hat": {
-        "name": "Gamer Headset",
-        "icon": "https://cdn.playhive.com/avatars/hat-gamer-headset.png",
+        "name": "Dr. Zuk's Goggles",
+        "icon": "https://cdn.playhive.com/avatars/hat-party-zuk-goggles.png",
         "rarity": "UNCOMMON"
       },
       "quest_count": 332,
@@ -260,7 +260,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-19T15:40:27.676Z"
+    "fetchedAt": "2026-09-19T15:50:26.323Z"
   },
   "games": [
     {
@@ -9726,6 +9726,13 @@
     },
     {
       "timestamp": "2026-09-19T15:40:27.676Z",
+      "totalGames": 100,
+      "victories": 81,
+      "winRate": 81,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-19T15:50:26.323Z",
       "totalGames": 100,
       "victories": 81,
       "winRate": 81,
