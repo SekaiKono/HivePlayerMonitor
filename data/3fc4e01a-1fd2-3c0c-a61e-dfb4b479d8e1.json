@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-19T12:40:25.278Z",
+  "lastUpdated": "2026-09-19T12:50:26.419Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -343,7 +343,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-19T12:40:25.278Z"
+    "fetchedAt": "2026-09-19T12:50:26.419Z"
   },
   "games": [
     {
@@ -2941,6 +2941,69 @@
         "final_kills": 2,
         "kills": 2,
         "deaths": 1
+      }
+    },
+    {
+      "time": 1789820004,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 148,
+        "played": 1,
+        "victories": 1,
+        "kills": 2
+      }
+    },
+    {
+      "time": 1789820188,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 171,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 2
+      }
+    },
+    {
+      "time": 1789820383,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 165,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
+      }
+    },
+    {
+      "time": 1789820694,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 333,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789820924,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 173,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 3
       }
     }
   ],
@@ -11036,6 +11099,13 @@
       "victories": 178,
       "winRate": 91.28,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-19T12:50:26.419Z",
+      "totalGames": 200,
+      "victories": 183,
+      "winRate": 91.5,
+      "newGames": 5
     }
   ],
   "customName": "iss (best type ez player and did no thing)"
