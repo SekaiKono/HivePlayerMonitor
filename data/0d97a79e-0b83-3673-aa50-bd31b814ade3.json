@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-19T07:40:26.105Z",
+  "lastUpdated": "2026-09-19T07:50:27.238Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -278,7 +278,7 @@
           "rarity": "RARE"
         }
       ],
-      "friend_count": 262,
+      "friend_count": 263,
       "equipped_hub_title": " &t() Winrate",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
@@ -312,7 +312,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-19T07:40:26.105Z"
+    "fetchedAt": "2026-09-19T07:50:27.238Z"
   },
   "games": [
     {
@@ -9395,6 +9395,13 @@
     },
     {
       "timestamp": "2026-09-19T07:40:26.105Z",
+      "totalGames": 89,
+      "victories": 87,
+      "winRate": 97.75,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-19T07:50:27.238Z",
       "totalGames": 89,
       "victories": 87,
       "winRate": 97.75,
