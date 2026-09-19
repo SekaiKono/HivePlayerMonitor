@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-09-19T17:10:25.471Z",
+  "lastUpdated": "2026-09-19T17:20:25.878Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -260,7 +260,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-09-19T17:10:25.471Z"
+    "fetchedAt": "2026-09-19T17:20:25.878Z"
   },
   "games": [
     {
@@ -9933,6 +9933,13 @@
       "victories": 89,
       "winRate": 80.18,
       "newGames": 1
+    },
+    {
+      "timestamp": "2026-09-19T17:20:25.878Z",
+      "totalGames": 111,
+      "victories": 89,
+      "winRate": 80.18,
+      "newGames": 0
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
