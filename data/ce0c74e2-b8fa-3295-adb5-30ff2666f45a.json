@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-19T20:50:27.697Z",
+  "lastUpdated": "2026-09-19T21:00:42.176Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -13,7 +13,7 @@
       "first_played": 1778187826,
       "daily_login_streak": 15,
       "longest_daily_login_streak": 15,
-      "hub_title_count": 18,
+      "hub_title_count": 19,
       "hub_title_unlocked": [
         "&bThe &6MV&eBEE",
         "&fThe &eBees &aKnees",
@@ -32,7 +32,8 @@
         "&jDre&bamc&jatc&bher",
         "&iEat. &jSleep. &fPlay.",
         "&iBedgician",
-        "&tPil&slow&6man&ecer"
+        "&tPil&slow&6man&ecer",
+        "&cNo Bed? &eNo Problem."
       ],
       "avatar_count": 15,
       "avatar_unlocked": [
@@ -116,7 +117,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-19T20:50:27.697Z"
+    "fetchedAt": "2026-09-19T21:00:42.176Z"
   },
   "games": [
     {
@@ -1832,6 +1833,13 @@
     },
     {
       "timestamp": "2026-09-19T20:50:27.697Z",
+      "totalGames": 32,
+      "victories": 31,
+      "winRate": 96.88,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-19T21:00:42.176Z",
       "totalGames": 32,
       "victories": 31,
       "winRate": 96.88,
