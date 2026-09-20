@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-20T11:10:32.718Z",
+  "lastUpdated": "2026-09-20T11:20:27.252Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -9,11 +9,11 @@
       "mcid": "8b5ca665d4ca3b67",
       "username": "mqzly",
       "username_cc": "mqzly",
-      "rank": "PLUS",
+      "rank": "ULTIMATE",
       "first_played": 1778187826,
       "daily_login_streak": 16,
       "longest_daily_login_streak": 16,
-      "hub_title_count": 19,
+      "hub_title_count": 24,
       "hub_title_unlocked": [
         "&bThe &6MV&eBEE",
         "&fThe &eBees &aKnees",
@@ -33,9 +33,14 @@
         "&iEat. &jSleep. &fPlay.",
         "&iBedgician",
         "&tPil&slow&6man&ecer",
-        "&cNo Bed? &eNo Problem."
+        "&cNo Bed? &eNo Problem.",
+        "&iULTIMATE &jPOWER!",
+        "&fLights, Camera, &6ACTION!",
+        "&aHive++",
+        "&cIt's rewind time!",
+        "&6Live. &eLaugh. &bBuzz."
       ],
-      "avatar_count": 15,
+      "avatar_count": 19,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/embee.png",
@@ -96,28 +101,64 @@
         {
           "url": "https://cdn.playhive.com/avatars/bed-sleepybara.png",
           "name": "Sleepybara"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-amethyst-cubee.png",
+          "name": "Amethyst Cubee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-retrowave-cubee.png",
+          "name": "Retrowave Cubee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/action.png",
+          "name": "Action"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-graffiti-bee.png",
+          "name": "Graffiti Bee"
         }
       ],
-      "costume_count": 3,
+      "costume_count": 5,
       "costume_unlocked": [
         "Hoodie Bee",
         "Hip Hop",
-        "Challenge Bandit"
+        "Challenge Bandit",
+        "Replay Raccoon",
+        "Ultimate Cubee"
       ],
-      "hat_count": 0,
-      "backbling_count": 0,
+      "hat_count": 1,
+      "hat_unlocked": [
+        {
+          "name": "Buzz Buddies",
+          "icon": "https://cdn.playhive.com/avatars/hat-buzz-buddies.png",
+          "rarity": "RARE"
+        }
+      ],
+      "backbling_count": 1,
+      "cosmetics.backbling": [
+        {
+          "name": "Wasp Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-wasp-wings.png",
+          "rarity": "RARE"
+        }
+      ],
       "friend_count": 87,
       "equipped_hub_title": " &t() Winrate",
       "paid_ranks": [
-        "PLUS"
+        "PLUS",
+        "ULTIMATE"
       ],
-      "pets": [],
+      "pets": [
+        "Crystal Cubee"
+      ],
       "mounts": [
-        "Tropical Recliner"
+        "Tropical Recliner",
+        "Cubee Balloon"
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-20T11:10:32.718Z"
+    "fetchedAt": "2026-09-20T11:20:27.252Z"
   },
   "games": [
     {
@@ -2435,6 +2476,13 @@
     },
     {
       "timestamp": "2026-09-20T11:10:32.718Z",
+      "totalGames": 32,
+      "victories": 31,
+      "winRate": 96.88,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-20T11:20:27.252Z",
       "totalGames": 32,
       "victories": 31,
       "winRate": 96.88,
