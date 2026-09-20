@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-20T10:30:36.255Z",
+  "lastUpdated": "2026-09-20T10:40:29.552Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -810,7 +810,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-09-20T10:30:36.255Z"
+    "fetchedAt": "2026-09-20T10:40:29.552Z"
   },
   "games": [
     {
@@ -1021,6 +1021,141 @@
         "deaths": 1,
         "final_kills": 1,
         "level": 1
+      }
+    },
+    {
+      "time": 1789898672,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1,
+        "kills": 1,
+        "ores_mined": 8,
+        "spells_used": 1,
+        "final_kills": 1
+      }
+    },
+    {
+      "time": 1789898765,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 8,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789898950,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 188,
+        "played": 1,
+        "victories": 1,
+        "kills": 3,
+        "ores_mined": 9,
+        "final_kills": 2
+      }
+    },
+    {
+      "time": 1789899125,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 151,
+        "played": 1,
+        "victories": 1,
+        "kills": 2,
+        "ores_mined": 12,
+        "spells_used": 1,
+        "final_kills": 1
+      }
+    },
+    {
+      "time": 1789899273,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 247,
+        "played": 1,
+        "victories": 1,
+        "kills": 5,
+        "ores_mined": 8,
+        "final_kills": 3,
+        "level": 1
+      }
+    },
+    {
+      "time": 1789899498,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 329,
+        "played": 1,
+        "victories": 1,
+        "kills": 8,
+        "ores_mined": 9,
+        "spells_used": 2,
+        "final_kills": 4
+      }
+    },
+    {
+      "time": 1789899725,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 92,
+        "played": 1,
+        "victories": 1,
+        "ores_mined": 14,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789899956,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 9,
+        "spells_used": 2,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789900184,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 173,
+        "played": 1,
+        "victories": 1,
+        "kills": 3,
+        "ores_mined": 14,
+        "final_kills": 1
+      }
+    },
+    {
+      "time": 1789900357,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 11,
+        "deaths": 1
       }
     }
   ],
@@ -10033,6 +10168,13 @@
       "victories": 9,
       "winRate": 60,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-20T10:40:29.552Z",
+      "totalGames": 25,
+      "victories": 16,
+      "winRate": 64,
+      "newGames": 10
     }
   ],
   "customName": "ayumu (best vpn player)"
