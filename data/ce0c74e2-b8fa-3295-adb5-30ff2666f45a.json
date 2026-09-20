@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-20T12:50:28.917Z",
+  "lastUpdated": "2026-09-20T13:00:41.166Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -147,7 +147,7 @@
           "rarity": "RARE"
         }
       ],
-      "friend_count": 88,
+      "friend_count": 89,
       "equipped_hub_title": " &t() Winrate",
       "paid_ranks": [
         "PLUS",
@@ -162,7 +162,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-20T12:50:28.917Z"
+    "fetchedAt": "2026-09-20T13:00:41.166Z"
   },
   "games": [
     {
@@ -2550,6 +2550,13 @@
     },
     {
       "timestamp": "2026-09-20T12:50:28.917Z",
+      "totalGames": 32,
+      "victories": 31,
+      "winRate": 96.88,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-20T13:00:41.166Z",
       "totalGames": 32,
       "victories": 31,
       "winRate": 96.88,
