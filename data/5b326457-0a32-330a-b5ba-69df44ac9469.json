@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-20T22:50:26.584Z",
+  "lastUpdated": "2026-09-20T23:00:39.344Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -861,15 +861,15 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 86,
+      "friend_count": 87,
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/sky-blessed-deathcrate.png",
         "name": "Blessed Deathcrate"
       },
       "equipped_hat": {
-        "name": "Flower Crown",
-        "icon": "https://cdn.playhive.com/avatars/hat-flower-crown.png",
-        "rarity": "RARE"
+        "name": "Gifter",
+        "icon": "https://cdn.playhive.com/avatars/hat-gifter.png",
+        "rarity": "UNCOMMON"
       },
       "quest_count": 367,
       "paid_ranks": [
@@ -902,7 +902,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-20T22:50:26.584Z"
+    "fetchedAt": "2026-09-20T23:00:39.344Z"
   },
   "games": [
     {
@@ -2431,6 +2431,139 @@
         "ores_mined": 8,
         "deaths": 1,
         "final_kills": 1
+      }
+    },
+    {
+      "time": 1789943344,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 499,
+        "played": 1,
+        "victories": 1,
+        "coins": 19,
+        "bux": -1
+      }
+    },
+    {
+      "time": 1789943622,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 522,
+        "played": 1,
+        "victories": 1,
+        "coins": 42,
+        "bux": -1
+      }
+    },
+    {
+      "time": 1789943751,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 226,
+        "played": 1,
+        "victories": 1,
+        "coins": 19,
+        "bux": 1
+      }
+    },
+    {
+      "time": 1789944009,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 410,
+        "played": 1,
+        "victories": 1,
+        "coins": 28,
+        "murderer_eliminations": 1,
+        "bux": 2
+      }
+    },
+    {
+      "time": 1789944166,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 101,
+        "played": 1,
+        "victories": 1,
+        "coins": 3,
+        "bux": 1
+      }
+    },
+    {
+      "time": 1789944380,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 590,
+        "played": 1,
+        "victories": 1,
+        "coins": 31,
+        "murders": 15,
+        "bux": -3,
+        "level": 1
+      }
+    },
+    {
+      "time": 1789944498,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 7,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "coins": 1
+      }
+    },
+    {
+      "time": 1789944705,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 206,
+        "played": 1,
+        "victories": 1,
+        "coins": 9,
+        "bux": 2
+      }
+    },
+    {
+      "time": 1789945048,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 343,
+        "played": 1,
+        "victories": 1,
+        "coins": 19,
+        "bux": -5
+      }
+    },
+    {
+      "time": 1789945184,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 113,
+        "played": 1,
+        "victories": 1,
+        "coins": 7,
+        "bux": -2
       }
     }
   ],
@@ -11954,6 +12087,13 @@
       "victories": 104,
       "winRate": 90.43,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-20T23:00:39.344Z",
+      "totalGames": 125,
+      "victories": 114,
+      "winRate": 91.2,
+      "newGames": 10
     }
   ],
   "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
