@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-21T12:20:27.995Z",
+  "lastUpdated": "2026-09-21T12:30:34.878Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -902,7 +902,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-21T12:20:27.995Z"
+    "fetchedAt": "2026-09-21T12:30:34.878Z"
   },
   "games": [
     {
@@ -2564,6 +2564,135 @@
         "victories": 1,
         "coins": 7,
         "bux": -2
+      }
+    },
+    {
+      "time": 1789991056,
+      "type": "ROUND_PLAYED",
+      "game": "grav",
+      "victory": true,
+      "changeset": {
+        "xp": 111,
+        "played": 1,
+        "victories": 1,
+        "deaths": 13,
+        "maps_completed": 5,
+        "maps_completed_without_dying": 1
+      }
+    },
+    {
+      "time": 1789991312,
+      "type": "ROUND_PLAYED",
+      "game": "grav",
+      "victory": true,
+      "changeset": {
+        "xp": 151,
+        "played": 1,
+        "victories": 1,
+        "deaths": 2,
+        "maps_completed": 5,
+        "maps_completed_without_dying": 4
+      }
+    },
+    {
+      "time": 1789991647,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 157,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "hider_kills": 1
+      }
+    },
+    {
+      "time": 1789991915,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 196,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "taunts": 1
+      }
+    },
+    {
+      "time": 1789992254,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 185,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1789992396,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 279,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789992884,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 131,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "hider_kills": 1
+      }
+    },
+    {
+      "time": 1789993119,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 123,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789993256,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 127,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1789993583,
+      "type": "ROUND_PLAYED",
+      "game": "sg",
+      "victory": false,
+      "changeset": {
+        "xp": 74,
+        "played": 1,
+        "crates": 21,
+        "kills": 4,
+        "deaths": 1,
+        "teleporters_used": 1,
+        "launchpads_used": 1
       }
     }
   ],
@@ -12654,6 +12783,13 @@
       "victories": 114,
       "winRate": 91.2,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-21T12:30:34.878Z",
+      "totalGames": 135,
+      "victories": 123,
+      "winRate": 91.11,
+      "newGames": 10
     }
   ],
   "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
