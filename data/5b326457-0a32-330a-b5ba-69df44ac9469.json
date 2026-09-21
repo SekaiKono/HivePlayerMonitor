@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-21T11:50:28.945Z",
+  "lastUpdated": "2026-09-21T12:00:44.851Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -871,7 +871,7 @@
         "icon": "https://cdn.playhive.com/avatars/hat-gifter.png",
         "rarity": "UNCOMMON"
       },
-      "quest_count": 368,
+      "quest_count": 369,
       "paid_ranks": [
         "PLUS",
         "ULTIMATE"
@@ -902,7 +902,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-21T11:50:28.945Z"
+    "fetchedAt": "2026-09-21T12:00:44.851Z"
   },
   "games": [
     {
@@ -12629,6 +12629,13 @@
     },
     {
       "timestamp": "2026-09-21T11:50:28.945Z",
+      "totalGames": 125,
+      "victories": 114,
+      "winRate": 91.2,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-21T12:00:44.851Z",
       "totalGames": 125,
       "victories": 114,
       "winRate": 91.2,
