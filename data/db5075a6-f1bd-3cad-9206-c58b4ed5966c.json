@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-21T15:50:29.463Z",
+  "lastUpdated": "2026-09-21T16:00:45.890Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -13,7 +13,7 @@
       "first_played": 1700297993,
       "daily_login_streak": 30,
       "longest_daily_login_streak": 272,
-      "hub_title_count": 151,
+      "hub_title_count": 154,
       "hub_title_unlocked": [
         "&cThe Defender",
         "&cThe Swashbuckler",
@@ -165,7 +165,10 @@
         "&6The Block Placer",
         "&9The Sheriff",
         "&pSk&2yW&far&ps ",
-        "&eBe&6dW&sar&ts "
+        "&eBe&6dW&sar&ts ",
+        " &9BedWars Season 4",
+        " &9Season 4 &jTop 100",
+        " &9Season 4 &j#14"
       ],
       "avatar_count": 110,
       "avatar_unlocked": [
@@ -810,7 +813,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-09-21T15:50:29.463Z"
+    "fetchedAt": "2026-09-21T16:00:45.890Z"
   },
   "games": [
     {
@@ -11396,6 +11399,13 @@
     },
     {
       "timestamp": "2026-09-21T15:50:29.463Z",
+      "totalGames": 25,
+      "victories": 16,
+      "winRate": 64,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-21T16:00:45.890Z",
       "totalGames": 25,
       "victories": 16,
       "winRate": 64,
