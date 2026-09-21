@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-21T13:50:28.353Z",
+  "lastUpdated": "2026-09-21T14:00:43.421Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -284,11 +284,6 @@
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
         "name": "BedWars Wizard"
       },
-      "equipped_backbling": {
-        "name": "Angel Wings",
-        "icon": "https://cdn.playhive.com/avatars/backbling-angel-wings.png",
-        "rarity": "EPIC"
-      },
       "equipped_hat": {
         "name": "Flower Crown",
         "icon": "https://cdn.playhive.com/avatars/hat-flower-crown.png",
@@ -312,7 +307,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-21T13:50:28.353Z"
+    "fetchedAt": "2026-09-21T14:00:43.421Z"
   },
   "games": [
     {
@@ -12001,6 +11996,13 @@
     },
     {
       "timestamp": "2026-09-21T13:50:28.353Z",
+      "totalGames": 113,
+      "victories": 110,
+      "winRate": 97.35,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-21T14:00:43.421Z",
       "totalGames": 113,
       "victories": 110,
       "winRate": 97.35,
