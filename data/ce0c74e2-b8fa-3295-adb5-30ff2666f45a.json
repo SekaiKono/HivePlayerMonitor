@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-22T15:00:49.936Z",
+  "lastUpdated": "2026-09-22T15:10:33.090Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -13,7 +13,7 @@
       "first_played": 1778187826,
       "daily_login_streak": 18,
       "longest_daily_login_streak": 18,
-      "hub_title_count": 27,
+      "hub_title_count": 28,
       "hub_title_unlocked": [
         "&bThe &6MV&eBEE",
         "&fThe &eBees &aKnees",
@@ -41,7 +41,8 @@
         "&6Live. &eLaugh. &bBuzz.",
         " &9BedWars Season 4",
         " &9Season 4 &jTop 100K",
-        " &9Season 4 &j#76165"
+        " &9Season 4 &j#76165",
+        "&fNap &bTime's &jOver"
       ],
       "avatar_count": 21,
       "avatar_unlocked": [
@@ -130,13 +131,14 @@
           "name": "Battle Bear"
         }
       ],
-      "costume_count": 5,
+      "costume_count": 6,
       "costume_unlocked": [
         "Hoodie Bee",
         "Hip Hop",
         "Challenge Bandit",
         "Replay Raccoon",
-        "Ultimate Cubee"
+        "Ultimate Cubee",
+        "Battle Bear"
       ],
       "hat_count": 1,
       "hat_unlocked": [
@@ -169,7 +171,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-22T15:00:49.936Z"
+    "fetchedAt": "2026-09-22T15:10:33.090Z"
   },
   "games": [
     {
@@ -1180,6 +1182,112 @@
         "kills": 4,
         "beds_destroyed": 2,
         "deaths": 1
+      }
+    },
+    {
+      "time": 1790088355,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 318,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 4
+      }
+    },
+    {
+      "time": 1790088494,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 205,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1790088650,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 231,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
+      }
+    },
+    {
+      "time": 1790088799,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 249,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1790088926,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 286,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2
+      }
+    },
+    {
+      "time": 1790089056,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 286,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2
+      }
+    },
+    {
+      "time": 1790089165,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 286,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2
+      }
+    },
+    {
+      "time": 1790089269,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 199,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "level": 1
       }
     }
   ],
@@ -5250,6 +5358,13 @@
       "victories": 72,
       "winRate": 97.3,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-22T15:10:33.090Z",
+      "totalGames": 82,
+      "victories": 80,
+      "winRate": 97.56,
+      "newGames": 8
     }
   ],
   "customName": "ayumus alt"
