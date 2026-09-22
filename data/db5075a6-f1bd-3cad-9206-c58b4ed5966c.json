@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-22T03:40:39.037Z",
+  "lastUpdated": "2026-09-22T03:50:27.439Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -11,7 +11,7 @@
       "username_cc": "HardCastle76765",
       "rank": "ULTIMATE",
       "first_played": 1700297993,
-      "daily_login_streak": 30,
+      "daily_login_streak": 31,
       "longest_daily_login_streak": 272,
       "hub_title_count": 154,
       "hub_title_unlocked": [
@@ -784,7 +784,7 @@
         }
       ],
       "friend_count": 301,
-      "equipped_hub_title": "&pSk&2yW&far&ps ",
+      "equipped_hub_title": "&aGG&b!",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/ctf-castle.png",
         "name": "Castle"
@@ -813,7 +813,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-09-22T03:40:39.037Z"
+    "fetchedAt": "2026-09-22T03:50:27.439Z"
   },
   "games": [
     {
@@ -11896,6 +11896,13 @@
     },
     {
       "timestamp": "2026-09-22T03:40:39.037Z",
+      "totalGames": 25,
+      "victories": 16,
+      "winRate": 64,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-22T03:50:27.439Z",
       "totalGames": 25,
       "victories": 16,
       "winRate": 64,
