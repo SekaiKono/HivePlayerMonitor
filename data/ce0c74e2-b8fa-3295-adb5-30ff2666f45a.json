@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-22T08:30:38.372Z",
+  "lastUpdated": "2026-09-22T08:40:28.366Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -169,7 +169,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-22T08:30:38.372Z"
+    "fetchedAt": "2026-09-22T08:40:28.366Z"
   },
   "games": [
     {
@@ -1122,6 +1122,64 @@
         "victories": 1,
         "final_kills": 1,
         "kills": 3
+      }
+    },
+    {
+      "time": 1790065290,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 288,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1790065508,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 360,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 4,
+        "kills": 4,
+        "beds_destroyed": 1,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1790065759,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 364,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 4,
+        "kills": 4,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1790065969,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 253,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 4,
+        "beds_destroyed": 2,
+        "deaths": 1
       }
     }
   ],
@@ -4919,6 +4977,13 @@
       "victories": 68,
       "winRate": 97.14,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-22T08:40:28.366Z",
+      "totalGames": 74,
+      "victories": 72,
+      "winRate": 97.3,
+      "newGames": 4
     }
   ],
   "customName": "ayumus alt"
