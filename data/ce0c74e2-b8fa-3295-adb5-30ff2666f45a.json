@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-22T15:30:36.535Z",
+  "lastUpdated": "2026-09-22T15:40:33.452Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -176,7 +176,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-22T15:30:36.535Z"
+    "fetchedAt": "2026-09-22T15:40:33.452Z"
   },
   "games": [
     {
@@ -1294,6 +1294,12 @@
         "kills": 2,
         "level": 1
       }
+    },
+    {
+      "time": 1790090534,
+      "type": "LOCKER",
+      "unlock_type": "avatar",
+      "unlock_id": "c3e561b0-b3a7-40d3-ac1e-20b55496f584"
     }
   ],
   "snapshots": [
@@ -5384,6 +5390,13 @@
       "victories": 80,
       "winRate": 97.56,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-22T15:40:33.452Z",
+      "totalGames": 83,
+      "victories": 80,
+      "winRate": 96.39,
+      "newGames": 1
     }
   ],
   "customName": "ayumus alt"
