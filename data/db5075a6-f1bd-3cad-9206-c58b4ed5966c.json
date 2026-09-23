@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-23T12:00:43.949Z",
+  "lastUpdated": "2026-09-23T12:10:29.214Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -11,7 +11,7 @@
       "username_cc": "HardCastle76765",
       "rank": "ULTIMATE",
       "first_played": 1700297993,
-      "daily_login_streak": 31,
+      "daily_login_streak": 32,
       "longest_daily_login_streak": 272,
       "hub_title_count": 154,
       "hub_title_unlocked": [
@@ -170,7 +170,7 @@
         " &9Season 4 &jTop 100",
         " &9Season 4 &j#14"
       ],
-      "avatar_count": 110,
+      "avatar_count": 111,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-drew.png",
@@ -611,6 +611,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/bed-prestige-2.png",
           "name": "BedWars Prestige 2"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-discord-200k.png",
+          "name": "Discord 200k"
         }
       ],
       "costume_count": 51,
@@ -813,7 +817,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-09-23T12:00:43.949Z"
+    "fetchedAt": "2026-09-23T12:10:29.214Z"
   },
   "games": [
     {
@@ -13264,6 +13268,13 @@
       "victories": 16,
       "winRate": 61.54,
       "newGames": 1
+    },
+    {
+      "timestamp": "2026-09-23T12:10:29.214Z",
+      "totalGames": 26,
+      "victories": 16,
+      "winRate": 61.54,
+      "newGames": 0
     }
   ],
   "customName": "ayumu (best vpn player)"
