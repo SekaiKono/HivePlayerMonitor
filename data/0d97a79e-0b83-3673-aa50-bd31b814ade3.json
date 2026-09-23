@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-23T12:40:26.654Z",
+  "lastUpdated": "2026-09-23T12:50:34.053Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -285,7 +285,7 @@
           "rarity": "RARE"
         }
       ],
-      "friend_count": 263,
+      "friend_count": 265,
       "equipped_hub_title": " &9Season 4 &j#8",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
@@ -319,7 +319,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-23T12:40:26.654Z"
+    "fetchedAt": "2026-09-23T12:50:34.053Z"
   },
   "games": [
     {
@@ -14149,6 +14149,13 @@
     },
     {
       "timestamp": "2026-09-23T12:40:26.654Z",
+      "totalGames": 127,
+      "victories": 123,
+      "winRate": 96.85,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-23T12:50:34.053Z",
       "totalGames": 127,
       "victories": 123,
       "winRate": 96.85,
