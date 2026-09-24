@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-09-24T19:10:28.652Z",
+  "lastUpdated": "2026-09-24T19:20:28.437Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -11,7 +11,6 @@
       "username_cc": "RS stella",
       "rank": "ULTIMATE",
       "first_played": 1737797466,
-      "daily_login_streak": 20,
       "longest_daily_login_streak": 272,
       "hub_title_count": 162,
       "hub_title_unlocked": [
@@ -178,7 +177,7 @@
         " &9Season 4 &jTop 1K",
         " &9Season 4 &j#281"
       ],
-      "avatar_count": 124,
+      "avatar_count": 125,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/bridge-hatch.png",
@@ -675,6 +674,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/bed-prestige-2.png",
           "name": "BedWars Prestige 2"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-discord-200k.png",
+          "name": "Discord 200k"
         }
       ],
       "costume_count": 36,
@@ -905,7 +908,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-09-24T19:10:28.652Z"
+    "fetchedAt": "2026-09-24T19:20:28.437Z"
   },
   "games": [
     {
@@ -2697,6 +2700,12 @@
         "teleporters_used": 1,
         "launchpads_used": 1
       }
+    },
+    {
+      "time": 1790277367,
+      "type": "LOCKER",
+      "unlock_type": "avatar",
+      "unlock_id": "f1729251-2a0b-49c8-a529-5fe23477e1a4"
     }
   ],
   "snapshots": [
@@ -16097,6 +16106,13 @@
       "victories": 123,
       "winRate": 91.11,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-24T19:20:28.437Z",
+      "totalGames": 136,
+      "victories": 123,
+      "winRate": 90.44,
+      "newGames": 1
     }
   ],
   "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
