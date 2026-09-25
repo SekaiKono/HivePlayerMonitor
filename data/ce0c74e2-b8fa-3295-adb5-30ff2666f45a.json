@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-25T19:20:27.236Z",
+  "lastUpdated": "2026-09-25T19:30:36.789Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -181,7 +181,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-25T19:20:27.236Z"
+    "fetchedAt": "2026-09-25T19:30:36.789Z"
   },
   "games": [
     {
@@ -9495,6 +9495,13 @@
       "victories": 143,
       "winRate": 95.97,
       "newGames": 9
+    },
+    {
+      "timestamp": "2026-09-25T19:30:36.789Z",
+      "totalGames": 149,
+      "victories": 143,
+      "winRate": 95.97,
+      "newGames": 0
     }
   ],
   "customName": "ayumus alt"
