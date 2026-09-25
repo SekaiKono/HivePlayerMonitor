@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-25T11:00:44.876Z",
+  "lastUpdated": "2026-09-25T11:10:29.853Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -788,7 +788,7 @@
         }
       ],
       "friend_count": 301,
-      "equipped_hub_title": "&aGG&b!",
+      "equipped_hub_title": " &9Season 4 &j#14",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/ctf-castle.png",
         "name": "Castle"
@@ -817,7 +817,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-09-25T11:00:44.876Z"
+    "fetchedAt": "2026-09-25T11:10:29.853Z"
   },
   "games": [
     {
@@ -15238,6 +15238,13 @@
     },
     {
       "timestamp": "2026-09-25T11:00:44.876Z",
+      "totalGames": 26,
+      "victories": 16,
+      "winRate": 61.54,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-25T11:10:29.853Z",
       "totalGames": 26,
       "victories": 16,
       "winRate": 61.54,
