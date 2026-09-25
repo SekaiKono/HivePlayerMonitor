@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-25T14:50:29.006Z",
+  "lastUpdated": "2026-09-25T15:00:46.782Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -45,7 +45,7 @@
         "&fNap &bTime's &jOver",
         "&fBe&udW&7ar&fs "
       ],
-      "avatar_count": 22,
+      "avatar_count": 23,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/embee.png",
@@ -134,6 +134,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
           "name": "BedWars Prestige 1"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/sky-island.png",
+          "name": "SkyWars Island"
         }
       ],
       "costume_count": 6,
@@ -176,7 +180,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-25T14:50:29.006Z"
+    "fetchedAt": "2026-09-25T15:00:46.782Z"
   },
   "games": [
     {
@@ -9176,6 +9180,13 @@
     },
     {
       "timestamp": "2026-09-25T14:50:29.006Z",
+      "totalGames": 140,
+      "victories": 135,
+      "winRate": 96.43,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-25T15:00:46.782Z",
       "totalGames": 140,
       "victories": 135,
       "winRate": 96.43,
