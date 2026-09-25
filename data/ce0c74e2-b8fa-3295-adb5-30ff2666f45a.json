@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-25T15:00:46.782Z",
+  "lastUpdated": "2026-09-25T15:10:28.768Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -13,7 +13,7 @@
       "first_played": 1778187826,
       "daily_login_streak": 21,
       "longest_daily_login_streak": 21,
-      "hub_title_count": 29,
+      "hub_title_count": 30,
       "hub_title_unlocked": [
         "&bThe &6MV&eBEE",
         "&fThe &eBees &aKnees",
@@ -43,7 +43,8 @@
         " &9Season 4 &jTop 100K",
         " &9Season 4 &j#76165",
         "&fNap &bTime's &jOver",
-        "&fBe&udW&7ar&fs "
+        "&fBe&udW&7ar&fs ",
+        "&6Champion of the &eSky"
       ],
       "avatar_count": 23,
       "avatar_unlocked": [
@@ -180,7 +181,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-25T15:00:46.782Z"
+    "fetchedAt": "2026-09-25T15:10:28.768Z"
   },
   "games": [
     {
@@ -9187,6 +9188,13 @@
     },
     {
       "timestamp": "2026-09-25T15:00:46.782Z",
+      "totalGames": 140,
+      "victories": 135,
+      "winRate": 96.43,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-25T15:10:28.768Z",
       "totalGames": 140,
       "victories": 135,
       "winRate": 96.43,
