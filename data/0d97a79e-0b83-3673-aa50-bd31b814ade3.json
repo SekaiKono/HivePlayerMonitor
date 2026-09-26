@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-26T11:50:28.743Z",
+  "lastUpdated": "2026-09-26T12:00:41.107Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -306,8 +306,8 @@
         "rarity": "EPIC"
       },
       "equipped_hat": {
-        "name": "Shining Crown",
-        "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
+        "name": "Flower Crown",
+        "icon": "https://cdn.playhive.com/avatars/hat-flower-crown.png",
         "rarity": "RARE"
       },
       "quest_count": 5,
@@ -328,7 +328,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-26T11:50:28.743Z"
+    "fetchedAt": "2026-09-26T12:00:41.107Z"
   },
   "games": [
     {
@@ -17281,6 +17281,13 @@
     },
     {
       "timestamp": "2026-09-26T11:50:28.743Z",
+      "totalGames": 137,
+      "victories": 133,
+      "winRate": 97.08,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-26T12:00:41.107Z",
       "totalGames": 137,
       "victories": 133,
       "winRate": 97.08,
