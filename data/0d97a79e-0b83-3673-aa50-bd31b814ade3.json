@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-26T13:10:27.977Z",
+  "lastUpdated": "2026-09-26T13:20:25.578Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -333,7 +333,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-26T13:10:27.977Z"
+    "fetchedAt": "2026-09-26T13:20:25.578Z"
   },
   "games": [
     {
@@ -2175,6 +2175,86 @@
         "kills": 7,
         "deaths": 3
       }
+    },
+    {
+      "time": 1790423297,
+      "type": "LOCKER",
+      "unlock_type": "backbling",
+      "unlock_id": "9c9393d2-5098-4061-89e6-c99a9bedc615"
+    },
+    {
+      "time": 1790424116,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 264,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 4,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1790424280,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 185,
+        "played": 1,
+        "victories": 1,
+        "kills": 2,
+        "beds_destroyed": 1,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1790424583,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 235,
+        "played": 1,
+        "victories": 1,
+        "kills": 4,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1790424714,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 207,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1790425167,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 173,
+        "played": 1,
+        "victories": 1,
+        "kills": 2,
+        "beds_destroyed": 1,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1790425287,
+      "type": "LOCKER",
+      "unlock_type": "hat",
+      "unlock_id": "a161114d-6208-46a7-85f2-7bc914ffe758"
     }
   ],
   "snapshots": [
@@ -17346,6 +17426,13 @@
       "victories": 133,
       "winRate": 97.08,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-26T13:20:25.578Z",
+      "totalGames": 144,
+      "victories": 138,
+      "winRate": 95.83,
+      "newGames": 7
     }
   ],
   "customName": "TakatiG (skilled at sexually harassing others)"
