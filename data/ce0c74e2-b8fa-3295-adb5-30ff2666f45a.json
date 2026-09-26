@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-26T10:50:30.716Z",
+  "lastUpdated": "2026-09-26T11:00:48.631Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -11,8 +11,8 @@
       "username_cc": "mqzly",
       "rank": "ULTIMATE",
       "first_played": 1778187826,
-      "daily_login_streak": 21,
-      "longest_daily_login_streak": 21,
+      "daily_login_streak": 22,
+      "longest_daily_login_streak": 22,
       "hub_title_count": 30,
       "hub_title_unlocked": [
         "&bThe &6MV&eBEE",
@@ -166,7 +166,7 @@
           "rarity": "RARE"
         }
       ],
-      "friend_count": 98,
+      "friend_count": 99,
       "equipped_hub_title": " &t() Winrate",
       "paid_ranks": [
         "PLUS",
@@ -181,7 +181,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-26T10:50:30.716Z"
+    "fetchedAt": "2026-09-26T11:00:48.631Z"
   },
   "games": [
     {
@@ -10142,6 +10142,13 @@
     },
     {
       "timestamp": "2026-09-26T10:50:30.716Z",
+      "totalGames": 149,
+      "victories": 143,
+      "winRate": 95.97,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-26T11:00:48.631Z",
       "totalGames": 149,
       "victories": 143,
       "winRate": 95.97,
