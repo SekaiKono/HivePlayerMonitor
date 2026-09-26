@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-26T11:40:27.948Z",
+  "lastUpdated": "2026-09-26T11:50:28.743Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -70,7 +70,7 @@
         " &9Season 4 &jTop 100",
         " &9Season 4 &j#8"
       ],
-      "avatar_count": 37,
+      "avatar_count": 38,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/bed-bedwars.png",
@@ -219,6 +219,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/avatar-discord-200k.png",
           "name": "Discord 200k"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/backbling-galaxy-wings.png",
+          "name": "Galaxy Wings (Backbling)"
         }
       ],
       "costume_count": 10,
@@ -267,7 +271,7 @@
           "rarity": "RARE"
         }
       ],
-      "backbling_count": 3,
+      "backbling_count": 4,
       "cosmetics.backbling": [
         {
           "name": "7th Beeday Cake",
@@ -283,6 +287,11 @@
           "name": "Wasp Wings",
           "icon": "https://cdn.playhive.com/avatars/backbling-wasp-wings.png",
           "rarity": "RARE"
+        },
+        {
+          "name": "Galaxy Wings",
+          "icon": "https://cdn.playhive.com/avatars/backbling-galaxy-wings.png",
+          "rarity": "EPIC"
         }
       ],
       "friend_count": 265,
@@ -292,13 +301,13 @@
         "name": "BedWars Wizard"
       },
       "equipped_backbling": {
-        "name": "Angel Wings",
-        "icon": "https://cdn.playhive.com/avatars/backbling-angel-wings.png",
+        "name": "Galaxy Wings",
+        "icon": "https://cdn.playhive.com/avatars/backbling-galaxy-wings.png",
         "rarity": "EPIC"
       },
       "equipped_hat": {
-        "name": "Flower Crown",
-        "icon": "https://cdn.playhive.com/avatars/hat-flower-crown.png",
+        "name": "Shining Crown",
+        "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
         "rarity": "RARE"
       },
       "quest_count": 5,
@@ -319,7 +328,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-09-26T11:40:27.948Z"
+    "fetchedAt": "2026-09-26T11:50:28.743Z"
   },
   "games": [
     {
@@ -17265,6 +17274,13 @@
     },
     {
       "timestamp": "2026-09-26T11:40:27.948Z",
+      "totalGames": 137,
+      "victories": 133,
+      "winRate": 97.08,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-26T11:50:28.743Z",
       "totalGames": 137,
       "victories": 133,
       "winRate": 97.08,
