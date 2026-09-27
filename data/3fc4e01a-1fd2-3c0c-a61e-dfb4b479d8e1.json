@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-27T08:10:29.160Z",
+  "lastUpdated": "2026-09-27T08:20:28.696Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -350,7 +350,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-27T08:10:29.160Z"
+    "fetchedAt": "2026-09-27T08:20:28.696Z"
   },
   "games": [
     {
@@ -4499,6 +4499,62 @@
     },
     {
       "time": 1790495242,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790495979,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 92,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790496115,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790496543,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1790496689,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790496875,
       "type": "ROUND_PLAYED",
       "game": "bed",
       "victory": true,
@@ -20476,6 +20532,13 @@
       "victories": 293,
       "winRate": 91.85,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-27T08:20:28.696Z",
+      "totalGames": 324,
+      "victories": 298,
+      "winRate": 91.98,
+      "newGames": 5
     }
   ],
   "customName": "iss (best type ez player and did no thing)"
