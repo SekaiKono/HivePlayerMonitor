@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-27T15:10:28.475Z",
+  "lastUpdated": "2026-09-27T15:20:29.245Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -13,7 +13,7 @@
       "first_played": 1778187826,
       "daily_login_streak": 23,
       "longest_daily_login_streak": 23,
-      "hub_title_count": 30,
+      "hub_title_count": 31,
       "hub_title_unlocked": [
         "&bThe &6MV&eBEE",
         "&fThe &eBees &aKnees",
@@ -44,9 +44,10 @@
         " &9Season 4 &j#76165",
         "&fNap &bTime's &jOver",
         "&fBe&udW&7ar&fs ",
-        "&6Champion of the &eSky"
+        "&6Champion of the &eSky",
+        "&eHOO ARE YOU?"
       ],
-      "avatar_count": 23,
+      "avatar_count": 25,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/embee.png",
@@ -139,16 +140,25 @@
         {
           "url": "https://cdn.playhive.com/avatars/sky-island.png",
           "name": "SkyWars Island"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-owl.png",
+          "name": "Team Owl"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/grav-zoomies.png",
+          "name": "Zoomies"
         }
       ],
-      "costume_count": 6,
+      "costume_count": 7,
       "costume_unlocked": [
         "Hoodie Bee",
         "Hip Hop",
         "Challenge Bandit",
         "Replay Raccoon",
         "Ultimate Cubee",
-        "Battle Bear"
+        "Battle Bear",
+        "Owl"
       ],
       "hat_count": 1,
       "hat_unlocked": [
@@ -181,7 +191,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-27T15:10:28.475Z"
+    "fetchedAt": "2026-09-27T15:20:29.245Z"
   },
   "games": [
     {
@@ -11741,6 +11751,13 @@
       "victories": 173,
       "winRate": 96.65,
       "newGames": 10
+    },
+    {
+      "timestamp": "2026-09-27T15:20:29.245Z",
+      "totalGames": 179,
+      "victories": 173,
+      "winRate": 96.65,
+      "newGames": 0
     }
   ],
   "customName": "ayumus alt"
