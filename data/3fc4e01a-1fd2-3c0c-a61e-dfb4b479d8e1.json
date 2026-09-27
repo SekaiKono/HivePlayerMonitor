@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-27T07:50:25.749Z",
+  "lastUpdated": "2026-09-27T08:00:42.000Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -350,7 +350,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-27T07:50:25.749Z"
+    "fetchedAt": "2026-09-27T08:00:42.000Z"
   },
   "games": [
     {
@@ -4410,6 +4410,95 @@
     },
     {
       "time": 1790492668,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790493444,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 131,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790493844,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790494099,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790494325,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 136,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790494527,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790494806,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 136,
+        "played": 1,
+        "victories": 1,
+        "kills": 1
+      }
+    },
+    {
+      "time": 1790495008,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790495242,
       "type": "ROUND_PLAYED",
       "game": "bed",
       "victory": true,
@@ -20373,6 +20462,13 @@
       "victories": 285,
       "winRate": 91.64,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-27T08:00:42.000Z",
+      "totalGames": 319,
+      "victories": 293,
+      "winRate": 91.85,
+      "newGames": 8
     }
   ],
   "customName": "iss (best type ez player and did no thing)"
