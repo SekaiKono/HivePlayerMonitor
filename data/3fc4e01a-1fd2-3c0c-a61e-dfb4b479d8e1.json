@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-27T09:40:26.162Z",
+  "lastUpdated": "2026-09-27T09:50:27.003Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -249,7 +249,7 @@
           "name": "Discord 200k"
         }
       ],
-      "costume_count": 9,
+      "costume_count": 10,
       "costume_unlocked": [
         "Hoodie Bee",
         "Target",
@@ -259,9 +259,10 @@
         "Battle Bear",
         "Amethyst",
         "Time Owl",
-        "Hip Hop"
+        "Hip Hop",
+        "Challenge Bandit"
       ],
-      "hat_count": 5,
+      "hat_count": 6,
       "hat_unlocked": [
         {
           "name": "Gifter",
@@ -287,6 +288,11 @@
           "name": "Shining Crown",
           "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
           "rarity": "RARE"
+        },
+        {
+          "name": "Lil Hat",
+          "icon": "https://cdn.playhive.com/avatars/hat-lil-hat.png",
+          "rarity": "EPIC"
         }
       ],
       "backbling_count": 5,
@@ -333,7 +339,7 @@
         "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
         "rarity": "RARE"
       },
-      "quest_count": 89,
+      "quest_count": 90,
       "paid_ranks": [
         "PLUS",
         "ULTIMATE"
@@ -350,7 +356,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-09-27T09:40:26.162Z"
+    "fetchedAt": "2026-09-27T09:50:27.003Z"
   },
   "games": [
     {
@@ -20602,6 +20608,13 @@
     },
     {
       "timestamp": "2026-09-27T09:40:26.162Z",
+      "totalGames": 325,
+      "victories": 299,
+      "winRate": 92,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-27T09:50:27.003Z",
       "totalGames": 325,
       "victories": 299,
       "winRate": 92,
