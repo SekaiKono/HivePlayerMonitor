@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-09-28T09:00:44.151Z",
+  "lastUpdated": "2026-09-28T09:10:29.065Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -191,7 +191,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-09-28T09:00:44.151Z"
+    "fetchedAt": "2026-09-28T09:10:29.065Z"
   },
   "games": [
     {
@@ -2634,6 +2634,20 @@
         "victories": 1,
         "final_kills": 1,
         "kills": 2
+      }
+    },
+    {
+      "time": 1790586083,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 240,
+        "played": 1,
+        "victories": 1,
+        "kills": 4,
+        "ores_mined": 21,
+        "final_kills": 4
       }
     }
   ],
@@ -12500,6 +12514,13 @@
       "victories": 173,
       "winRate": 96.65,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-28T09:10:29.065Z",
+      "totalGames": 180,
+      "victories": 174,
+      "winRate": 96.67,
+      "newGames": 1
     }
   ],
   "customName": "ayumus alt"
