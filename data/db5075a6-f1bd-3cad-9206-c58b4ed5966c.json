@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-09-30T16:30:39.380Z",
+  "lastUpdated": "2026-09-30T16:40:27.244Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -816,7 +816,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-09-30T16:30:39.380Z"
+    "fetchedAt": "2026-09-30T16:40:27.244Z"
   },
   "games": [
     {
@@ -1169,6 +1169,144 @@
       "type": "LOCKER",
       "unlock_type": "avatar",
       "unlock_id": "f1729251-2a0b-49c8-a529-5fe23477e1a4"
+    },
+    {
+      "time": 1790784389,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 271,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1790784522,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 183,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
+      }
+    },
+    {
+      "time": 1790784806,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 183,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1790785045,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 323,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 4,
+        "kills": 4,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1790785181,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 297,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 3,
+        "level": 1
+      }
+    },
+    {
+      "time": 1790785312,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 238,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "beds_destroyed": 2
+      }
+    },
+    {
+      "time": 1790785580,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 224,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 2,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1790785662,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 124,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1790785894,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 273,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1790786164,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 192,
+        "played": 1,
+        "victories": 1,
+        "beds_destroyed": 2,
+        "deaths": 3,
+        "level": 1
+      }
     }
   ],
   "snapshots": [
@@ -20512,6 +20650,13 @@
       "victories": 16,
       "winRate": 61.54,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-09-30T16:40:27.244Z",
+      "totalGames": 36,
+      "victories": 26,
+      "winRate": 72.22,
+      "newGames": 10
     }
   ],
   "customName": "ayumu (best vpn player)"
