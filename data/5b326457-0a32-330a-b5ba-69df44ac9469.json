@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-10-05T13:20:33.325Z",
+  "lastUpdated": "2026-10-05T13:40:30.186Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -868,7 +868,6 @@
         }
       ],
       "friend_count": 87,
-      "equipped_hub_title": " &9Season 4 &j#281",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/sky-blessed-deathcrate.png",
         "name": "Blessed Deathcrate"
@@ -904,7 +903,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-10-02T15:10:28.254Z"
+    "fetchedAt": "2026-10-05T13:40:30.186Z"
   },
   "games": [
     {
@@ -25012,6 +25011,13 @@
     },
     {
       "timestamp": "2026-10-05T13:20:33.325Z",
+      "totalGames": 155,
+      "victories": 138,
+      "winRate": 89.03,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-05T13:40:30.186Z",
       "totalGames": 155,
       "victories": 138,
       "winRate": 89.03,

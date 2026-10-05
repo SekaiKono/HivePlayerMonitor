@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-05T13:20:33.325Z",
+  "lastUpdated": "2026-10-05T13:40:30.186Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -11,8 +11,8 @@
       "username_cc": "TakatiG15",
       "rank": "ULTIMATE",
       "first_played": 1755507914,
-      "daily_login_streak": 303,
-      "longest_daily_login_streak": 303,
+      "daily_login_streak": 306,
+      "longest_daily_login_streak": 306,
       "hub_title_count": 54,
       "hub_title_unlocked": [
         "&mInsomniac",
@@ -299,7 +299,7 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 206,
+      "friend_count": 207,
       "equipped_hub_title": " &9Season 4 &j#8",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
@@ -333,7 +333,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-02T15:10:28.254Z"
+    "fetchedAt": "2026-10-05T13:40:30.186Z"
   },
   "games": [
     {
@@ -2719,6 +2719,32 @@
         "kills": 1,
         "beds_destroyed": 1,
         "deaths": 2
+      }
+    },
+    {
+      "time": 1791115623,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 220,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 7
+      }
+    },
+    {
+      "time": 1791115776,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 223,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 6
       }
     }
   ],
@@ -24779,6 +24805,13 @@
       "victories": 170,
       "winRate": 95.51,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-05T13:40:30.186Z",
+      "totalGames": 180,
+      "victories": 172,
+      "winRate": 95.56,
+      "newGames": 2
     }
   ],
   "customName": "TakatiG (skilled at sexually harassing others)"
