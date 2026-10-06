@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-06T12:25:05.233Z",
+  "lastUpdated": "2026-10-06T12:50:32.786Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -11,8 +11,8 @@
       "username_cc": "TakatiG15",
       "rank": "ULTIMATE",
       "first_played": 1755507914,
-      "daily_login_streak": 306,
-      "longest_daily_login_streak": 306,
+      "daily_login_streak": 307,
+      "longest_daily_login_streak": 307,
       "hub_title_count": 54,
       "hub_title_unlocked": [
         "&mInsomniac",
@@ -299,7 +299,7 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 207,
+      "friend_count": 208,
       "equipped_hub_title": " &9Season 4 &j#8",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
@@ -333,7 +333,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-06T04:30:39.772Z"
+    "fetchedAt": "2026-10-06T12:50:32.786Z"
   },
   "games": [
     {
@@ -2878,6 +2878,129 @@
         "victories": 1,
         "kills": 1,
         "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1791276010,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 146,
+        "played": 1,
+        "victories": 1,
+        "kills": 4,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1791276179,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 168,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 4
+      }
+    },
+    {
+      "time": 1791276388,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 194,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 8
+      }
+    },
+    {
+      "time": 1791276546,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 164,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 3,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791276689,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 203,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 7
+      }
+    },
+    {
+      "time": 1791276922,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 190,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 3,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1791277171,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 290,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 3,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791277430,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 327,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 8,
+        "beds_destroyed": 1,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1791277622,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 377,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 5,
+        "kills": 7,
+        "beds_destroyed": 2
       }
     }
   ],
@@ -25603,6 +25726,13 @@
       "victories": 182,
       "winRate": 95.79,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-06T12:50:32.786Z",
+      "totalGames": 199,
+      "victories": 191,
+      "winRate": 95.98,
+      "newGames": 9
     }
   ],
   "customName": "TakatiG (skilled at sexually harassing others)"
