@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-10-06T08:28:13.350Z",
+  "lastUpdated": "2026-10-06T09:08:10.468Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -18451,6 +18451,13 @@
     },
     {
       "timestamp": "2026-10-06T08:28:13.350Z",
+      "totalGames": 200,
+      "victories": 194,
+      "winRate": 97,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-06T09:08:10.468Z",
       "totalGames": 200,
       "victories": 194,
       "winRate": 97,
