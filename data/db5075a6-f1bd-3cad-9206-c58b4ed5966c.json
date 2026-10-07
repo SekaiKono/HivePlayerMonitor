@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-07T17:50:28.766Z",
+  "lastUpdated": "2026-10-07T18:00:49.002Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -817,7 +817,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-07T17:50:28.766Z"
+    "fetchedAt": "2026-10-07T18:00:49.002Z"
   },
   "games": [
     {
@@ -1703,6 +1703,128 @@
         "played": 1,
         "kills": 4,
         "deaths": 5
+      }
+    },
+    {
+      "time": 1791394587,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1791394761,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 226,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "coins": 22,
+        "bux": 1
+      }
+    },
+    {
+      "time": 1791394879,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "played": 1,
+        "victories": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791395057,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 218,
+        "played": 1,
+        "victories": 1,
+        "coins": 16,
+        "bux": 1
+      }
+    },
+    {
+      "time": 1791395168,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "xp": 276,
+        "played": 1,
+        "deaths": 1,
+        "coins": 6,
+        "murders": 8
+      }
+    },
+    {
+      "time": 1791395312,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 105,
+        "played": 1,
+        "victories": 1,
+        "coins": 7
+      }
+    },
+    {
+      "time": 1791395433,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 69,
+        "played": 1,
+        "victories": 1,
+        "coins": 4
+      }
+    },
+    {
+      "time": 1791395530,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 127,
+        "played": 1,
+        "victories": 1,
+        "coins": 10,
+        "bux": -5
+      }
+    },
+    {
+      "time": 1791395588,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1791395706,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 411,
+        "played": 1,
+        "victories": 1,
+        "coins": 4,
+        "murderer_eliminations": 1,
+        "bux": 0
       }
     }
   ],
@@ -25639,6 +25761,13 @@
       "victories": 51,
       "winRate": 78.46,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-07T18:00:49.002Z",
+      "totalGames": 75,
+      "victories": 60,
+      "winRate": 80,
+      "newGames": 10
     }
   ],
   "customName": "ayumu (best vpn player)"
