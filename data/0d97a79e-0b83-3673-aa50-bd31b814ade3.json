@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-08T08:40:32.019Z",
+  "lastUpdated": "2026-10-08T08:50:34.183Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -306,8 +306,8 @@
         "name": "BedWars Wizard"
       },
       "equipped_backbling": {
-        "name": "Galaxy Wings",
-        "icon": "https://cdn.playhive.com/avatars/backbling-galaxy-wings.png",
+        "name": "Angel Wings",
+        "icon": "https://cdn.playhive.com/avatars/backbling-angel-wings.png",
         "rarity": "EPIC"
       },
       "equipped_hat": {
@@ -333,7 +333,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-08T08:40:32.019Z"
+    "fetchedAt": "2026-10-08T08:50:34.183Z"
   },
   "games": [
     {
@@ -27834,6 +27834,13 @@
     },
     {
       "timestamp": "2026-10-08T08:40:32.019Z",
+      "totalGames": 219,
+      "victories": 209,
+      "winRate": 95.43,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-08T08:50:34.183Z",
       "totalGames": 219,
       "victories": 209,
       "winRate": 95.43,
