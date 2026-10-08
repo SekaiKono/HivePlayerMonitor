@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-10-08T21:30:39.913Z",
+  "lastUpdated": "2026-10-08T21:40:28.647Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -191,7 +191,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-10-08T21:30:39.913Z"
+    "fetchedAt": "2026-10-08T21:40:28.647Z"
   },
   "games": [
     {
@@ -3060,6 +3060,142 @@
         "final_kills": 2,
         "kills": 4,
         "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1791490052,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 170,
+        "played": 1,
+        "victories": 1,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791490211,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 277,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791490449,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 240,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791490912,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 171,
+        "played": 1,
+        "victories": 1,
+        "kills": 3,
+        "beds_destroyed": 1,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1791491615,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 223,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 8
+      }
+    },
+    {
+      "time": 1791494160,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 11,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791494387,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 180,
+        "played": 1,
+        "victories": 1,
+        "kills": 3,
+        "ores_mined": 8,
+        "final_kills": 2,
+        "level": 1
+      }
+    },
+    {
+      "time": 1791494785,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 446,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 4,
+        "kills": 5,
+        "beds_destroyed": 2,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1791495152,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": false,
+      "changeset": {
+        "xp": 17,
+        "played": 1,
+        "kills": 5,
+        "deaths": 5
+      }
+    },
+    {
+      "time": 1791495338,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 293,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 4,
+        "beds_destroyed": 2,
+        "deaths": 1
       }
     }
   ],
@@ -21011,6 +21147,13 @@
       "victories": 204,
       "winRate": 97.14,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-08T21:40:28.647Z",
+      "totalGames": 220,
+      "victories": 212,
+      "winRate": 96.36,
+      "newGames": 10
     }
   ],
   "customName": "ayumus alt"
