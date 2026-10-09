@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-10-09T20:40:32.523Z",
+  "lastUpdated": "2026-10-09T20:50:30.125Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -13,7 +13,7 @@
       "first_played": 1778187826,
       "daily_login_streak": 3,
       "longest_daily_login_streak": 25,
-      "hub_title_count": 31,
+      "hub_title_count": 32,
       "hub_title_unlocked": [
         "&bThe &6MV&eBEE",
         "&fThe &eBees &aKnees",
@@ -45,9 +45,10 @@
         "&fNap &bTime's &jOver",
         "&fBe&udW&7ar&fs ",
         "&6Champion of the &eSky",
-        "&eHOO ARE YOU?"
+        "&eHOO ARE YOU?",
+        "&2De&pad &aPix&nels"
       ],
-      "avatar_count": 25,
+      "avatar_count": 26,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/embee.png",
@@ -148,6 +149,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/grav-zoomies.png",
           "name": "Zoomies"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/gi-captain-ghosty.png",
+          "name": "Captain Ghosty"
         }
       ],
       "costume_count": 7,
@@ -176,7 +181,7 @@
           "rarity": "RARE"
         }
       ],
-      "friend_count": 105,
+      "friend_count": 106,
       "equipped_hub_title": " &t() Winrate",
       "paid_ranks": [
         "PLUS",
@@ -191,7 +196,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-10-09T20:40:32.523Z"
+    "fetchedAt": "2026-10-09T20:50:30.125Z"
   },
   "games": [
     {
@@ -22116,6 +22121,13 @@
     },
     {
       "timestamp": "2026-10-09T20:40:32.523Z",
+      "totalGames": 220,
+      "victories": 212,
+      "winRate": 96.36,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-09T20:50:30.125Z",
       "totalGames": 220,
       "victories": 212,
       "winRate": 96.36,
