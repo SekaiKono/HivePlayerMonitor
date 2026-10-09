@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-09T15:20:29.712Z",
+  "lastUpdated": "2026-10-09T15:30:41.154Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -69,7 +69,7 @@
         " &9Season 4 &jTop 1K",
         " &9Season 4 &j#152"
       ],
-      "avatar_count": 34,
+      "avatar_count": 35,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-riley.png",
@@ -206,6 +206,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/hide-hiding-doggo.png",
           "name": "Hiding Doggo"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/gi-captain-ghosty.png",
+          "name": "Captain Ghosty"
         }
       ],
       "costume_count": 9,
@@ -266,7 +270,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-09T15:20:29.712Z"
+    "fetchedAt": "2026-10-09T15:30:41.154Z"
   },
   "games": [
     {
@@ -27899,6 +27903,13 @@
     },
     {
       "timestamp": "2026-10-09T15:20:29.712Z",
+      "totalGames": 141,
+      "victories": 114,
+      "winRate": 80.85,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-09T15:30:41.154Z",
       "totalGames": 141,
       "victories": 114,
       "winRate": 80.85,
