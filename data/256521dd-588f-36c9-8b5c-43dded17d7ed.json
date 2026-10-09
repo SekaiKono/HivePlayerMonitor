@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-09T15:50:31.299Z",
+  "lastUpdated": "2026-10-09T16:00:54.255Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -270,7 +270,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-09T15:50:31.299Z"
+    "fetchedAt": "2026-10-09T16:00:54.255Z"
   },
   "games": [
     {
@@ -2110,6 +2110,76 @@
         "kills": 2,
         "deaths": 2
       }
+    },
+    {
+      "time": 1791560369,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791560469,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791560585,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": false,
+      "changeset": {}
+    },
+    {
+      "time": 1791560664,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791560780,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": false,
+      "changeset": {}
+    },
+    {
+      "time": 1791560833,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791560930,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": false,
+      "changeset": {}
+    },
+    {
+      "time": 1791560991,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791561040,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": false,
+      "changeset": {}
+    },
+    {
+      "time": 1791561135,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
     }
   ],
   "snapshots": [
@@ -27928,6 +27998,13 @@
       "victories": 114,
       "winRate": 80.85,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-09T16:00:54.255Z",
+      "totalGames": 151,
+      "victories": 120,
+      "winRate": 79.47,
+      "newGames": 10
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
