@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-09T07:40:28.933Z",
+  "lastUpdated": "2026-10-09T07:50:30.240Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -11,8 +11,8 @@
       "username_cc": "TakatiG15",
       "rank": "ULTIMATE",
       "first_played": 1755507914,
-      "daily_login_streak": 309,
-      "longest_daily_login_streak": 309,
+      "daily_login_streak": 310,
+      "longest_daily_login_streak": 310,
       "hub_title_count": 54,
       "hub_title_unlocked": [
         "&mInsomniac",
@@ -299,21 +299,21 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 211,
+      "friend_count": 212,
       "equipped_hub_title": " &9Season 4 &j#8",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
         "name": "BedWars Wizard"
       },
       "equipped_backbling": {
-        "name": "Angel Wings",
-        "icon": "https://cdn.playhive.com/avatars/backbling-angel-wings.png",
+        "name": "Galaxy Wings",
+        "icon": "https://cdn.playhive.com/avatars/backbling-galaxy-wings.png",
         "rarity": "EPIC"
       },
       "equipped_hat": {
-        "name": "Flower Crown",
-        "icon": "https://cdn.playhive.com/avatars/hat-flower-crown.png",
-        "rarity": "RARE"
+        "name": "Endolotl Buddy",
+        "icon": "https://cdn.playhive.com/avatars/hat-endolotl-buddy.png",
+        "rarity": "EPIC"
       },
       "quest_count": 5,
       "paid_ranks": [
@@ -333,7 +333,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-09T07:40:28.933Z"
+    "fetchedAt": "2026-10-09T07:50:30.240Z"
   },
   "games": [
     {
@@ -28938,6 +28938,13 @@
     },
     {
       "timestamp": "2026-10-09T07:40:28.933Z",
+      "totalGames": 229,
+      "victories": 218,
+      "winRate": 95.2,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-09T07:50:30.240Z",
       "totalGames": 229,
       "victories": 218,
       "winRate": 95.2,
