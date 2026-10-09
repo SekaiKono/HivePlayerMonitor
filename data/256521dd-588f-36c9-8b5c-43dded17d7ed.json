@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-09T16:10:29.615Z",
+  "lastUpdated": "2026-10-09T16:20:31.429Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -13,7 +13,7 @@
       "first_played": 1694186715,
       "daily_login_streak": 260,
       "longest_daily_login_streak": 260,
-      "hub_title_count": 53,
+      "hub_title_count": 54,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
         "&aThe Sneaky",
@@ -67,7 +67,8 @@
         "&bPeekaboo&f!",
         " &9BedWars Season 4",
         " &9Season 4 &jTop 1K",
-        " &9Season 4 &j#152"
+        " &9Season 4 &j#152",
+        "&2De&pad &aPix&nels"
       ],
       "avatar_count": 35,
       "avatar_unlocked": [
@@ -270,7 +271,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-09T16:10:29.615Z"
+    "fetchedAt": "2026-10-09T16:20:31.429Z"
   },
   "games": [
     {
@@ -28008,6 +28009,13 @@
     },
     {
       "timestamp": "2026-10-09T16:10:29.615Z",
+      "totalGames": 151,
+      "victories": 120,
+      "winRate": 79.47,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-09T16:20:31.429Z",
       "totalGames": 151,
       "victories": 120,
       "winRate": 79.47,
