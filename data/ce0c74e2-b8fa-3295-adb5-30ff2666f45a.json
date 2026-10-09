@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-10-09T22:20:30.994Z",
+  "lastUpdated": "2026-10-09T22:30:36.674Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -48,7 +48,7 @@
         "&eHOO ARE YOU?",
         "&2De&pad &aPix&nels"
       ],
-      "avatar_count": 26,
+      "avatar_count": 27,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/embee.png",
@@ -153,6 +153,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/gi-captain-ghosty.png",
           "name": "Captain Ghosty"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mob-deep-dark.png",
+          "name": "Deep Dark"
         }
       ],
       "costume_count": 7,
@@ -196,7 +200,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-10-09T22:20:30.994Z"
+    "fetchedAt": "2026-10-09T22:30:36.674Z"
   },
   "games": [
     {
@@ -22191,6 +22195,13 @@
     },
     {
       "timestamp": "2026-10-09T22:20:30.994Z",
+      "totalGames": 220,
+      "victories": 212,
+      "winRate": 96.36,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-09T22:30:36.674Z",
       "totalGames": 220,
       "victories": 212,
       "winRate": 96.36,
