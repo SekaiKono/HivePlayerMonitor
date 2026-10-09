@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-09T18:10:29.905Z",
+  "lastUpdated": "2026-10-09T18:20:33.006Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -262,6 +262,11 @@
         "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
         "name": "BedWars Prestige 1"
       },
+      "equipped_hat": {
+        "name": "Lil Hat",
+        "icon": "https://cdn.playhive.com/avatars/hat-lil-hat.png",
+        "rarity": "EPIC"
+      },
       "quest_count": 340,
       "pets": [
         "[placeholder]"
@@ -271,7 +276,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-09T18:10:29.905Z"
+    "fetchedAt": "2026-10-09T18:20:33.006Z"
   },
   "games": [
     {
@@ -2251,6 +2256,112 @@
       "game": "gi",
       "victory": true,
       "changeset": {}
+    },
+    {
+      "time": 1791565774,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791565867,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791565955,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791566842,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 127,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 3,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791567230,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 117,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 3,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1791567629,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 116,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 5,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791567901,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 97,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 2,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1791568324,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 86,
+        "played": 1,
+        "victories": 1,
+        "kills": 1,
+        "deaths": 1,
+        "level": 1
+      }
+    },
+    {
+      "time": 1791568617,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 93,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
+      }
     }
   ],
   "snapshots": [
@@ -28167,6 +28278,13 @@
       "victories": 125,
       "winRate": 77.64,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-09T18:20:33.006Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 9
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
