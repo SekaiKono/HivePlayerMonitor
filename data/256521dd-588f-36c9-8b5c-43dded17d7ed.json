@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-10T12:10:32.066Z",
+  "lastUpdated": "2026-10-10T12:20:29.896Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -71,7 +71,7 @@
         "&2De&pad &aPix&nels",
         "&qRest &6in &tPizza"
       ],
-      "avatar_count": 35,
+      "avatar_count": 36,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-riley.png",
@@ -212,6 +212,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/gi-captain-ghosty.png",
           "name": "Captain Ghosty"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mob-deep-dark.png",
+          "name": "Deep Dark"
         }
       ],
       "costume_count": 10,
@@ -273,7 +277,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-10T12:10:32.066Z"
+    "fetchedAt": "2026-10-10T12:20:29.896Z"
   },
   "games": [
     {
@@ -29027,6 +29031,13 @@
     },
     {
       "timestamp": "2026-10-10T12:10:32.066Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-10T12:20:29.896Z",
       "totalGames": 170,
       "victories": 134,
       "winRate": 78.82,
