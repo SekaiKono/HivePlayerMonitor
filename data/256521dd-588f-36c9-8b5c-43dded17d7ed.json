@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-10T15:40:30.728Z",
+  "lastUpdated": "2026-10-10T15:50:28.699Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -72,7 +72,7 @@
         "&qRest &6in &tPizza",
         "&5Mogged"
       ],
-      "avatar_count": 36,
+      "avatar_count": 37,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-riley.png",
@@ -217,6 +217,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/mob-deep-dark.png",
           "name": "Deep Dark"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mob-unexpected-visitor.png",
+          "name": "Unexpected Visitor"
         }
       ],
       "costume_count": 10,
@@ -278,7 +282,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-10T15:40:30.728Z"
+    "fetchedAt": "2026-10-10T15:50:28.699Z"
   },
   "games": [
     {
@@ -29179,6 +29183,13 @@
     },
     {
       "timestamp": "2026-10-10T15:40:30.728Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-10T15:50:28.699Z",
       "totalGames": 170,
       "victories": 134,
       "winRate": 78.82,
