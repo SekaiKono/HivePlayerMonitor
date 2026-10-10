@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-10T09:00:47.956Z",
+  "lastUpdated": "2026-10-10T09:10:29.985Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -816,7 +816,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-10T09:00:47.956Z"
+    "fetchedAt": "2026-10-10T09:10:29.985Z"
   },
   "games": [
     {
@@ -1824,6 +1824,86 @@
         "coins": 4,
         "murderer_eliminations": 1,
         "bux": 0
+      }
+    },
+    {
+      "time": 1791617446,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 122,
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1791617594,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 246,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1791617759,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 280,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2
+      }
+    },
+    {
+      "time": 1791617915,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 159,
+        "played": 1,
+        "victories": 1,
+        "beds_destroyed": 1,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1791618108,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 321,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 5,
+        "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1791618282,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 231,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1,
+        "beds_destroyed": 1,
+        "deaths": 1
       }
     }
   ],
@@ -28413,6 +28493,13 @@
       "victories": 60,
       "winRate": 80,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-10T09:10:29.985Z",
+      "totalGames": 81,
+      "victories": 66,
+      "winRate": 81.48,
+      "newGames": 6
     }
   ],
   "customName": "ayumu (best vpn player)"
