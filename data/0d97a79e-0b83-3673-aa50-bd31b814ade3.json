@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-10T10:50:31.282Z",
+  "lastUpdated": "2026-10-10T11:00:48.283Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -305,15 +305,10 @@
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
         "name": "BedWars Wizard"
       },
-      "equipped_backbling": {
-        "name": "Galaxy Wings",
-        "icon": "https://cdn.playhive.com/avatars/backbling-galaxy-wings.png",
-        "rarity": "EPIC"
-      },
       "equipped_hat": {
-        "name": "Endolotl Buddy",
-        "icon": "https://cdn.playhive.com/avatars/hat-endolotl-buddy.png",
-        "rarity": "EPIC"
+        "name": "Flower Crown",
+        "icon": "https://cdn.playhive.com/avatars/hat-flower-crown.png",
+        "rarity": "RARE"
       },
       "quest_count": 5,
       "paid_ranks": [
@@ -333,7 +328,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-10T10:50:31.282Z"
+    "fetchedAt": "2026-10-10T11:00:48.283Z"
   },
   "games": [
     {
@@ -30359,6 +30354,13 @@
     },
     {
       "timestamp": "2026-10-10T10:50:31.282Z",
+      "totalGames": 249,
+      "victories": 235,
+      "winRate": 94.38,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-10T11:00:48.283Z",
       "totalGames": 249,
       "victories": 235,
       "winRate": 94.38,
