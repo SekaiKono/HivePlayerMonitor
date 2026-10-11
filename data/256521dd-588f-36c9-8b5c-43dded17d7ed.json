@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-11T09:20:29.376Z",
+  "lastUpdated": "2026-10-11T09:30:37.062Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -73,7 +73,7 @@
         "&5Mogged",
         "&8Sh&7ap&ue &fSh&7if&8ter"
       ],
-      "avatar_count": 37,
+      "avatar_count": 38,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-riley.png",
@@ -222,6 +222,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/mob-unexpected-visitor.png",
           "name": "Unexpected Visitor"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/gi-webby-witch.png",
+          "name": "Webby Witch"
         }
       ],
       "costume_count": 10,
@@ -283,7 +287,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-11T09:20:29.376Z"
+    "fetchedAt": "2026-10-11T09:30:37.062Z"
   },
   "games": [
     {
@@ -29926,6 +29930,13 @@
     },
     {
       "timestamp": "2026-10-11T09:20:29.376Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-11T09:30:37.062Z",
       "totalGames": 170,
       "victories": 134,
       "winRate": 78.82,
