@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-11T14:57:52.867Z",
+  "lastUpdated": "2026-10-11T15:24:53.696Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -13,7 +13,7 @@
       "first_played": 1694186715,
       "daily_login_streak": 262,
       "longest_daily_login_streak": 262,
-      "hub_title_count": 57,
+      "hub_title_count": 58,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
         "&aThe Sneaky",
@@ -71,7 +71,8 @@
         "&2De&pad &aPix&nels",
         "&qRest &6in &tPizza",
         "&5Mogged",
-        "&8Sh&7ap&ue &fSh&7if&8ter"
+        "&8Sh&7ap&ue &fSh&7if&8ter",
+        "&66-7 &8Feet Under"
       ],
       "avatar_count": 38,
       "avatar_unlocked": [
@@ -287,7 +288,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-11T12:10:30.132Z"
+    "fetchedAt": "2026-10-11T15:24:53.696Z"
   },
   "games": [
     {
@@ -30084,6 +30085,13 @@
     },
     {
       "timestamp": "2026-10-11T14:57:52.867Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-11T15:24:53.696Z",
       "totalGames": 170,
       "victories": 134,
       "winRate": 78.82,
