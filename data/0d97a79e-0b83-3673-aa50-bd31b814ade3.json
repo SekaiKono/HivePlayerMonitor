@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-11T17:20:28.651Z",
+  "lastUpdated": "2026-10-11T17:30:38.536Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -333,7 +333,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-11T17:20:28.651Z"
+    "fetchedAt": "2026-10-11T17:30:38.536Z"
   },
   "games": [
     {
@@ -4224,6 +4224,47 @@
         "kills": 5,
         "beds_destroyed": 1,
         "deaths": 1
+      }
+    },
+    {
+      "time": 1791738099,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 453,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 7,
+        "kills": 14,
+        "beds_destroyed": 3,
+        "deaths": 2
+      }
+    },
+    {
+      "time": 1791738864,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 197,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1
+      }
+    },
+    {
+      "time": 1791739326,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": false,
+      "changeset": {
+        "xp": 55,
+        "played": 1,
+        "kills": 5,
+        "beds_destroyed": 1,
+        "deaths": 4
       }
     }
   ],
@@ -32080,6 +32121,13 @@
       "victories": 268,
       "winRate": 93.38,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-11T17:30:38.536Z",
+      "totalGames": 290,
+      "victories": 270,
+      "winRate": 93.1,
+      "newGames": 3
     }
   ],
   "customName": "TakatiG (skilled at sexually harassing others)"
