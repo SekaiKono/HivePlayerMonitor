@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-11T05:30:39.217Z",
+  "lastUpdated": "2026-10-11T05:40:29.960Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -821,7 +821,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-11T05:30:39.217Z"
+    "fetchedAt": "2026-10-11T05:40:29.960Z"
   },
   "games": [
     {
@@ -1910,6 +1910,68 @@
         "beds_destroyed": 1,
         "deaths": 1
       }
+    },
+    {
+      "time": 1791695656,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 228,
+        "played": 1,
+        "victories": 1,
+        "kills": 4,
+        "ores_mined": 11,
+        "final_kills": 4
+      }
+    },
+    {
+      "time": 1791695865,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791695929,
+      "type": "LOCKER",
+      "unlock_type": "avatar",
+      "unlock_id": "b01475dd-9bcb-41a8-999a-874589274289"
+    },
+    {
+      "time": 1791695931,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791695987,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791696068,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791696141,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1791696200,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
     }
   ],
   "snapshots": [
@@ -29359,6 +29421,13 @@
       "victories": 66,
       "winRate": 81.48,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-11T05:40:29.960Z",
+      "totalGames": 89,
+      "victories": 73,
+      "winRate": 82.02,
+      "newGames": 8
     }
   ],
   "customName": "ayumu (best vpn player)"
