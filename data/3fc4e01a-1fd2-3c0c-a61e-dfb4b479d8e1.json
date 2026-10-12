@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-12T12:40:32.476Z",
+  "lastUpdated": "2026-10-12T12:50:33.816Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -339,7 +339,7 @@
         "icon": "https://cdn.playhive.com/avatars/hat-shining-crown.png",
         "rarity": "RARE"
       },
-      "quest_count": 92,
+      "quest_count": 93,
       "paid_ranks": [
         "PLUS",
         "ULTIMATE"
@@ -356,7 +356,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-10-12T12:40:32.476Z"
+    "fetchedAt": "2026-10-12T12:50:33.816Z"
   },
   "games": [
     {
@@ -34221,6 +34221,13 @@
       "victories": 364,
       "winRate": 91.23,
       "newGames": 8
+    },
+    {
+      "timestamp": "2026-10-12T12:50:33.816Z",
+      "totalGames": 399,
+      "victories": 364,
+      "winRate": 91.23,
+      "newGames": 0
     }
   ],
   "customName": "iss (best type ez player and did no thing)"
