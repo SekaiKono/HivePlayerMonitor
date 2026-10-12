@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-12T15:40:30.511Z",
+  "lastUpdated": "2026-10-12T15:50:33.612Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -243,7 +243,7 @@
         "Challenge Bandit",
         "Ghastly Goober"
       ],
-      "hat_count": 4,
+      "hat_count": 5,
       "hat_unlocked": [
         {
           "name": "Mushroom Cap",
@@ -264,6 +264,11 @@
           "name": "Lil Hat",
           "icon": "https://cdn.playhive.com/avatars/hat-lil-hat.png",
           "rarity": "EPIC"
+        },
+        {
+          "name": "Warden Mascot",
+          "icon": null,
+          "rarity": "RARE"
         }
       ],
       "backbling_count": 1,
@@ -275,10 +280,15 @@
         }
       ],
       "friend_count": 75,
-      "equipped_hub_title": " &t() Winrate",
+      "equipped_hub_title": "&66-7 &8Feet Under",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
         "name": "BedWars Prestige 1"
+      },
+      "equipped_hat": {
+        "name": "Warden Mascot",
+        "icon": null,
+        "rarity": "RARE"
       },
       "quest_count": 343,
       "pets": [
@@ -289,7 +299,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-12T15:40:30.511Z"
+    "fetchedAt": "2026-10-12T15:50:33.612Z"
   },
   "games": [
     {
@@ -31115,6 +31125,13 @@
     },
     {
       "timestamp": "2026-10-12T15:40:30.511Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-12T15:50:33.612Z",
       "totalGames": 170,
       "victories": 134,
       "winRate": 78.82,
