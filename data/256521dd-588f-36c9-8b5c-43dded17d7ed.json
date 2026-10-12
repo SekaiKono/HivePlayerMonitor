@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-12T11:40:30.524Z",
+  "lastUpdated": "2026-10-12T11:50:32.238Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -276,6 +276,7 @@
       ],
       "friend_count": 75,
       "equipped_hub_title": " &t() Winrate",
+      "equipped_costume": "Ghastly Goober",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
         "name": "BedWars Prestige 1"
@@ -289,7 +290,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-12T11:40:30.524Z"
+    "fetchedAt": "2026-10-12T11:50:32.238Z"
   },
   "games": [
     {
@@ -30947,6 +30948,13 @@
     },
     {
       "timestamp": "2026-10-12T11:40:30.524Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-12T11:50:32.238Z",
       "totalGames": 170,
       "victories": 134,
       "winRate": 78.82,
