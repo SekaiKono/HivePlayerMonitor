@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-13T14:40:35.814Z",
+  "lastUpdated": "2026-10-13T14:50:34.432Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -13,7 +13,7 @@
       "first_played": 1694186715,
       "daily_login_streak": 264,
       "longest_daily_login_streak": 264,
-      "hub_title_count": 60,
+      "hub_title_count": 61,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
         "&aThe Sneaky",
@@ -74,9 +74,10 @@
         "&8Sh&7ap&ue &fSh&7if&8ter",
         "&66-7 &8Feet Under",
         "&2Cer&pti&afi&ned &aLar&pper",
-        "&tSpo&sopm&6axx&eing"
+        "&tSpo&sopm&6axx&eing",
+        "&bU&aw&bU"
       ],
-      "avatar_count": 38,
+      "avatar_count": 39,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-riley.png",
@@ -229,9 +230,13 @@
         {
           "url": "https://cdn.playhive.com/avatars/gi-webby-witch.png",
           "name": "Webby Witch"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/costume-anime.png",
+          "name": "UwU"
         }
       ],
-      "costume_count": 10,
+      "costume_count": 13,
       "costume_unlocked": [
         "Gingerbread Warden",
         "Parkour Runner (Red)",
@@ -242,7 +247,10 @@
         "Chick Wizard",
         "Battle Bear",
         "Challenge Bandit",
-        "Ghastly Goober"
+        "Ghastly Goober",
+        "Captain Ghosty",
+        "Anime Girl",
+        "Anime Boy"
       ],
       "hat_count": 5,
       "hat_unlocked": [
@@ -281,10 +289,11 @@
         }
       ],
       "friend_count": 75,
-      "equipped_hub_title": "&66-7 &8Feet Under",
+      "equipped_hub_title": "&bU&aw&bU",
+      "equipped_costume": "Anime Girl",
       "equipped_avatar": {
-        "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
-        "name": "BedWars Prestige 1"
+        "url": "https://cdn.playhive.com/avatars/costume-anime.png",
+        "name": "UwU"
       },
       "quest_count": 344,
       "pets": [
@@ -295,7 +304,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-13T14:40:35.814Z"
+    "fetchedAt": "2026-10-13T14:50:34.432Z"
   },
   "games": [
     {
@@ -32087,6 +32096,13 @@
     },
     {
       "timestamp": "2026-10-13T14:40:35.814Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-13T14:50:34.432Z",
       "totalGames": 170,
       "victories": 134,
       "winRate": 78.82,
