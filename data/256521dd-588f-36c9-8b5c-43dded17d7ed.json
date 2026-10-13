@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-13T13:10:35.512Z",
+  "lastUpdated": "2026-10-13T13:20:34.956Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -286,11 +286,6 @@
         "url": "https://cdn.playhive.com/avatars/bed-prestige-1.png",
         "name": "BedWars Prestige 1"
       },
-      "equipped_hat": {
-        "name": "Warden Mascot",
-        "icon": null,
-        "rarity": "RARE"
-      },
       "quest_count": 344,
       "pets": [
         "[placeholder]"
@@ -300,7 +295,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-13T13:10:35.512Z"
+    "fetchedAt": "2026-10-13T13:20:34.956Z"
   },
   "games": [
     {
@@ -32029,6 +32024,13 @@
     },
     {
       "timestamp": "2026-10-13T13:10:35.512Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-13T13:20:34.956Z",
       "totalGames": 170,
       "victories": 134,
       "winRate": 78.82,
