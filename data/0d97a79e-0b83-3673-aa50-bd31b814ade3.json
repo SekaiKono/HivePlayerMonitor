@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-13T21:20:30.036Z",
+  "lastUpdated": "2026-10-13T21:30:44.129Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -315,7 +315,6 @@
         "icon": "https://cdn.playhive.com/avatars/hat-endolotl-buddy.png",
         "rarity": "EPIC"
       },
-      "quest_count": 5,
       "paid_ranks": [
         "PLUS",
         "ULTIMATE"
@@ -333,7 +332,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-13T21:20:30.036Z"
+    "fetchedAt": "2026-10-13T21:30:44.129Z"
   },
   "games": [
     {
@@ -34959,6 +34958,13 @@
     },
     {
       "timestamp": "2026-10-13T21:20:30.036Z",
+      "totalGames": 337,
+      "victories": 315,
+      "winRate": 93.47,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-13T21:30:44.129Z",
       "totalGames": 337,
       "victories": 315,
       "winRate": 93.47,
