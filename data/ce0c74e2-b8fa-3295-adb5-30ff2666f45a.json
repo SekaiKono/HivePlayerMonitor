@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-10-16T15:10:34.400Z",
+  "lastUpdated": "2026-10-16T15:20:31.843Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -13,7 +13,7 @@
       "first_played": 1778187826,
       "daily_login_streak": 10,
       "longest_daily_login_streak": 25,
-      "hub_title_count": 32,
+      "hub_title_count": 33,
       "hub_title_unlocked": [
         "&bThe &6MV&eBEE",
         "&fThe &eBees &aKnees",
@@ -46,7 +46,8 @@
         "&fBe&udW&7ar&fs ",
         "&6Champion of the &eSky",
         "&eHOO ARE YOU?",
-        "&2De&pad &aPix&nels"
+        "&2De&pad &aPix&nels",
+        "&tNew Hive Player"
       ],
       "avatar_count": 27,
       "avatar_unlocked": [
@@ -200,7 +201,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-10-16T15:10:34.400Z"
+    "fetchedAt": "2026-10-16T15:20:31.843Z"
   },
   "games": [
     {
@@ -29483,6 +29484,13 @@
     },
     {
       "timestamp": "2026-10-16T15:10:34.400Z",
+      "totalGames": 302,
+      "victories": 294,
+      "winRate": 97.35,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-16T15:20:31.843Z",
       "totalGames": 302,
       "victories": 294,
       "winRate": 97.35,
