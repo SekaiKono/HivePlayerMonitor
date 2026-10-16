@@ -1,7 +1,7 @@
 {
   "uuid": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
   "createdAt": "2026-09-18T14:20:27.441Z",
-  "lastUpdated": "2026-10-16T15:20:31.843Z",
+  "lastUpdated": "2026-10-16T15:30:44.381Z",
   "playerInfo": {
     "main": {
       "UUID": "ce0c74e2-b8fa-3295-adb5-30ff2666f45a",
@@ -201,7 +201,7 @@
       ],
       "player_number": 125100915
     },
-    "fetchedAt": "2026-10-16T15:20:31.843Z"
+    "fetchedAt": "2026-10-16T15:30:44.381Z"
   },
   "games": [
     {
@@ -4349,6 +4349,26 @@
         "played": 1,
         "victories": 1
       }
+    },
+    {
+      "time": 1792157095,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 168,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 3,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1792163988,
+      "type": "LOCKER",
+      "unlock_type": "hub_title",
+      "unlock_id": "86d11ccb-db0b-4878-b03b-4671e8e3c7f7"
     }
   ],
   "snapshots": [
@@ -29495,6 +29515,13 @@
       "victories": 294,
       "winRate": 97.35,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-16T15:30:44.381Z",
+      "totalGames": 304,
+      "victories": 295,
+      "winRate": 97.04,
+      "newGames": 2
     }
   ],
   "customName": "ayumus alt"
