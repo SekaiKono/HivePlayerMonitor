@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-17T10:40:28.951Z",
+  "lastUpdated": "2026-10-17T10:50:28.814Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -296,10 +296,15 @@
       ],
       "friend_count": 74,
       "equipped_hub_title": "&66-7 &8Feet Under",
-      "equipped_costume": "Ghastly Goober",
+      "equipped_costume": "Captain Ghosty",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
+      },
+      "equipped_hat": {
+        "name": "Warden Mascot",
+        "icon": null,
+        "rarity": "RARE"
       },
       "pets": [
         "[placeholder]"
@@ -309,7 +314,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-17T10:40:28.951Z"
+    "fetchedAt": "2026-10-17T10:50:28.814Z"
   },
   "games": [
     {
@@ -35447,6 +35452,13 @@
     },
     {
       "timestamp": "2026-10-17T10:40:28.951Z",
+      "totalGames": 170,
+      "victories": 134,
+      "winRate": 78.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-17T10:50:28.814Z",
       "totalGames": 170,
       "victories": 134,
       "winRate": 78.82,
