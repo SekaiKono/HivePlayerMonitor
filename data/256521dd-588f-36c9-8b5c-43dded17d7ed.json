@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-17T15:50:28.005Z",
+  "lastUpdated": "2026-10-17T16:00:47.982Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -13,7 +13,7 @@
       "first_played": 1694186715,
       "daily_login_streak": 268,
       "longest_daily_login_streak": 268,
-      "hub_title_count": 62,
+      "hub_title_count": 63,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
         "&aThe Sneaky",
@@ -76,7 +76,8 @@
         "&2Cer&pti&afi&ned &aLar&pper",
         "&tSpo&sopm&6axx&eing",
         "&bU&aw&bU",
-        "&7Cloud Croissant"
+        "&7Cloud Croissant",
+        "&63 Year Hive Veteran"
       ],
       "avatar_count": 39,
       "avatar_unlocked": [
@@ -313,7 +314,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-17T15:50:28.005Z"
+    "fetchedAt": "2026-10-17T16:00:47.982Z"
   },
   "games": [
     {
@@ -35777,6 +35778,13 @@
     },
     {
       "timestamp": "2026-10-17T15:50:28.005Z",
+      "totalGames": 182,
+      "victories": 145,
+      "winRate": 79.67,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-17T16:00:47.982Z",
       "totalGames": 182,
       "victories": 145,
       "winRate": 79.67,
