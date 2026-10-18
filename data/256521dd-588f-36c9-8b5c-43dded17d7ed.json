@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-18T10:20:32.044Z",
+  "lastUpdated": "2026-10-18T10:30:42.629Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -314,7 +314,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-18T10:20:32.044Z"
+    "fetchedAt": "2026-10-18T10:30:42.629Z"
   },
   "games": [
     {
@@ -2762,6 +2762,77 @@
         "victories": 1,
         "deaths": 1,
         "hider_kills": 6
+      }
+    },
+    {
+      "time": 1792315877,
+      "type": "ROUND_PLAYED",
+      "game": "sg",
+      "victory": true,
+      "changeset": {
+        "xp": 93,
+        "played": 1,
+        "victories": 1,
+        "crates": 21,
+        "deathmatches": 1,
+        "cows": 2,
+        "kills": 3,
+        "teleporters_used": 2
+      }
+    },
+    {
+      "time": 1792316507,
+      "type": "ROUND_PLAYED",
+      "game": "sg",
+      "victory": false,
+      "changeset": {
+        "xp": 71,
+        "played": 1,
+        "crates": 19,
+        "deathmatches": 1,
+        "kills": 5,
+        "deaths": 1,
+        "flares_used": 1
+      }
+    },
+    {
+      "time": 1792317238,
+      "type": "ROUND_PLAYED",
+      "game": "dr",
+      "victory": true,
+      "changeset": {
+        "xp": 100,
+        "played": 1,
+        "victories": 1,
+        "deaths": 4,
+        "checkpoints": 6
+      }
+    },
+    {
+      "time": 1792317834,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 138,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 3,
+        "kills": 3,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1792318419,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": false,
+      "changeset": {
+        "xp": 26,
+        "played": 1,
+        "kills": 1,
+        "deaths": 3
       }
     }
   ],
@@ -36813,6 +36884,13 @@
       "victories": 159,
       "winRate": 79.1,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-18T10:30:42.629Z",
+      "totalGames": 206,
+      "victories": 162,
+      "winRate": 78.64,
+      "newGames": 5
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
