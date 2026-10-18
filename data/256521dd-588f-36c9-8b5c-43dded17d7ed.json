@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-18T04:50:28.027Z",
+  "lastUpdated": "2026-10-18T05:00:47.729Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -296,7 +296,7 @@
         }
       ],
       "friend_count": 74,
-      "equipped_hub_title": "&66-7 &8Feet Under",
+      "equipped_hub_title": "&bU&aw&bU",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
@@ -314,7 +314,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-18T04:50:28.027Z"
+    "fetchedAt": "2026-10-18T05:00:47.729Z"
   },
   "games": [
     {
@@ -36565,6 +36565,13 @@
     },
     {
       "timestamp": "2026-10-18T04:50:28.027Z",
+      "totalGames": 200,
+      "victories": 158,
+      "winRate": 79,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-18T05:00:47.729Z",
       "totalGames": 200,
       "victories": 158,
       "winRate": 79,
