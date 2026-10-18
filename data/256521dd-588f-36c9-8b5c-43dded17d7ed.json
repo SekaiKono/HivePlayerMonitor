@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-18T10:50:28.873Z",
+  "lastUpdated": "2026-10-18T11:00:51.394Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -295,7 +295,7 @@
           "rarity": "RARE"
         }
       ],
-      "friend_count": 74,
+      "friend_count": 75,
       "equipped_hub_title": "&bU&aw&bU",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
@@ -314,7 +314,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-18T10:50:28.873Z"
+    "fetchedAt": "2026-10-18T11:00:51.394Z"
   },
   "games": [
     {
@@ -36901,6 +36901,13 @@
     },
     {
       "timestamp": "2026-10-18T10:50:28.873Z",
+      "totalGames": 206,
+      "victories": 162,
+      "winRate": 78.64,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-18T11:00:51.394Z",
       "totalGames": 206,
       "victories": 162,
       "winRate": 78.64,
