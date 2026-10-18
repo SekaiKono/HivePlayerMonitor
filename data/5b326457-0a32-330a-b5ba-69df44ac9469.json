@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-10-18T06:00:44.570Z",
+  "lastUpdated": "2026-10-18T06:10:27.844Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -904,7 +904,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-10-18T06:00:44.570Z"
+    "fetchedAt": "2026-10-18T06:10:27.844Z"
   },
   "games": [
     {
@@ -3096,6 +3096,73 @@
         "final_kills": 2,
         "kills": 2,
         "beds_destroyed": 1
+      }
+    },
+    {
+      "time": 1792302774,
+      "type": "ROUND_PLAYED",
+      "game": "grav",
+      "victory": true,
+      "changeset": {
+        "xp": 123,
+        "played": 1,
+        "victories": 1,
+        "deaths": 7,
+        "maps_completed": 5,
+        "maps_completed_without_dying": 3
+      }
+    },
+    {
+      "time": 1792302908,
+      "type": "ROUND_PLAYED",
+      "game": "grav",
+      "victory": true,
+      "changeset": {
+        "xp": 135,
+        "played": 1,
+        "victories": 1,
+        "deaths": 10,
+        "maps_completed": 5,
+        "maps_completed_without_dying": 3
+      }
+    },
+    {
+      "time": 1792303010,
+      "type": "ROUND_PLAYED",
+      "game": "grav",
+      "victory": true,
+      "changeset": {
+        "xp": 123,
+        "played": 1,
+        "victories": 1,
+        "deaths": 2,
+        "maps_completed": 5,
+        "maps_completed_without_dying": 4
+      }
+    },
+    {
+      "time": 1792303221,
+      "type": "ROUND_PLAYED",
+      "game": "grav",
+      "victory": true,
+      "changeset": {
+        "xp": 123,
+        "played": 1,
+        "victories": 1,
+        "deaths": 12,
+        "maps_completed": 5,
+        "maps_completed_without_dying": 4
+      }
+    },
+    {
+      "time": 1792303490,
+      "type": "ROUND_PLAYED",
+      "game": "party",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "powerups_collected": 14,
+        "rounds_survived": 20
       }
     }
   ],
@@ -37007,6 +37074,13 @@
       "victories": 146,
       "winRate": 88.48,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-18T06:10:27.844Z",
+      "totalGames": 170,
+      "victories": 150,
+      "winRate": 88.24,
+      "newGames": 5
     }
   ],
   "customName": "RS stella (that guy track my friend so i track back too, and he once killed farm me)"
