@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-19T12:50:33.190Z",
+  "lastUpdated": "2026-10-19T13:00:54.042Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -13,7 +13,7 @@
       "first_played": 1700297993,
       "daily_login_streak": 9,
       "longest_daily_login_streak": 272,
-      "hub_title_count": 154,
+      "hub_title_count": 155,
       "hub_title_unlocked": [
         "&cThe Defender",
         "&cThe Swashbuckler",
@@ -168,7 +168,8 @@
         "&eBe&6dW&sar&ts ",
         " &9BedWars Season 4",
         " &9Season 4 &jTop 100",
-        " &9Season 4 &j#14"
+        " &9Season 4 &j#14",
+        "&s2 Year Hive Veteran"
       ],
       "avatar_count": 112,
       "avatar_unlocked": [
@@ -792,7 +793,7 @@
         }
       ],
       "friend_count": 300,
-      "equipped_hub_title": "&pSk&2yW&far&ps ",
+      "equipped_hub_title": "&s2 Year Hive Veteran",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/ctf-castle.png",
         "name": "Castle"
@@ -820,7 +821,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-19T12:50:33.190Z"
+    "fetchedAt": "2026-10-19T13:00:54.042Z"
   },
   "games": [
     {
@@ -2225,6 +2226,28 @@
         "final_kills": 5,
         "level": 1
       }
+    },
+    {
+      "time": 1792414581,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 377,
+        "played": 1,
+        "victories": 1,
+        "kills": 7,
+        "mystery_chests_destroyed": 1,
+        "ores_mined": 8,
+        "spells_used": 1,
+        "final_kills": 7
+      }
+    },
+    {
+      "time": 1792414611,
+      "type": "LOCKER",
+      "unlock_type": "hub_title",
+      "unlock_id": "86d11ccb-db0b-4878-b03b-4671e8e3c7f7"
     }
   ],
   "snapshots": [
@@ -37437,6 +37460,13 @@
       "victories": 89,
       "winRate": 82.41,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-19T13:00:54.042Z",
+      "totalGames": 110,
+      "victories": 90,
+      "winRate": 81.82,
+      "newGames": 2
     }
   ],
   "customName": "ayumu (best vpn player)"
