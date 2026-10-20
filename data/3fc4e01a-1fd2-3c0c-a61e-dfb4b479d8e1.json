@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-20T11:50:35.066Z",
+  "lastUpdated": "2026-10-20T12:00:50.549Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -11,7 +11,7 @@
       "username_cc": "Issacni",
       "rank": "ULTIMATE",
       "first_played": 1731670047,
-      "daily_login_streak": 125,
+      "daily_login_streak": 126,
       "longest_daily_login_streak": 485,
       "hub_title_count": 62,
       "hub_title_unlocked": [
@@ -355,7 +355,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-10-20T11:50:35.066Z"
+    "fetchedAt": "2026-10-20T12:00:50.549Z"
   },
   "games": [
     {
@@ -42438,6 +42438,13 @@
     },
     {
       "timestamp": "2026-10-20T11:50:35.066Z",
+      "totalGames": 455,
+      "victories": 418,
+      "winRate": 91.87,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-20T12:00:50.549Z",
       "totalGames": 455,
       "victories": 418,
       "winRate": 91.87,
