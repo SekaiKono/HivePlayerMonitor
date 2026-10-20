@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-20T14:00:51.487Z",
+  "lastUpdated": "2026-10-20T14:10:33.597Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -11,7 +11,7 @@
       "username_cc": "HardCastle76765",
       "rank": "ULTIMATE",
       "first_played": 1700297993,
-      "daily_login_streak": 9,
+      "daily_login_streak": 10,
       "longest_daily_login_streak": 272,
       "hub_title_count": 155,
       "hub_title_unlocked": [
@@ -821,7 +821,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-20T14:00:51.487Z"
+    "fetchedAt": "2026-10-20T14:10:33.597Z"
   },
   "games": [
     {
@@ -38513,6 +38513,13 @@
     },
     {
       "timestamp": "2026-10-20T14:00:51.487Z",
+      "totalGames": 110,
+      "victories": 90,
+      "winRate": 81.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-20T14:10:33.597Z",
       "totalGames": 110,
       "victories": 90,
       "winRate": 81.82,
