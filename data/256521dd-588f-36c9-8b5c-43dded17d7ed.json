@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-20T11:40:32.976Z",
+  "lastUpdated": "2026-10-20T11:50:35.066Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -13,7 +13,7 @@
       "first_played": 1694186715,
       "daily_login_streak": 271,
       "longest_daily_login_streak": 271,
-      "hub_title_count": 63,
+      "hub_title_count": 64,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
         "&aThe Sneaky",
@@ -77,7 +77,8 @@
         "&tSpo&sopm&6axx&eing",
         "&bU&aw&bU",
         "&7Cloud Croissant",
-        "&63 Year Hive Veteran"
+        "&63 Year Hive Veteran",
+        "&fPump &eup &6the &cjam"
       ],
       "avatar_count": 39,
       "avatar_unlocked": [
@@ -296,7 +297,7 @@
         }
       ],
       "friend_count": 74,
-      "equipped_hub_title": "&bU&aw&bU",
+      "equipped_hub_title": "&63 Year Hive Veteran",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
@@ -314,7 +315,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-20T11:40:32.976Z"
+    "fetchedAt": "2026-10-20T11:50:35.066Z"
   },
   "games": [
     {
@@ -2844,6 +2845,66 @@
         "xp": 14,
         "played": 1,
         "kills": 6
+      }
+    },
+    {
+      "time": 1792494914,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 82,
+        "played": 1,
+        "victories": 1,
+        "kills": 2,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1792496139,
+      "type": "ROUND_PLAYED",
+      "game": "drop",
+      "victory": false,
+      "changeset": {
+        "xp": 77,
+        "played": 1,
+        "blocks_destroyed": 534,
+        "powerups_collected": 2,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1792496271,
+      "type": "ROUND_PLAYED",
+      "game": "dr",
+      "victory": true,
+      "changeset": {
+        "xp": 191,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "checkpoints": 9
+      }
+    },
+    {
+      "time": 1792496476,
+      "type": "LOCKER",
+      "unlock_type": "hub_title",
+      "unlock_id": "20105175-51a8-4100-9d03-fb14f3cf4f3a"
+    },
+    {
+      "time": 1792496487,
+      "type": "ROUND_PLAYED",
+      "game": "party",
+      "victory": true,
+      "changeset": {
+        "xp": 72,
+        "played": 1,
+        "victories": 1,
+        "powerups_collected": 4,
+        "rounds_survived": 16,
+        "level": 1
       }
     }
   ],
@@ -38967,6 +39028,13 @@
       "victories": 162,
       "winRate": 78.26,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-20T11:50:35.066Z",
+      "totalGames": 212,
+      "victories": 165,
+      "winRate": 77.83,
+      "newGames": 5
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
