@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-22T09:40:33.428Z",
+  "lastUpdated": "2026-10-22T09:50:32.690Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -11,9 +11,9 @@
       "username_cc": "Sekai Kono",
       "rank": "REGULAR",
       "first_played": 1694186715,
-      "daily_login_streak": 272,
-      "longest_daily_login_streak": 272,
-      "hub_title_count": 64,
+      "daily_login_streak": 273,
+      "longest_daily_login_streak": 273,
+      "hub_title_count": 66,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
         "&aThe Sneaky",
@@ -78,9 +78,11 @@
         "&bU&aw&bU",
         "&7Cloud Croissant",
         "&63 Year Hive Veteran",
-        "&fPump &eup &6the &cjam"
+        "&fPump &eup &6the &cjam",
+        "&f&dVo&iid &dWa&ilker",
+        "&fEv&7en&8t Ho&7ri&fzon"
       ],
-      "avatar_count": 39,
+      "avatar_count": 42,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-riley.png",
@@ -237,6 +239,18 @@
         {
           "url": "https://cdn.playhive.com/avatars/costume-anime.png",
           "name": "UwU"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/avatar-the-void.png",
+          "name": "The Void"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mount-void-phantom.png",
+          "name": "Void Phantom"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/pet-void-cat.png",
+          "name": "Void Cat"
         }
       ],
       "costume_count": 13,
@@ -255,7 +269,7 @@
         "Anime Girl",
         "Anime Boy"
       ],
-      "hat_count": 6,
+      "hat_count": 7,
       "hat_unlocked": [
         {
           "name": "Mushroom Cap",
@@ -286,36 +300,53 @@
           "name": "Diamond Blockling Buddy",
           "icon": "https://cdn.playhive.com/avatars/hat-blockling-buddy-diamond.png",
           "rarity": "EPIC"
+        },
+        {
+          "name": "Void Horns",
+          "icon": null,
+          "rarity": "EPIC"
         }
       ],
-      "backbling_count": 1,
+      "backbling_count": 2,
       "cosmetics.backbling": [
         {
           "name": "7th Beeday Cake",
           "icon": "https://cdn.playhive.com/avatars/backbling-seventh-beeday-cake.png",
           "rarity": "RARE"
+        },
+        {
+          "name": "Void Wings",
+          "icon": null,
+          "rarity": "EPIC"
         }
       ],
       "friend_count": 74,
-      "equipped_hub_title": "&63 Year Hive Veteran",
+      "equipped_hub_title": "&f&dVo&iid &dWa&ilker",
       "equipped_avatar": {
-        "url": "https://cdn.playhive.com/avatars/costume-anime.png",
-        "name": "UwU"
+        "url": "https://cdn.playhive.com/avatars/avatar-the-void.png",
+        "name": "The Void"
+      },
+      "equipped_backbling": {
+        "name": "Void Wings",
+        "icon": null,
+        "rarity": "EPIC"
       },
       "equipped_hat": {
-        "name": "Warden Mascot",
+        "name": "Void Horns",
         "icon": null,
-        "rarity": "RARE"
+        "rarity": "EPIC"
       },
       "pets": [
-        "[placeholder]"
+        "[placeholder]",
+        "Void Cat"
       ],
       "mounts": [
-        "Tropical Recliner"
+        "Tropical Recliner",
+        "Void Phantom"
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-22T09:40:33.428Z"
+    "fetchedAt": "2026-10-22T09:50:32.690Z"
   },
   "games": [
     {
@@ -40962,6 +40993,13 @@
     },
     {
       "timestamp": "2026-10-22T09:40:33.428Z",
+      "totalGames": 213,
+      "victories": 165,
+      "winRate": 77.46,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-22T09:50:32.690Z",
       "totalGames": 213,
       "victories": 165,
       "winRate": 77.46,
