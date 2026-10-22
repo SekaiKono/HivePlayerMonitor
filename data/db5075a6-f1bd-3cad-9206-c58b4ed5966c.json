@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-22T10:50:31.208Z",
+  "lastUpdated": "2026-10-22T11:00:50.972Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -792,7 +792,7 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 300,
+      "friend_count": 299,
       "equipped_hub_title": "&s2 Year Hive Veteran",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/ctf-castle.png",
@@ -821,7 +821,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-22T10:50:31.208Z"
+    "fetchedAt": "2026-10-22T11:00:50.972Z"
   },
   "games": [
     {
@@ -40389,6 +40389,13 @@
     },
     {
       "timestamp": "2026-10-22T10:50:31.208Z",
+      "totalGames": 110,
+      "victories": 90,
+      "winRate": 81.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-22T11:00:50.972Z",
       "totalGames": 110,
       "victories": 90,
       "winRate": 81.82,
