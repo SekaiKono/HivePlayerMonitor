@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-23T18:10:32.254Z",
+  "lastUpdated": "2026-10-23T18:20:33.236Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -173,7 +173,7 @@
         "&2De&pad &aPix&nels",
         "&qRest &6in &tPizza"
       ],
-      "avatar_count": 112,
+      "avatar_count": 113,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-drew.png",
@@ -622,6 +622,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/gi-captain-ghosty.png",
           "name": "Captain Ghosty"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/gi-webby-witch.png",
+          "name": "Webby Witch"
         }
       ],
       "costume_count": 52,
@@ -824,7 +828,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-23T18:10:32.254Z"
+    "fetchedAt": "2026-10-23T18:20:33.236Z"
   },
   "games": [
     {
@@ -41694,6 +41698,13 @@
     },
     {
       "timestamp": "2026-10-23T18:10:32.254Z",
+      "totalGames": 110,
+      "victories": 90,
+      "winRate": 81.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-23T18:20:33.236Z",
       "totalGames": 110,
       "victories": 90,
       "winRate": 81.82,
