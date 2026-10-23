@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-23T14:40:32.963Z",
+  "lastUpdated": "2026-10-23T14:50:29.792Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -303,7 +303,7 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 233,
+      "friend_count": 234,
       "equipped_hub_title": " &9Season 4 &j#8",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
@@ -336,7 +336,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-23T14:40:32.963Z"
+    "fetchedAt": "2026-10-23T14:50:29.792Z"
   },
   "games": [
     {
@@ -46226,6 +46226,13 @@
       "victories": 446,
       "winRate": 92.53,
       "newGames": 1
+    },
+    {
+      "timestamp": "2026-10-23T14:50:29.792Z",
+      "totalGames": 482,
+      "victories": 446,
+      "winRate": 92.53,
+      "newGames": 0
     }
   ],
   "customName": "TakatiG (skilled at sexually harassing others)"
