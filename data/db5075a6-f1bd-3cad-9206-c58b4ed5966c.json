@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-23T16:50:34.760Z",
+  "lastUpdated": "2026-10-23T17:00:54.063Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -13,7 +13,7 @@
       "first_played": 1700297993,
       "daily_login_streak": 0,
       "longest_daily_login_streak": 272,
-      "hub_title_count": 156,
+      "hub_title_count": 157,
       "hub_title_unlocked": [
         "&cThe Defender",
         "&cThe Swashbuckler",
@@ -170,7 +170,8 @@
         " &9Season 4 &jTop 100",
         " &9Season 4 &j#14",
         "&s2 Year Hive Veteran",
-        "&2De&pad &aPix&nels"
+        "&2De&pad &aPix&nels",
+        "&qRest &6in &tPizza"
       ],
       "avatar_count": 112,
       "avatar_unlocked": [
@@ -823,7 +824,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-23T16:50:34.760Z"
+    "fetchedAt": "2026-10-23T17:00:54.063Z"
   },
   "games": [
     {
@@ -41637,6 +41638,13 @@
     },
     {
       "timestamp": "2026-10-23T16:50:34.760Z",
+      "totalGames": 110,
+      "victories": 90,
+      "winRate": 81.82,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-23T17:00:54.063Z",
       "totalGames": 110,
       "victories": 90,
       "winRate": 81.82,
