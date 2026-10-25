@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-25T14:20:30.425Z",
+  "lastUpdated": "2026-10-25T14:30:39.931Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -326,15 +326,10 @@
         "url": "https://cdn.playhive.com/avatars/avatar-the-void.png",
         "name": "The Void"
       },
-      "equipped_backbling": {
-        "name": "Void Wings",
-        "icon": null,
-        "rarity": "EPIC"
-      },
       "equipped_hat": {
-        "name": "Void Horns",
+        "name": "Warden Mascot",
         "icon": null,
-        "rarity": "EPIC"
+        "rarity": "RARE"
       },
       "pets": [
         "[placeholder]",
@@ -346,7 +341,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-25T14:20:30.425Z"
+    "fetchedAt": "2026-10-25T14:30:39.931Z"
   },
   "games": [
     {
@@ -44324,6 +44319,13 @@
     },
     {
       "timestamp": "2026-10-25T14:20:30.425Z",
+      "totalGames": 223,
+      "victories": 172,
+      "winRate": 77.13,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-25T14:30:39.931Z",
       "totalGames": 223,
       "victories": 172,
       "winRate": 77.13,
