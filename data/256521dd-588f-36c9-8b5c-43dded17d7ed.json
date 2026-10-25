@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-25T17:20:32.147Z",
+  "lastUpdated": "2026-10-25T17:30:38.644Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -346,7 +346,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-25T17:20:32.147Z"
+    "fetchedAt": "2026-10-25T17:30:38.644Z"
   },
   "games": [
     {
@@ -3074,6 +3074,93 @@
         "kills": 6,
         "beds_destroyed": 1,
         "deaths": 2
+      }
+    },
+    {
+      "time": 1792945684,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1792945773,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1792945851,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1792947412,
+      "type": "ROUND_PLAYED",
+      "game": "sg",
+      "victory": true,
+      "changeset": {
+        "xp": 115,
+        "played": 1,
+        "victories": 1,
+        "crates": 27,
+        "deathmatches": 1,
+        "kills": 6,
+        "launchpads_used": 3
+      }
+    },
+    {
+      "time": 1792947800,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 112,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "hider_kills": 1,
+        "taunts": 4
+      }
+    },
+    {
+      "time": 1792948139,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": false,
+      "changeset": {
+        "xp": 92,
+        "played": 1,
+        "deaths": 1,
+        "hider_kills": 1,
+        "taunts": 7
+      }
+    },
+    {
+      "time": 1792948843,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 288,
+        "played": 1,
+        "victories": 1,
+        "taunts": 1
+      }
+    },
+    {
+      "time": 1792949195,
+      "type": "ROUND_PLAYED",
+      "game": "hide",
+      "victory": true,
+      "changeset": {
+        "xp": 256,
+        "played": 1,
+        "victories": 1,
+        "taunts": 10
       }
     }
   ],
@@ -44454,6 +44541,13 @@
       "victories": 172,
       "winRate": 77.13,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-25T17:30:38.644Z",
+      "totalGames": 231,
+      "victories": 179,
+      "winRate": 77.49,
+      "newGames": 8
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
