@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-26T07:40:29.686Z",
+  "lastUpdated": "2026-10-26T07:50:29.829Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -11,8 +11,8 @@
       "username_cc": "Sekai Kono",
       "rank": "REGULAR",
       "first_played": 1694186715,
-      "daily_login_streak": 276,
-      "longest_daily_login_streak": 276,
+      "daily_login_streak": 277,
+      "longest_daily_login_streak": 277,
       "hub_title_count": 66,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
@@ -326,16 +326,6 @@
         "url": "https://cdn.playhive.com/avatars/avatar-the-void.png",
         "name": "The Void"
       },
-      "equipped_backbling": {
-        "name": "Void Wings",
-        "icon": null,
-        "rarity": "EPIC"
-      },
-      "equipped_hat": {
-        "name": "Void Horns",
-        "icon": null,
-        "rarity": "EPIC"
-      },
       "pets": [
         "[placeholder]",
         "Void Cat"
@@ -346,7 +336,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-26T07:40:29.686Z"
+    "fetchedAt": "2026-10-26T07:50:29.829Z"
   },
   "games": [
     {
@@ -45139,6 +45129,13 @@
     },
     {
       "timestamp": "2026-10-26T07:40:29.686Z",
+      "totalGames": 231,
+      "victories": 179,
+      "winRate": 77.49,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-26T07:50:29.829Z",
       "totalGames": 231,
       "victories": 179,
       "winRate": 77.49,
