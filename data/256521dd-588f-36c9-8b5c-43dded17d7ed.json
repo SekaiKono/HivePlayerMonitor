@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-26T14:20:34.825Z",
+  "lastUpdated": "2026-10-26T14:30:45.678Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -320,16 +320,21 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 75,
+      "friend_count": 76,
       "equipped_hub_title": "&f&dVo&iid &dWa&ilker",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/avatar-the-void.png",
         "name": "The Void"
       },
-      "equipped_hat": {
-        "name": "Warden Mascot",
+      "equipped_backbling": {
+        "name": "Void Wings",
         "icon": null,
-        "rarity": "RARE"
+        "rarity": "EPIC"
+      },
+      "equipped_hat": {
+        "name": "Void Horns",
+        "icon": null,
+        "rarity": "EPIC"
       },
       "pets": [
         "[placeholder]",
@@ -341,7 +346,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-26T14:20:34.825Z"
+    "fetchedAt": "2026-10-26T14:30:45.678Z"
   },
   "games": [
     {
@@ -45414,6 +45419,13 @@
     },
     {
       "timestamp": "2026-10-26T14:20:34.825Z",
+      "totalGames": 231,
+      "victories": 179,
+      "winRate": 77.49,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-26T14:30:45.678Z",
       "totalGames": 231,
       "victories": 179,
       "winRate": 77.49,
