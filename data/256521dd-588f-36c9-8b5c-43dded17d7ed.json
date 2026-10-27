@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-27T11:20:32.993Z",
+  "lastUpdated": "2026-10-27T11:30:40.499Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -321,7 +321,7 @@
         }
       ],
       "friend_count": 76,
-      "equipped_hub_title": "&f&dVo&iid &dWa&ilker",
+      "equipped_hub_title": " &t() Winrate",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
@@ -336,7 +336,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-27T11:20:32.993Z"
+    "fetchedAt": "2026-10-27T11:30:40.499Z"
   },
   "games": [
     {
@@ -3271,6 +3271,27 @@
       "changeset": {
         "played": 1
       }
+    },
+    {
+      "time": 1793098642,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": false,
+      "changeset": {}
+    },
+    {
+      "time": 1793098823,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": false,
+      "changeset": {}
+    },
+    {
+      "time": 1793098924,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
     }
   ],
   "snapshots": [
@@ -46414,6 +46435,13 @@
       "victories": 186,
       "winRate": 77.5,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-27T11:30:40.499Z",
+      "totalGames": 243,
+      "victories": 187,
+      "winRate": 76.95,
+      "newGames": 3
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
