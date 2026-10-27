@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-27T10:50:33.840Z",
+  "lastUpdated": "2026-10-27T11:00:52.903Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -323,18 +323,8 @@
       "friend_count": 76,
       "equipped_hub_title": "&f&dVo&iid &dWa&ilker",
       "equipped_avatar": {
-        "url": "https://cdn.playhive.com/avatars/avatar-the-void.png",
-        "name": "The Void"
-      },
-      "equipped_backbling": {
-        "name": "Void Wings",
-        "icon": null,
-        "rarity": "EPIC"
-      },
-      "equipped_hat": {
-        "name": "Void Horns",
-        "icon": null,
-        "rarity": "EPIC"
+        "url": "https://cdn.playhive.com/avatars/costume-anime.png",
+        "name": "UwU"
       },
       "pets": [
         "[placeholder]",
@@ -346,7 +336,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-27T10:50:33.840Z"
+    "fetchedAt": "2026-10-27T11:00:52.903Z"
   },
   "games": [
     {
@@ -46399,6 +46389,13 @@
     },
     {
       "timestamp": "2026-10-27T10:50:33.840Z",
+      "totalGames": 240,
+      "victories": 186,
+      "winRate": 77.5,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-27T11:00:52.903Z",
       "totalGames": 240,
       "victories": 186,
       "winRate": 77.5,
