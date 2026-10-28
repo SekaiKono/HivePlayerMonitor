@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-28T11:30:40.794Z",
+  "lastUpdated": "2026-10-28T11:40:32.692Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -305,7 +305,6 @@
       ],
       "friend_count": 237,
       "equipped_hub_title": " &9Season 4 &j#8",
-      "equipped_costume": "Ghosty Claus",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/bed-wizard.png",
         "name": "BedWars Wizard"
@@ -337,7 +336,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-28T11:30:40.794Z"
+    "fetchedAt": "2026-10-28T11:40:32.692Z"
   },
   "games": [
     {
@@ -52266,6 +52265,13 @@
     },
     {
       "timestamp": "2026-10-28T11:30:40.794Z",
+      "totalGames": 564,
+      "victories": 526,
+      "winRate": 93.26,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-28T11:40:32.692Z",
       "totalGames": 564,
       "victories": 526,
       "winRate": 93.26,
