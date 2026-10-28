@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-28T22:10:29.247Z",
+  "lastUpdated": "2026-10-28T22:20:29.674Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -323,7 +323,7 @@
           "rarity": "RARE"
         }
       ],
-      "friend_count": 281,
+      "friend_count": 280,
       "equipped_hub_title": " &pSeason 3 &6#7",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/pet-endolotl.png",
@@ -355,7 +355,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-10-28T22:10:29.247Z"
+    "fetchedAt": "2026-10-28T22:20:29.674Z"
   },
   "games": [
     {
@@ -51022,6 +51022,13 @@
     },
     {
       "timestamp": "2026-10-28T22:10:29.247Z",
+      "totalGames": 463,
+      "victories": 426,
+      "winRate": 92.01,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-28T22:20:29.674Z",
       "totalGames": 463,
       "victories": 426,
       "winRate": 92.01,
