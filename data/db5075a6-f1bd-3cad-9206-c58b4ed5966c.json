@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-28T15:30:39.889Z",
+  "lastUpdated": "2026-10-28T15:40:32.763Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -829,7 +829,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-28T15:30:39.889Z"
+    "fetchedAt": "2026-10-28T15:40:32.763Z"
   },
   "games": [
     {
@@ -47062,6 +47062,13 @@
       "victories": 118,
       "winRate": 80.82,
       "newGames": 9
+    },
+    {
+      "timestamp": "2026-10-28T15:40:32.763Z",
+      "totalGames": 146,
+      "victories": 118,
+      "winRate": 80.82,
+      "newGames": 0
     }
   ],
   "customName": "ayumu (best vpn player)"
