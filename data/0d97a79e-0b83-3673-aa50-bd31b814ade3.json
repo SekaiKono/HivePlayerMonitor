@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-29T23:30:40.290Z",
+  "lastUpdated": "2026-10-29T23:40:29.499Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -64,7 +64,7 @@
         "&aRibbit",
         "&fCH&pIC&2KEN &fJO&pCK&2EY!",
         "&e(?) Day Login Streak",
-        "&9 (?) Total Kills",
+        "&9 () Total Kills",
         "&eBe&6dW&sar&ts ",
         " &9BedWars Season 4",
         " &9Season 4 &jTop 100",
@@ -336,7 +336,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-10-29T23:30:40.290Z"
+    "fetchedAt": "2026-10-29T23:40:29.499Z"
   },
   "games": [
     {
@@ -54087,6 +54087,13 @@
     },
     {
       "timestamp": "2026-10-29T23:30:40.290Z",
+      "totalGames": 588,
+      "victories": 547,
+      "winRate": 93.03,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-29T23:40:29.499Z",
       "totalGames": 588,
       "victories": 547,
       "winRate": 93.03,
