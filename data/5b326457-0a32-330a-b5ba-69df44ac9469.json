@@ -1,7 +1,7 @@
 {
   "uuid": "5b326457-0a32-330a-b5ba-69df44ac9469",
   "createdAt": "2026-09-10T12:49:16.962Z",
-  "lastUpdated": "2026-10-29T23:40:29.499Z",
+  "lastUpdated": "2026-10-29T23:50:29.058Z",
   "playerInfo": {
     "main": {
       "UUID": "5b326457-0a32-330a-b5ba-69df44ac9469",
@@ -134,7 +134,7 @@
         "&hPetal &cProwler",
         "&eGuess &bHOO?",
         "&dOmm &bnom &dnom",
-        "&9 (?) Total Wins",
+        "&9 () Total Wins",
         "&jSKY () Victories",
         "&bSk&jyW&ear&6s ",
         "&dThe Suspicious",
@@ -152,7 +152,7 @@
         "&6Falling &eStar",
         "&bPeekaboo&f!",
         "&cSk&syW&6ar&es ",
-        "&9 (?) Total Kills",
+        "&9 () Total Kills",
         "&cThe Murderer",
         "&9The Sheriff",
         "&bThe Undercover Agent",
@@ -904,7 +904,7 @@
       ],
       "player_number": 104289817
     },
-    "fetchedAt": "2026-10-29T23:40:29.499Z"
+    "fetchedAt": "2026-10-29T23:50:29.058Z"
   },
   "games": [
     {
@@ -48927,6 +48927,13 @@
     },
     {
       "timestamp": "2026-10-29T23:40:29.499Z",
+      "totalGames": 174,
+      "victories": 152,
+      "winRate": 87.36,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-29T23:50:29.058Z",
       "totalGames": 174,
       "victories": 152,
       "winRate": 87.36,

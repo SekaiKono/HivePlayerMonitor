@@ -1,7 +1,7 @@
 {
   "uuid": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-29T23:40:29.499Z",
+  "lastUpdated": "2026-10-29T23:50:29.058Z",
   "playerInfo": {
     "main": {
       "UUID": "3fc4e01a-1fd2-3c0c-a61e-dfb4b479d8e1",
@@ -63,14 +63,14 @@
         " &iSeason 2 &jTop 100",
         "&bHa&jpp&ey b&6ee&bda&jy! ",
         "&6Gourd &sVibes",
-        "&9 (?) Total Wins",
+        "&9 () Total Wins",
         "&fBe&udW&7ar&fs ",
         "&9Flag Defender",
         " &pBedWars Season 3",
         " &pSeason 3 &6Top 100",
         " &pSeason 3 &6#7",
         "&dThe Suspicious",
-        "&9 (?) Total Kills",
+        "&9 () Total Kills",
         "&aRibbit",
         "&aThe Trustable",
         "&eBe&6dW&sar&ts ",
@@ -355,7 +355,7 @@
       ],
       "player_number": 100766375
     },
-    "fetchedAt": "2026-10-29T23:40:29.499Z"
+    "fetchedAt": "2026-10-29T23:50:29.058Z"
   },
   "games": [
     {
@@ -52093,6 +52093,13 @@
     },
     {
       "timestamp": "2026-10-29T23:40:29.499Z",
+      "totalGames": 463,
+      "victories": 426,
+      "winRate": 92.01,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-29T23:50:29.058Z",
       "totalGames": 463,
       "victories": 426,
       "winRate": 92.01,

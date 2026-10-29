@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-29T23:40:29.499Z",
+  "lastUpdated": "2026-10-29T23:50:29.058Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -55,7 +55,7 @@
         "&tPil&slow&6man&ecer",
         "&cThe Freefaller",
         "&6Champion of the &eSky",
-        "&9 (?) Total Kills",
+        "&9 () Total Kills",
         "&7The Builder",
         "&6I LOVE DIRT",
         "&cNo Bed? &eNo Problem.",
@@ -336,7 +336,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-29T23:40:29.499Z"
+    "fetchedAt": "2026-10-29T23:50:29.058Z"
   },
   "games": [
     {
@@ -49132,6 +49132,13 @@
     },
     {
       "timestamp": "2026-10-29T23:40:29.499Z",
+      "totalGames": 255,
+      "victories": 197,
+      "winRate": 77.25,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-29T23:50:29.058Z",
       "totalGames": 255,
       "victories": 197,
       "winRate": 77.25,

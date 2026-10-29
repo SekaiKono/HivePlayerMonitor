@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-29T23:40:29.499Z",
+  "lastUpdated": "2026-10-29T23:50:29.058Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -144,7 +144,7 @@
         "&7Rest &8in &upixels",
         "&3This &jis &ia &dbreeze",
         "&9Gotta &3Go &bFast&f!",
-        "&9 (?) Total Wins",
+        "&9 () Total Wins",
         "&fBe&udW&7ar&fs ",
         "&jaura",
         "&bSwim&f-&calotl",
@@ -160,7 +160,7 @@
         "&fCH&pIC&2KEN &fJO&pCK&2EY!",
         "&eThe Hungry",
         "&cThe Murderer",
-        "&9 (?) Total Kills",
+        "&9 () Total Kills",
         " &i() Murders",
         "&6The Block Placer",
         "&9The Sheriff",
@@ -829,7 +829,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-29T23:40:29.499Z"
+    "fetchedAt": "2026-10-29T23:50:29.058Z"
   },
   "games": [
     {
@@ -48985,6 +48985,13 @@
     },
     {
       "timestamp": "2026-10-29T23:40:29.499Z",
+      "totalGames": 188,
+      "victories": 155,
+      "winRate": 82.45,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-29T23:50:29.058Z",
       "totalGames": 188,
       "victories": 155,
       "winRate": 82.45,
