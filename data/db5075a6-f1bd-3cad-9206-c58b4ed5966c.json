@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-30T15:00:50.153Z",
+  "lastUpdated": "2026-10-30T15:10:33.789Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -630,7 +630,7 @@
           "name": "Webby Witch"
         }
       ],
-      "costume_count": 52,
+      "costume_count": 53,
       "costume_unlocked": [
         "The Capturer",
         "Anomaly Explorer",
@@ -683,7 +683,8 @@
         "Sushi Head",
         "Make-a-lotl",
         "Cacti Bandit",
-        "Ghastly Goober"
+        "Ghastly Goober",
+        "Captain Ghosty"
       ],
       "hat_count": 17,
       "hat_unlocked": [
@@ -830,7 +831,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-30T15:00:50.153Z"
+    "fetchedAt": "2026-10-30T15:10:33.789Z"
   },
   "games": [
     {
@@ -49630,6 +49631,13 @@
     },
     {
       "timestamp": "2026-10-30T15:00:50.153Z",
+      "totalGames": 188,
+      "victories": 155,
+      "winRate": 82.45,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-30T15:10:33.789Z",
       "totalGames": 188,
       "victories": 155,
       "winRate": 82.45,
