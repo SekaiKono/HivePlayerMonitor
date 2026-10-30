@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-30T19:00:53.218Z",
+  "lastUpdated": "2026-10-30T19:10:31.325Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -697,7 +697,7 @@
         "Ghastly Goober",
         "Captain Ghosty"
       ],
-      "hat_count": 17,
+      "hat_count": 18,
       "hat_unlocked": [
         {
           "name": "Cardboard Box",
@@ -783,6 +783,11 @@
           "name": "Fox Ears",
           "icon": "https://cdn.playhive.com/avatars/hat-fox-ears.png",
           "rarity": "UNCOMMON"
+        },
+        {
+          "name": "Warden Mascot",
+          "icon": null,
+          "rarity": "RARE"
         }
       ],
       "backbling_count": 5,
@@ -842,7 +847,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-30T19:00:53.218Z"
+    "fetchedAt": "2026-10-30T19:10:31.325Z"
   },
   "games": [
     {
@@ -49974,6 +49979,13 @@
       "victories": 173,
       "winRate": 81.99,
       "newGames": 10
+    },
+    {
+      "timestamp": "2026-10-30T19:10:31.325Z",
+      "totalGames": 211,
+      "victories": 173,
+      "winRate": 81.99,
+      "newGames": 0
     }
   ],
   "customName": "ayumu (best vpn player)"
