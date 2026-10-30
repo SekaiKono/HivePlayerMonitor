@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-30T19:20:30.533Z",
+  "lastUpdated": "2026-10-30T19:30:38.606Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -847,7 +847,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-30T19:20:30.533Z"
+    "fetchedAt": "2026-10-30T19:30:38.606Z"
   },
   "games": [
     {
@@ -3441,6 +3441,32 @@
       "game": "mob",
       "victory": false,
       "changeset": {}
+    },
+    {
+      "time": 1793386791,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 6,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1793387052,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 385,
+        "played": 1,
+        "victories": 1,
+        "kills": 6,
+        "ores_mined": 31,
+        "final_kills": 6,
+        "level": 1
+      }
     }
   ],
   "snapshots": [
@@ -49993,6 +50019,13 @@
       "victories": 173,
       "winRate": 81.99,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-30T19:30:38.606Z",
+      "totalGames": 213,
+      "victories": 174,
+      "winRate": 81.69,
+      "newGames": 2
     }
   ],
   "customName": "ayumu (best vpn player)"
