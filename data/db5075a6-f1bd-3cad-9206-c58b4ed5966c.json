@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-10-30T17:00:50.365Z",
+  "lastUpdated": "2026-10-30T17:10:31.900Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -841,7 +841,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-10-30T17:00:50.365Z"
+    "fetchedAt": "2026-10-30T17:10:31.900Z"
   },
   "games": [
     {
@@ -3275,6 +3275,76 @@
         "victories": 1,
         "kills": 2
       }
+    },
+    {
+      "time": 1793377760,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793377979,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793378122,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793378483,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793378734,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793379004,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793379213,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": false,
+      "changeset": {}
+    },
+    {
+      "time": 1793379361,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793379512,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793379895,
+      "type": "ROUND_PLAYED",
+      "game": "mob",
+      "victory": true,
+      "changeset": {}
     }
   ],
   "snapshots": [
@@ -49729,6 +49799,13 @@
       "victories": 155,
       "winRate": 82.45,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-30T17:10:31.900Z",
+      "totalGames": 198,
+      "victories": 164,
+      "winRate": 82.83,
+      "newGames": 10
     }
   ],
   "customName": "ayumu (best vpn player)"
