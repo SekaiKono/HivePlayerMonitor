@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-10-31T17:20:34.153Z",
+  "lastUpdated": "2026-10-31T17:30:37.647Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -320,7 +320,7 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 76,
+      "friend_count": 75,
       "equipped_hub_title": " &t() Winrate",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
@@ -341,7 +341,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-10-31T17:20:34.153Z"
+    "fetchedAt": "2026-10-31T17:30:37.647Z"
   },
   "games": [
     {
@@ -3718,6 +3718,141 @@
         "played": 1,
         "victories": 1,
         "kills": 1
+      }
+    },
+    {
+      "time": 1793464796,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 90,
+        "played": 1,
+        "victories": 1,
+        "kills": 2,
+        "ores_mined": 27,
+        "final_kills": 1
+      }
+    },
+    {
+      "time": 1793465253,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 141,
+        "played": 1,
+        "victories": 1,
+        "kills": 4,
+        "mystery_chests_destroyed": 1,
+        "ores_mined": 22,
+        "final_kills": 2,
+        "level": 1
+      }
+    },
+    {
+      "time": 1793465522,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 99,
+        "played": 1,
+        "victories": 1,
+        "kills": 2,
+        "ores_mined": 19,
+        "final_kills": 2
+      }
+    },
+    {
+      "time": 1793465805,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 68,
+        "played": 1,
+        "victories": 1,
+        "kills": 1,
+        "ores_mined": 15
+      }
+    },
+    {
+      "time": 1793466102,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 77,
+        "played": 1,
+        "victories": 1,
+        "kills": 1,
+        "ores_mined": 20,
+        "final_kills": 1
+      }
+    },
+    {
+      "time": 1793466305,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 68,
+        "played": 1,
+        "victories": 1,
+        "kills": 1,
+        "ores_mined": 16
+      }
+    },
+    {
+      "time": 1793466501,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 55,
+        "played": 1,
+        "victories": 1,
+        "ores_mined": 14
+      }
+    },
+    {
+      "time": 1793466743,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": true,
+      "changeset": {
+        "xp": 55,
+        "played": 1,
+        "victories": 1,
+        "ores_mined": 9
+      }
+    },
+    {
+      "time": 1793466958,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "xp": 13,
+        "played": 1,
+        "kills": 1,
+        "ores_mined": 12,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1793467291,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "xp": 13,
+        "played": 1,
+        "kills": 1,
+        "ores_mined": 27,
+        "spells_used": 1,
+        "deaths": 1
       }
     }
   ],
@@ -51146,6 +51281,13 @@
       "victories": 214,
       "winRate": 76.98,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-10-31T17:30:37.647Z",
+      "totalGames": 288,
+      "victories": 222,
+      "winRate": 77.08,
+      "newGames": 10
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
