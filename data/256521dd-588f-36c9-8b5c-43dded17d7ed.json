@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-01T13:40:29.122Z",
+  "lastUpdated": "2026-11-01T13:50:27.775Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -253,7 +253,7 @@
           "name": "Void Cat"
         }
       ],
-      "costume_count": 13,
+      "costume_count": 14,
       "costume_unlocked": [
         "Gingerbread Warden",
         "Parkour Runner (Red)",
@@ -267,7 +267,8 @@
         "Ghastly Goober",
         "Captain Ghosty",
         "Anime Girl",
-        "Anime Boy"
+        "Anime Boy",
+        "Ender Assassin"
       ],
       "hat_count": 7,
       "hat_unlocked": [
@@ -326,11 +327,6 @@
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
       },
-      "equipped_hat": {
-        "name": "Gamer Headset",
-        "icon": "https://cdn.playhive.com/avatars/hat-gamer-headset.png",
-        "rarity": "UNCOMMON"
-      },
       "pets": [
         "[placeholder]",
         "Void Cat"
@@ -341,7 +337,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-01T13:40:29.122Z"
+    "fetchedAt": "2026-11-01T13:50:27.775Z"
   },
   "games": [
     {
@@ -52274,6 +52270,13 @@
     },
     {
       "timestamp": "2026-11-01T13:40:29.122Z",
+      "totalGames": 299,
+      "victories": 231,
+      "winRate": 77.26,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-01T13:50:27.775Z",
       "totalGames": 299,
       "victories": 231,
       "winRate": 77.26,
