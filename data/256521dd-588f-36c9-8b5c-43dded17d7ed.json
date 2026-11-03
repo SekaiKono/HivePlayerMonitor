@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-03T11:30:36.416Z",
+  "lastUpdated": "2026-11-03T11:40:30.811Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -338,7 +338,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-03T11:30:36.416Z"
+    "fetchedAt": "2026-11-03T11:40:30.811Z"
   },
   "games": [
     {
@@ -4253,6 +4253,126 @@
       "changeset": {
         "played": 1,
         "deaths": 1
+      }
+    },
+    {
+      "time": 1793704587,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1793704770,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 116,
+        "played": 1,
+        "victories": 1,
+        "coins": 14,
+        "bux": 1
+      }
+    },
+    {
+      "time": 1793704851,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 31,
+        "played": 1,
+        "victories": 1,
+        "coins": 4
+      }
+    },
+    {
+      "time": 1793704972,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 57,
+        "played": 1,
+        "victories": 1,
+        "coins": 8
+      }
+    },
+    {
+      "time": 1793705211,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 160,
+        "played": 1,
+        "victories": 1,
+        "coins": 14,
+        "bux": 2
+      }
+    },
+    {
+      "time": 1793705285,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "xp": 18,
+        "played": 1,
+        "deaths": 1,
+        "coins": 3
+      }
+    },
+    {
+      "time": 1793705407,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 77,
+        "played": 1,
+        "victories": 1,
+        "coins": 5,
+        "bux": -4
+      }
+    },
+    {
+      "time": 1793705448,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1793705575,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 63,
+        "played": 1,
+        "victories": 1,
+        "coins": 7
+      }
+    },
+    {
+      "time": 1793705809,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "xp": 189,
+        "played": 1,
+        "deaths": 1,
+        "coins": 27,
+        "bux": -4
       }
     }
   ],
@@ -54446,6 +54566,13 @@
       "victories": 243,
       "winRate": 76.18,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-03T11:40:30.811Z",
+      "totalGames": 329,
+      "victories": 249,
+      "winRate": 75.68,
+      "newGames": 10
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
