@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-03T16:20:32.543Z",
+  "lastUpdated": "2026-11-03T16:30:43.527Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -254,7 +254,7 @@
           "name": "Void Cat"
         }
       ],
-      "costume_count": 14,
+      "costume_count": 15,
       "costume_unlocked": [
         "Gingerbread Warden",
         "Parkour Runner (Red)",
@@ -269,7 +269,8 @@
         "Captain Ghosty",
         "Anime Girl",
         "Anime Boy",
-        "Ender Assassin"
+        "Ender Assassin",
+        "Soul Knight"
       ],
       "hat_count": 7,
       "hat_unlocked": [
@@ -324,7 +325,7 @@
       ],
       "friend_count": 76,
       "equipped_hub_title": " &t() Winrate",
-      "equipped_costume": "Gingerbread Warden",
+      "equipped_costume": "Soul Knight",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
@@ -339,7 +340,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-03T16:20:32.543Z"
+    "fetchedAt": "2026-11-03T16:30:43.527Z"
   },
   "games": [
     {
@@ -4374,6 +4375,120 @@
         "deaths": 1,
         "coins": 27,
         "bux": -4
+      }
+    },
+    {
+      "time": 1793722121,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 545,
+        "played": 1,
+        "victories": 1,
+        "coins": 29,
+        "bux": 3
+      }
+    },
+    {
+      "time": 1793722306,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 129,
+        "played": 1,
+        "victories": 1,
+        "coins": 17,
+        "bux": -5
+      }
+    },
+    {
+      "time": 1793722339,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "played": 1,
+        "victories": 1
+      }
+    },
+    {
+      "time": 1793722502,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "xp": 111,
+        "played": 1,
+        "deaths": 1,
+        "coins": 12,
+        "bux": 3
+      }
+    },
+    {
+      "time": 1793722578,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "xp": 39,
+        "played": 1,
+        "deaths": 1,
+        "coins": 7
+      }
+    },
+    {
+      "time": 1793722637,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "xp": 4,
+        "played": 1,
+        "deaths": 1,
+        "coins": 1
+      }
+    },
+    {
+      "time": 1793722779,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 64,
+        "played": 1,
+        "victories": 1,
+        "coins": 6
+      }
+    },
+    {
+      "time": 1793722842,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1793722955,
+      "type": "LOCKER",
+      "unlock_type": "costume",
+      "unlock_id": "70a59299-62a1-412e-9784-02d0f1d7f5e1"
+    },
+    {
+      "time": 1793722962,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "xp": 78,
+        "played": 1,
+        "deaths": 1,
+        "coins": 10,
+        "bux": 1
       }
     }
   ],
@@ -54770,6 +54885,13 @@
       "victories": 249,
       "winRate": 75.68,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-03T16:30:43.527Z",
+      "totalGames": 339,
+      "victories": 253,
+      "winRate": 74.63,
+      "newGames": 10
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
