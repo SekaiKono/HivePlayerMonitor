@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-11-03T01:40:28.103Z",
+  "lastUpdated": "2026-11-03T01:50:29.515Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -11,7 +11,7 @@
       "username_cc": "HardCastle76765",
       "rank": "ULTIMATE",
       "first_played": 1700297993,
-      "daily_login_streak": 5,
+      "daily_login_streak": 6,
       "longest_daily_login_streak": 272,
       "hub_title_count": 162,
       "hub_title_unlocked": [
@@ -852,7 +852,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-11-03T01:40:28.103Z"
+    "fetchedAt": "2026-11-03T01:50:29.515Z"
   },
   "games": [
     {
@@ -53558,6 +53558,13 @@
       "victories": 189,
       "winRate": 81.12,
       "newGames": 10
+    },
+    {
+      "timestamp": "2026-11-03T01:50:29.515Z",
+      "totalGames": 233,
+      "victories": 189,
+      "winRate": 81.12,
+      "newGames": 0
     }
   ],
   "customName": "ayumu (best vpn player)"
