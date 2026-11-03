@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-11-03T00:40:30.670Z",
+  "lastUpdated": "2026-11-03T00:50:29.101Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -178,7 +178,7 @@
         "&8Sh&7ap&ue &fSh&7if&8ter",
         "&2Cer&pti&afi&ned &aLar&pper"
       ],
-      "avatar_count": 115,
+      "avatar_count": 116,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-drew.png",
@@ -639,6 +639,10 @@
         {
           "url": "https://cdn.playhive.com/avatars/mob-unexpected-visitor.png",
           "name": "Unexpected Visitor"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/murder-detective.png",
+          "name": "The Detective"
         }
       ],
       "costume_count": 54,
@@ -848,7 +852,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-11-03T00:40:30.670Z"
+    "fetchedAt": "2026-11-03T00:50:29.101Z"
   },
   "games": [
     {
@@ -53374,6 +53378,13 @@
     },
     {
       "timestamp": "2026-11-03T00:40:30.670Z",
+      "totalGames": 223,
+      "victories": 181,
+      "winRate": 81.17,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-03T00:50:29.101Z",
       "totalGames": 223,
       "victories": 181,
       "winRate": 81.17,
