@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-03T10:50:31.755Z",
+  "lastUpdated": "2026-11-03T11:00:47.731Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -323,6 +323,7 @@
       ],
       "friend_count": 76,
       "equipped_hub_title": " &t() Winrate",
+      "equipped_costume": "Captain Ghosty",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
@@ -337,7 +338,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-03T10:50:31.755Z"
+    "fetchedAt": "2026-11-03T11:00:47.731Z"
   },
   "games": [
     {
@@ -54413,6 +54414,13 @@
     },
     {
       "timestamp": "2026-11-03T10:50:31.755Z",
+      "totalGames": 319,
+      "victories": 243,
+      "winRate": 76.18,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-03T11:00:47.731Z",
       "totalGames": 319,
       "victories": 243,
       "winRate": 76.18,
