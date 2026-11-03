@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-03T15:50:30.946Z",
+  "lastUpdated": "2026-11-03T16:00:50.826Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -13,7 +13,7 @@
       "first_played": 1694186715,
       "daily_login_streak": 285,
       "longest_daily_login_streak": 285,
-      "hub_title_count": 66,
+      "hub_title_count": 67,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
         "&aThe Sneaky",
@@ -80,7 +80,8 @@
         "&63 Year Hive Veteran",
         "&fPump &eup &6the &cjam",
         "&f&dVo&iid &dWa&ilker",
-        "&fEv&7en&8t Ho&7ri&fzon"
+        "&fEv&7en&8t Ho&7ri&fzon",
+        "&dThe Suspicious"
       ],
       "avatar_count": 42,
       "avatar_unlocked": [
@@ -323,7 +324,7 @@
       ],
       "friend_count": 76,
       "equipped_hub_title": " &t() Winrate",
-      "equipped_costume": "Anime Girl",
+      "equipped_costume": "Granny Ghosty",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
@@ -338,7 +339,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-03T15:50:30.946Z"
+    "fetchedAt": "2026-11-03T16:00:50.826Z"
   },
   "games": [
     {
@@ -54744,6 +54745,13 @@
     },
     {
       "timestamp": "2026-11-03T15:50:30.946Z",
+      "totalGames": 329,
+      "victories": 249,
+      "winRate": 75.68,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-03T16:00:50.826Z",
       "totalGames": 329,
       "victories": 249,
       "winRate": 75.68,
