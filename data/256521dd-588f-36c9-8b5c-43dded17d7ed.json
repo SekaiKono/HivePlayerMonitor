@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-03T11:10:31.673Z",
+  "lastUpdated": "2026-11-03T11:20:29.723Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -323,7 +323,7 @@
       ],
       "friend_count": 76,
       "equipped_hub_title": " &t() Winrate",
-      "equipped_costume": "Captain Ghosty",
+      "equipped_costume": "Challenge Bandit",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
@@ -338,7 +338,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-03T11:10:31.673Z"
+    "fetchedAt": "2026-11-03T11:20:29.723Z"
   },
   "games": [
     {
@@ -54428,6 +54428,13 @@
     },
     {
       "timestamp": "2026-11-03T11:10:31.673Z",
+      "totalGames": 319,
+      "victories": 243,
+      "winRate": 76.18,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-03T11:20:29.723Z",
       "totalGames": 319,
       "victories": 243,
       "winRate": 76.18,
