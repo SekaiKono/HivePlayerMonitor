@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-04T16:50:27.524Z",
+  "lastUpdated": "2026-11-04T17:00:57.898Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -330,9 +330,9 @@
         "name": "UwU"
       },
       "equipped_hat": {
-        "name": "Warden Mascot",
+        "name": "Void Horns",
         "icon": null,
-        "rarity": "RARE"
+        "rarity": "EPIC"
       },
       "pets": [
         "[placeholder]",
@@ -344,7 +344,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-04T16:50:27.524Z"
+    "fetchedAt": "2026-11-04T17:00:57.898Z"
   },
   "games": [
     {
@@ -55936,6 +55936,13 @@
     },
     {
       "timestamp": "2026-11-04T16:50:27.524Z",
+      "totalGames": 343,
+      "victories": 255,
+      "winRate": 74.34,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-04T17:00:57.898Z",
       "totalGames": 343,
       "victories": 255,
       "winRate": 74.34,
