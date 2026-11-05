@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-11-05T21:20:28.834Z",
+  "lastUpdated": "2026-11-05T21:30:38.383Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -823,7 +823,7 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 300,
+      "friend_count": 299,
       "equipped_hub_title": "&pSk&2yW&far&ps ",
       "equipped_costume": "Zesty",
       "equipped_avatar": {
@@ -853,7 +853,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-11-05T21:20:28.834Z"
+    "fetchedAt": "2026-11-05T21:30:38.383Z"
   },
   "games": [
     {
@@ -56439,6 +56439,13 @@
     },
     {
       "timestamp": "2026-11-05T21:20:28.834Z",
+      "totalGames": 239,
+      "victories": 192,
+      "winRate": 80.33,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-05T21:30:38.383Z",
       "totalGames": 239,
       "victories": 192,
       "winRate": 80.33,
