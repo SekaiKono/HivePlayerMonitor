@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-05T10:20:32.724Z",
+  "lastUpdated": "2026-11-05T10:30:35.081Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -334,11 +334,6 @@
         "icon": null,
         "rarity": "EPIC"
       },
-      "equipped_hat": {
-        "name": "Gamer Headset",
-        "icon": "https://cdn.playhive.com/avatars/hat-gamer-headset.png",
-        "rarity": "UNCOMMON"
-      },
       "pets": [
         "[placeholder]",
         "Void Cat"
@@ -349,7 +344,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-05T10:20:32.724Z"
+    "fetchedAt": "2026-11-05T10:30:35.081Z"
   },
   "games": [
     {
@@ -56764,6 +56759,13 @@
     },
     {
       "timestamp": "2026-11-05T10:20:32.724Z",
+      "totalGames": 350,
+      "victories": 261,
+      "winRate": 74.57,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-05T10:30:35.081Z",
       "totalGames": 350,
       "victories": 261,
       "winRate": 74.57,
