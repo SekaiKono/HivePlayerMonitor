@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-05T10:40:28.668Z",
+  "lastUpdated": "2026-11-05T10:50:34.271Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -329,11 +329,6 @@
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
       },
-      "equipped_backbling": {
-        "name": "Void Wings",
-        "icon": null,
-        "rarity": "EPIC"
-      },
       "pets": [
         "[placeholder]",
         "Void Cat"
@@ -344,7 +339,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-05T10:40:28.668Z"
+    "fetchedAt": "2026-11-05T10:50:34.271Z"
   },
   "games": [
     {
@@ -56773,6 +56768,13 @@
     },
     {
       "timestamp": "2026-11-05T10:40:28.668Z",
+      "totalGames": 350,
+      "victories": 261,
+      "winRate": 74.57,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-05T10:50:34.271Z",
       "totalGames": 350,
       "victories": 261,
       "winRate": 74.57,
