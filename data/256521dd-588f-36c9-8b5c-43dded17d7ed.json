@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-06T16:10:27.333Z",
+  "lastUpdated": "2026-11-06T16:20:29.481Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -349,9 +349,15 @@
       ],
       "friend_count": 76,
       "equipped_hub_title": " &t() Winrate",
+      "equipped_costume": "Chick Wizard",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
+      },
+      "equipped_hat": {
+        "name": "Mushroom Cap",
+        "icon": "https://cdn.playhive.com/avatars/hat-mushroom-cap.png",
+        "rarity": "UNCOMMON"
       },
       "paid_ranks": [
         "PLUS"
@@ -366,7 +372,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-06T16:10:27.333Z"
+    "fetchedAt": "2026-11-06T16:20:29.481Z"
   },
   "games": [
     {
@@ -58337,6 +58343,13 @@
     },
     {
       "timestamp": "2026-11-06T16:10:27.333Z",
+      "totalGames": 374,
+      "victories": 282,
+      "winRate": 75.4,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-06T16:20:29.481Z",
       "totalGames": 374,
       "victories": 282,
       "winRate": 75.4,
