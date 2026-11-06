@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-06T10:10:29.626Z",
+  "lastUpdated": "2026-11-06T10:20:30.832Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -9,11 +9,11 @@
       "mcid": "641f2a6685031cc9",
       "username": "sekai kono",
       "username_cc": "Sekai Kono",
-      "rank": "REGULAR",
+      "rank": "PLUS",
       "first_played": 1694186715,
-      "daily_login_streak": 287,
-      "longest_daily_login_streak": 287,
-      "hub_title_count": 67,
+      "daily_login_streak": 288,
+      "longest_daily_login_streak": 288,
+      "hub_title_count": 70,
       "hub_title_unlocked": [
         "&cThe Short Sighted",
         "&aThe Sneaky",
@@ -81,9 +81,12 @@
         "&fPump &eup &6the &cjam",
         "&f&dVo&iid &dWa&ilker",
         "&fEv&7en&8t Ho&7ri&fzon",
-        "&dThe Suspicious"
+        "&dThe Suspicious",
+        "&bThe &6MV&eBEE",
+        "&eB&6u&ez&6z&ei&6n&e'",
+        "&fThe &eBees &aKnees"
       ],
-      "avatar_count": 42,
+      "avatar_count": 47,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-riley.png",
@@ -252,9 +255,29 @@
         {
           "url": "https://cdn.playhive.com/avatars/pet-void-cat.png",
           "name": "Void Cat"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/embee.png",
+          "name": "Embee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/mvbee.png",
+          "name": "MVBee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/it-bee-fine.png",
+          "name": "It Bee Fine"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/buff-bee.png",
+          "name": "Buff Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/bad-bee.png",
+          "name": "Bad Bee"
         }
       ],
-      "costume_count": 15,
+      "costume_count": 16,
       "costume_unlocked": [
         "Gingerbread Warden",
         "Parkour Runner (Red)",
@@ -270,7 +293,8 @@
         "Anime Girl",
         "Anime Boy",
         "Ender Assassin",
-        "Soul Knight"
+        "Soul Knight",
+        "Hoodie Bee"
       ],
       "hat_count": 7,
       "hat_unlocked": [
@@ -329,6 +353,9 @@
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
       },
+      "paid_ranks": [
+        "PLUS"
+      ],
       "pets": [
         "[placeholder]",
         "Void Cat"
@@ -339,7 +366,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-06T10:10:29.626Z"
+    "fetchedAt": "2026-11-06T10:20:30.832Z"
   },
   "games": [
     {
@@ -57881,6 +57908,13 @@
     },
     {
       "timestamp": "2026-11-06T10:10:29.626Z",
+      "totalGames": 360,
+      "victories": 270,
+      "winRate": 75,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-06T10:20:30.832Z",
       "totalGames": 360,
       "victories": 270,
       "winRate": 75,
