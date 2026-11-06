@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-06T17:30:36.497Z",
+  "lastUpdated": "2026-11-06T17:40:29.913Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -377,7 +377,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-06T17:30:36.497Z"
+    "fetchedAt": "2026-11-06T17:40:29.913Z"
   },
   "games": [
     {
@@ -4974,6 +4974,82 @@
         "final_kills": 1,
         "kills": 2,
         "deaths": 1
+      }
+    },
+    {
+      "time": 1793985020,
+      "type": "ROUND_PLAYED",
+      "game": "dr",
+      "victory": true,
+      "changeset": {
+        "xp": 156,
+        "played": 1,
+        "victories": 1,
+        "deaths": 5,
+        "checkpoints": 7
+      }
+    },
+    {
+      "time": 1793985216,
+      "type": "ROUND_PLAYED",
+      "game": "dr",
+      "victory": true,
+      "changeset": {
+        "xp": 198,
+        "played": 1,
+        "victories": 1,
+        "deaths": 7,
+        "checkpoints": 9
+      }
+    },
+    {
+      "time": 1793985400,
+      "type": "ROUND_PLAYED",
+      "game": "dr",
+      "victory": true,
+      "changeset": {
+        "xp": 153,
+        "played": 1,
+        "victories": 1,
+        "deaths": 4,
+        "checkpoints": 7
+      }
+    },
+    {
+      "time": 1793985536,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793985649,
+      "type": "ROUND_PLAYED",
+      "game": "gi",
+      "victory": true,
+      "changeset": {}
+    },
+    {
+      "time": 1793985851,
+      "type": "ROUND_PLAYED",
+      "game": "bridge",
+      "victory": true,
+      "changeset": {
+        "xp": 96
+      }
+    },
+    {
+      "time": 1793986300,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "xp": 64,
+        "played": 1,
+        "kills": 2,
+        "ores_mined": 23,
+        "deaths": 1,
+        "final_kills": 2
       }
     }
   ],
@@ -58408,6 +58484,13 @@
       "victories": 282,
       "winRate": 75.4,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-06T17:40:29.913Z",
+      "totalGames": 381,
+      "victories": 288,
+      "winRate": 75.59,
+      "newGames": 7
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
