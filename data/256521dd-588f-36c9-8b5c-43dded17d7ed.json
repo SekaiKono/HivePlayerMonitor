@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-07T07:40:30.739Z",
+  "lastUpdated": "2026-11-07T07:50:31.471Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -367,7 +367,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-07T07:40:30.739Z"
+    "fetchedAt": "2026-11-07T07:50:31.471Z"
   },
   "games": [
     {
@@ -5258,6 +5258,21 @@
         "kills": 2,
         "beds_destroyed": 3,
         "deaths": 3
+      }
+    },
+    {
+      "time": 1794037263,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 140,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1,
+        "beds_destroyed": 1,
+        "deaths": 2
       }
     }
   ],
@@ -59287,6 +59302,13 @@
       "victories": 297,
       "winRate": 74.44,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-07T07:50:31.471Z",
+      "totalGames": 400,
+      "victories": 298,
+      "winRate": 74.5,
+      "newGames": 1
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
