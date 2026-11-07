@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-07T07:20:32.296Z",
+  "lastUpdated": "2026-11-07T07:30:38.529Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -354,16 +354,6 @@
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
       },
-      "equipped_backbling": {
-        "name": "Void Wings",
-        "icon": null,
-        "rarity": "EPIC"
-      },
-      "equipped_hat": {
-        "name": "Void Horns",
-        "icon": null,
-        "rarity": "EPIC"
-      },
       "paid_ranks": [
         "PLUS"
       ],
@@ -377,7 +367,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-07T07:20:32.296Z"
+    "fetchedAt": "2026-11-07T07:30:38.529Z"
   },
   "games": [
     {
@@ -5140,6 +5130,134 @@
         "victories": 1,
         "coins": 5,
         "murderer_eliminations": 1
+      }
+    },
+    {
+      "time": 1794032246,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 260,
+        "played": 1,
+        "victories": 1,
+        "deaths": 1,
+        "coins": 2,
+        "bux": 3
+      }
+    },
+    {
+      "time": 1794032368,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "xp": 8,
+        "played": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1794032590,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 419,
+        "played": 1,
+        "victories": 1,
+        "coins": 23,
+        "bux": -5
+      }
+    },
+    {
+      "time": 1794032685,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": false,
+      "changeset": {
+        "xp": 49,
+        "played": 1,
+        "deaths": 1,
+        "coins": 6
+      }
+    },
+    {
+      "time": 1794032825,
+      "type": "LOCKER",
+      "unlock_type": "costume",
+      "unlock_id": "d6271e55-6617-4b1d-938d-2cb4d48a7965"
+    },
+    {
+      "time": 1794033030,
+      "type": "ROUND_PLAYED",
+      "game": "murder",
+      "victory": true,
+      "changeset": {
+        "xp": 304,
+        "played": 1,
+        "victories": 1,
+        "coins": 44,
+        "murders": 6,
+        "bux": 2
+      }
+    },
+    {
+      "time": 1794033874,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 215,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 2,
+        "deaths": 3
+      }
+    },
+    {
+      "time": 1794034351,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 416,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 1,
+        "kills": 1,
+        "beds_destroyed": 1,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1794035246,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": false,
+      "changeset": {
+        "xp": 131,
+        "played": 1,
+        "final_kills": 1,
+        "kills": 3,
+        "beds_destroyed": 1,
+        "deaths": 4
+      }
+    },
+    {
+      "time": 1794036087,
+      "type": "ROUND_PLAYED",
+      "game": "bed",
+      "victory": true,
+      "changeset": {
+        "xp": 409,
+        "played": 1,
+        "victories": 1,
+        "final_kills": 2,
+        "kills": 2,
+        "beds_destroyed": 3,
+        "deaths": 3
       }
     }
   ],
@@ -59155,6 +59273,13 @@
       "victories": 291,
       "winRate": 74.81,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-07T07:30:38.529Z",
+      "totalGames": 399,
+      "victories": 297,
+      "winRate": 74.44,
+      "newGames": 10
     }
   ],
   "customName": "Sekai (Best player for falling into void)"
