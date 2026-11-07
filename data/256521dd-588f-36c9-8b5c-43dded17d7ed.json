@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-07T06:40:32.726Z",
+  "lastUpdated": "2026-11-07T06:50:30.192Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -350,7 +350,6 @@
       ],
       "friend_count": 77,
       "equipped_hub_title": " &t() Winrate",
-      "equipped_costume": "Anomaly Explorer",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
@@ -361,9 +360,9 @@
         "rarity": "EPIC"
       },
       "equipped_hat": {
-        "name": "Gamer Headset",
-        "icon": "https://cdn.playhive.com/avatars/hat-gamer-headset.png",
-        "rarity": "UNCOMMON"
+        "name": "Void Horns",
+        "icon": null,
+        "rarity": "EPIC"
       },
       "paid_ranks": [
         "PLUS"
@@ -378,7 +377,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-07T06:40:32.726Z"
+    "fetchedAt": "2026-11-07T06:50:30.192Z"
   },
   "games": [
     {
@@ -59124,6 +59123,13 @@
     },
     {
       "timestamp": "2026-11-07T06:40:32.726Z",
+      "totalGames": 389,
+      "victories": 291,
+      "winRate": 74.81,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-07T06:50:30.192Z",
       "totalGames": 389,
       "victories": 291,
       "winRate": 74.81,
