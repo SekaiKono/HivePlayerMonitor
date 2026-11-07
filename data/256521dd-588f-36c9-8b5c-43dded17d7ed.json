@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-07T06:20:31.198Z",
+  "lastUpdated": "2026-11-07T06:30:38.888Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -277,7 +277,7 @@
           "name": "Bad Bee"
         }
       ],
-      "costume_count": 16,
+      "costume_count": 17,
       "costume_unlocked": [
         "Gingerbread Warden",
         "Parkour Runner (Red)",
@@ -294,7 +294,8 @@
         "Anime Boy",
         "Ender Assassin",
         "Soul Knight",
-        "Hoodie Bee"
+        "Hoodie Bee",
+        "Anomaly Explorer"
       ],
       "hat_count": 7,
       "hat_unlocked": [
@@ -349,9 +350,15 @@
       ],
       "friend_count": 77,
       "equipped_hub_title": " &t() Winrate",
+      "equipped_costume": "Anomaly Explorer",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
+      },
+      "equipped_backbling": {
+        "name": "Void Wings",
+        "icon": null,
+        "rarity": "EPIC"
       },
       "equipped_hat": {
         "name": "Gamer Headset",
@@ -371,7 +378,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-07T06:20:31.198Z"
+    "fetchedAt": "2026-11-07T06:30:38.888Z"
   },
   "games": [
     {
@@ -59103,6 +59110,13 @@
     },
     {
       "timestamp": "2026-11-07T06:20:31.198Z",
+      "totalGames": 389,
+      "victories": 291,
+      "winRate": 74.81,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-07T06:30:38.888Z",
       "totalGames": 389,
       "victories": 291,
       "winRate": 74.81,
