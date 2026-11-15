@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-11-15T08:30:39.017Z",
+  "lastUpdated": "2026-11-15T08:40:31.182Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -336,7 +336,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-11-15T08:30:39.017Z"
+    "fetchedAt": "2026-11-15T08:40:31.182Z"
   },
   "games": [
     {
@@ -71585,6 +71585,13 @@
       "victories": 611,
       "winRate": 90.92,
       "newGames": 10
+    },
+    {
+      "timestamp": "2026-11-15T08:40:31.182Z",
+      "totalGames": 672,
+      "victories": 611,
+      "winRate": 90.92,
+      "newGames": 0
     }
   ],
   "customName": "TakatiG (skilled at sexually harassing others)"
