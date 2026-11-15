@@ -1,7 +1,7 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-11-15T03:40:34.294Z",
+  "lastUpdated": "2026-11-15T03:50:29.399Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
@@ -336,7 +336,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-11-15T03:40:34.294Z"
+    "fetchedAt": "2026-11-15T03:50:29.399Z"
   },
   "games": [
     {
@@ -9078,6 +9078,112 @@
         "deathmatches": 1,
         "kills": 4,
         "teleporters_used": 2
+      }
+    },
+    {
+      "time": 1794713111,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "xp": 92,
+        "played": 1,
+        "kills": 2,
+        "ores_mined": 11,
+        "deaths": 1,
+        "final_kills": 2
+      }
+    },
+    {
+      "time": 1794713251,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 10,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1794713338,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 2,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1794713432,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 7,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1794713564,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 5,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1794713627,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 5,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1794713720,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 9,
+        "deaths": 1
+      }
+    },
+    {
+      "time": 1794714074,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "xp": 120,
+        "played": 1,
+        "kills": 2,
+        "mystery_chests_destroyed": 1,
+        "ores_mined": 27,
+        "deaths": 1,
+        "final_kills": 2
+      }
+    },
+    {
+      "time": 1794714177,
+      "type": "ROUND_PLAYED",
+      "game": "sky",
+      "victory": false,
+      "changeset": {
+        "played": 1,
+        "ores_mined": 6,
+        "deaths": 1
       }
     }
   ],
@@ -71017,6 +71123,13 @@
       "victories": 593,
       "winRate": 92.22,
       "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-15T03:50:29.399Z",
+      "totalGames": 652,
+      "victories": 593,
+      "winRate": 90.95,
+      "newGames": 9
     }
   ],
   "customName": "TakatiG (skilled at sexually harassing others)"
