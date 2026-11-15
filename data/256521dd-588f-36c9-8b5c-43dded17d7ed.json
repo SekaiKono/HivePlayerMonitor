@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-15T10:20:32.605Z",
+  "lastUpdated": "2026-11-15T10:30:37.361Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -86,7 +86,7 @@
         "&eB&6u&ez&6z&ei&6n&e'",
         "&fThe &eBees &aKnees"
       ],
-      "avatar_count": 47,
+      "avatar_count": 48,
       "avatar_unlocked": [
         {
           "url": "https://cdn.playhive.com/avatars/monster-riley.png",
@@ -275,9 +275,13 @@
         {
           "url": "https://cdn.playhive.com/avatars/bad-bee.png",
           "name": "Bad Bee"
+        },
+        {
+          "url": "https://cdn.playhive.com/avatars/parkour-gem-star.png",
+          "name": "Gem Star"
         }
       ],
-      "costume_count": 17,
+      "costume_count": 18,
       "costume_unlocked": [
         "Gingerbread Warden",
         "Parkour Runner (Red)",
@@ -295,7 +299,8 @@
         "Ender Assassin",
         "Soul Knight",
         "Hoodie Bee",
-        "Anomaly Explorer"
+        "Anomaly Explorer",
+        "Parkour Runner (Purple)"
       ],
       "hat_count": 7,
       "hat_unlocked": [
@@ -367,7 +372,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-15T10:20:32.605Z"
+    "fetchedAt": "2026-11-15T10:30:37.361Z"
   },
   "games": [
     {
@@ -67439,6 +67444,13 @@
     },
     {
       "timestamp": "2026-11-15T10:20:32.605Z",
+      "totalGames": 400,
+      "victories": 298,
+      "winRate": 74.5,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-15T10:30:37.361Z",
       "totalGames": 400,
       "victories": 298,
       "winRate": 74.5,
