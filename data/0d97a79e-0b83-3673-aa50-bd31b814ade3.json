@@ -1,14 +1,14 @@
 {
   "uuid": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-11-16T11:30:36.989Z",
+  "lastUpdated": "2026-11-16T11:40:31.757Z",
   "playerInfo": {
     "main": {
       "UUID": "0d97a79e-0b83-3673-aa50-bd31b814ade3",
       "xuid": 2535453683643602,
       "mcid": "86a0ef96d0e90a49",
-      "username": "takatig15",
-      "username_cc": "TakatiG15",
+      "username": "tq9z",
+      "username_cc": "Tq9z",
       "rank": "ULTIMATE",
       "first_played": 1755507914,
       "daily_login_streak": 346,
@@ -336,7 +336,7 @@
       ],
       "player_number": 115035623
     },
-    "fetchedAt": "2026-11-16T11:30:36.989Z"
+    "fetchedAt": "2026-11-16T11:40:31.757Z"
   },
   "games": [
     {
@@ -72837,6 +72837,13 @@
     },
     {
       "timestamp": "2026-11-16T11:30:36.989Z",
+      "totalGames": 682,
+      "victories": 621,
+      "winRate": 91.06,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-16T11:40:31.757Z",
       "totalGames": 682,
       "victories": 621,
       "winRate": 91.06,
