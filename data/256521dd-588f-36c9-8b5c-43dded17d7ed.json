@@ -1,7 +1,7 @@
 {
   "uuid": "256521dd-588f-36c9-8b5c-43dded17d7ed",
   "createdAt": "2026-09-10T17:03:32.156Z",
-  "lastUpdated": "2026-11-16T13:40:42.567Z",
+  "lastUpdated": "2026-11-16T13:50:38.732Z",
   "playerInfo": {
     "main": {
       "UUID": "256521dd-588f-36c9-8b5c-43dded17d7ed",
@@ -353,11 +353,16 @@
           "rarity": "EPIC"
         }
       ],
-      "friend_count": 75,
-      "equipped_hub_title": " &t() Winrate",
+      "friend_count": 76,
+      "equipped_hub_title": "&bU&aw&bU",
       "equipped_avatar": {
         "url": "https://cdn.playhive.com/avatars/costume-anime.png",
         "name": "UwU"
+      },
+      "equipped_hat": {
+        "name": "Diamond Blockling Buddy",
+        "icon": "https://cdn.playhive.com/avatars/hat-blockling-buddy-diamond.png",
+        "rarity": "EPIC"
       },
       "paid_ranks": [
         "PLUS"
@@ -372,7 +377,7 @@
       ],
       "player_number": 81797348
     },
-    "fetchedAt": "2026-11-16T13:40:42.567Z"
+    "fetchedAt": "2026-11-16T13:50:38.732Z"
   },
   "games": [
     {
@@ -68578,6 +68583,13 @@
     },
     {
       "timestamp": "2026-11-16T13:40:42.567Z",
+      "totalGames": 400,
+      "victories": 298,
+      "winRate": 74.5,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-16T13:50:38.732Z",
       "totalGames": 400,
       "victories": 298,
       "winRate": 74.5,
