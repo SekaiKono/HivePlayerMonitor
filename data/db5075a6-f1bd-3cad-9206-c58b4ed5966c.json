@@ -1,7 +1,7 @@
 {
   "uuid": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
   "createdAt": "2026-09-10T10:09:41.527Z",
-  "lastUpdated": "2026-11-18T09:00:46.855Z",
+  "lastUpdated": "2026-11-18T09:10:34.148Z",
   "playerInfo": {
     "main": {
       "UUID": "db5075a6-f1bd-3cad-9206-c58b4ed5966c",
@@ -169,7 +169,7 @@
         " &9BedWars Season 4",
         " &9Season 4 &jTop 100",
         " &9Season 4 &j#14",
-        "&s2 Year Hive Veteran",
+        "&63 Year Hive Veteran",
         "&2De&pad &aPix&nels",
         "&qRest &6in &tPizza",
         "&66-7 &8Feet Under",
@@ -852,7 +852,7 @@
       ],
       "player_number": 83939789
     },
-    "fetchedAt": "2026-11-18T09:00:46.855Z"
+    "fetchedAt": "2026-11-18T09:10:34.148Z"
   },
   "games": [
     {
@@ -69009,6 +69009,13 @@
     },
     {
       "timestamp": "2026-11-18T09:00:46.855Z",
+      "totalGames": 242,
+      "victories": 194,
+      "winRate": 80.17,
+      "newGames": 0
+    },
+    {
+      "timestamp": "2026-11-18T09:10:34.148Z",
       "totalGames": 242,
       "victories": 194,
       "winRate": 80.17,
